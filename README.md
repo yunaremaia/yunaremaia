@@ -42,6 +42,13 @@ Atualmente, meus objetivos incluem:
 - Certificações nas áreas de programação, inteligência artificial e blockchain disponíveis no [LinkedIn](https://www.linkedin.com/in/yunaremaia/) 🌐
 - Manutenção constante de conhecimento atualizado sobre blockchain e ativos digitais, utilizando fontes como a Cointelegraph.
 
+## 🧑‍💻 Plataformas de Programação
+
+Explore meu desempenho e resoluções de problemas nas seguintes plataformas de programação:
+
+- 🌐 [DevMedia](https://www.devmedia.com.br/perfil/yunare-maia)
+- 💻 [LeetCode](https://leetcode.com/u/yunaremaia/)
+
 ## 📫 Entre em Contato
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/yunaremaia/)
