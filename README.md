@@ -46,8 +46,10 @@ Atualmente, meus objetivos incluem:
 
 Explore meu desempenho e resoluções de problemas nas seguintes plataformas de programação:
 
+- 🕹️ [CodinGame](https://www.codingame.com/profile/77c107fec8d15e9fa956bedee350a9cb0564813)
 - 🌐 [DevMedia](https://www.devmedia.com.br/perfil/yunare-maia)
 - 💻 [LeetCode](https://leetcode.com/u/yunaremaia/)
+
 
 ## 📫 Entre em Contato
 
