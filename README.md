@@ -48,6 +48,7 @@ Explore meu desempenho e resoluções de problemas nas seguintes plataformas de 
 
 - 🕹️ [CodinGame](https://www.codingame.com/profile/77c107fec8d15e9fa956bedee350a9cb0564813)
 - 🌐 [DevMedia](https://www.devmedia.com.br/perfil/yunare-maia)
+- 📚 [DIO](https://www.dio.me/users/yunare)
 - 💻 [LeetCode](https://leetcode.com/u/yunaremaia/)
 
 
