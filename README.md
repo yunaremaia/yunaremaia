@@ -58,3 +58,5 @@ Explore meu desempenho e resoluções de problemas nas seguintes plataformas de 
 - 📧 [Email](mailto:yunare@gmail.com)
 
 Sinta-se à vontade para explorar meus repositórios e contribuir! Estou sempre aberto a colaborações e novas ideias. Vamos construir algo inovador juntos!
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yunaremaia&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
