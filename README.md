@@ -1,61 +1,81 @@
 # Olá, eu sou Yunare Maia! 👋
 
-Bem-vindo ao meu perfil no GitHub! Sou advogado especializado, contador e desenvolvedor de software, com uma forte paixão por tecnologia, inovação e aplicações práticas de blockchain, contratos inteligentes e soluções descentralizadas.
+Bem-vindo ao meu perfil no GitHub! Sou advogado, contador e desenvolvedor de software com uma paixão inabalável por tecnologia, inovação e pelo potencial transformador do blockchain, contratos inteligentes e soluções descentralizadas.
 
 ## 🚀 Sobre Mim
 
-- 🎓 **Formação:** Graduado em Direito e Ciências Contábeis, com pós-graduação em Direito e Processo do Trabalho, além de estar cursando Ciência da Computação com previsão de conclusão em 2028.
-- ⚖️ **Experiência Jurídica:** Mais de 7 anos de experiência em Direito Eleitoral e Trabalhista, atuando ativamente em campanhas e processos eleitorais, sempre atento às leis e jurisprudências para oferecer o melhor suporte jurídico.
-- 💼 **Blockchain e DeFi:** Especialista em soluções inovadoras para geração de rendimentos passivos e aplicações seguras em ativos digitais por meio de DeFi e Smart Contracts.
-- 👨‍💻 **Desenvolvimento de Software:** Apaixonado por criar soluções práticas com desenvolvimento de software, trabalhando com linguagens, frameworks e ferramentas de programação para construir e otimizar projetos de forma eficaz.
+- 🎓 **Formação:**
+  - Bacharel em Direito e Ciências Contábeis.
+  - Pós-graduado em Direito e Processo do Trabalho.
+  - Atualmente cursando Ciência da Computação, com previsão de conclusão em 2028.
 
-## 💻 Projetos em Desenvolvimento
+- ⚖️ **Experiência Jurídica:**
+  Mais de 7 anos de atuação em Direito Trabalhista e Eleitoral, com experiência em campanhas políticas e processos judiciais complexos. Meu foco é garantir suporte jurídico de excelência, sempre alinhado às leis e jurisprudências.
 
-Estou continuamente explorando novos projetos de software. Alguns dos mais recentes incluem:
+- 💼 **Blockchain e DeFi:**
+  Especialista em criar soluções seguras e inovadoras para geração de rendimentos passivos por meio de DeFi e Smart Contracts.
 
-- **Ketchup for Pokémon:** Ferramentas e funcionalidades para a comunidade de fãs de Pokémon.
-- **Xelis Blockchain:** Uma blockchain segura e de alto desempenho.
-- **Open Interpreter:** Uma ferramenta avançada para interpretação e execução de código.
-- **Solid Planner:** Um planejador de metas e tarefas com foco em produtividade.
-- **Deskdingo e Sleepr:** Ferramentas de produtividade pessoal.
-- **Outside e Instagram:** Explorações de funcionalidades e interações em redes sociais.
+- 👨‍💻 **Desenvolvimento de Software:**
+  Desenvolvedor freelance dedicado a construir soluções práticas, utilizando tecnologias como Python, JavaScript e AWS para otimizar projetos.
 
-Cada projeto possui uma estrutura organizada para maximizar eficiência e colaboração.
+## 💻 Projetos em Destaque
+
+Estou sempre explorando e desenvolvendo novos projetos. Aqui estão alguns dos meus repositórios públicos:
+
+- **[System Design Primer](https://github.com/yunaremaia/system-design-primer):** Recursos para aprender a projetar sistemas em larga escala, incluindo preparação para entrevistas de design de sistemas.
+
+Explore meus repositórios para mais detalhes e sinta-se à vontade para colaborar!
 
 ## 🛠️ Habilidades Técnicas
 
-- **Blockchain e DeFi:** Experiência em contratos inteligentes, geração de rendimentos passivos e desenvolvimento de soluções descentralizadas.
-- **Linguagens de Programação:** Focado em desenvolvimento com Python, JavaScript, e mais.
-- **Ambientes de Desenvolvimento:** Trabalho principalmente no Windows, com experiência em MacOS.
-- **Ferramentas e Técnicas Avançadas:** Utilizo `toFixed()` para precisão de cálculos, manipulação avançada de strings, e práticas para desenvolvimento de software robusto.
+- **Blockchain e DeFi:**
+  - Desenvolvimento de contratos inteligentes.
+  - Soluções descentralizadas.
 
-## 📈 Objetivos
+- **Linguagens de Programação:**
+  - Python.
+  - JavaScript.
+  - E outras.
 
-Atualmente, meus objetivos incluem:
+- **Ambientes de Desenvolvimento:**
+  - Experiência com Windows, MacOS e Linux.
 
-- Aprender programação com um enfoque prático e progressivo.
-- Concluir minha graduação em Ciência da Computação e aprofundar a integração entre tecnologia, DeFi e Direito.
-- Desenvolver e lançar novos projetos, sempre priorizando inovação e impacto.
+- **Ferramentas Avançadas:**
+  - Desenvolvimento de microsserviços e integrações.
 
 ## 🌱 Certificações e Formação Contínua
 
-- Certificações nas áreas de programação, inteligência artificial e blockchain disponíveis no [LinkedIn](https://www.linkedin.com/in/yunaremaia/) 🌐
-- Manutenção constante de conhecimento atualizado sobre blockchain e ativos digitais, utilizando fontes como a Cointelegraph.
+- Certificado em Python 3, Blockchain e Inteligência Artificial.
+- Programação em nuvem (Azure e AWS).
+- Certificações disponíveis no [LinkedIn](https://www.linkedin.com/in/yunaremaia/).
+
+## 📈 Objetivos
+
+- Concluir minha graduação em Ciência da Computação e integrar Direito, DeFi e tecnologia.
+- Ampliar meu impacto com projetos inovadores e práticos.
+- Continuar aprendendo e implementando tecnologias emergentes.
 
 ## 🧑‍💻 Plataformas de Programação
-
-Explore meu desempenho e resoluções de problemas nas seguintes plataformas de programação:
 
 - 🕹️ [CodinGame](https://www.codingame.com/profile/77c107fec8d15e9fa956bedee350a9cb0564813)
 - 🌐 [DevMedia](https://www.devmedia.com.br/perfil/yunare-maia)
 - 💻 [LeetCode](https://leetcode.com/u/yunaremaia/)
 - 📚 [DIO](https://www.dio.me/users/yunare)
 
+## 💡 Apoie Meus Projetos
+
+Se você aprecia meu trabalho e deseja contribuir para o desenvolvimento de futuros projetos, considere fazer uma doação:
+
+- **Bitcoin:** `bc1q04wld6pt607lak7rwxjpkc8yfvgen2cmyh4349`
+- **Ethereum:** `0xf67a0f3038d7e2a2a91214d93877bc44ddac33cd`
+
 ## 📫 Entre em Contato
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/yunaremaia/)
 - 📧 [Email](mailto:yunare@gmail.com)
 
-Sinta-se à vontade para explorar meus repositórios e contribuir! Estou sempre aberto a colaborações e novas ideias. Vamos construir algo inovador juntos!
+---
+
+Sinta-se à vontade para explorar meus repositórios, colaborar ou trocar ideias. Vamos construir algo incrível juntos!
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yunaremaia&layout=compact&theme=dark)
