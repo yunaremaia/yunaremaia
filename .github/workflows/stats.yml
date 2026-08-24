@@ -1,0 +1,92 @@
+name: Generate profile stats card
+
+on:
+  schedule:
+    - cron: '10 12 * * *' # after the daily README refresh
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats SVG (self-hosted, no third-party Vercel)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, subprocess
+          from datetime import datetime, timezone
+
+          token = os.environ["GH_TOKEN"]
+          user = "yunaremaia"
+          api = lambda path: json.loads(subprocess.run(
+              ["curl", "-sfL", "-H", f"Authorization: Bearer {token}",
+               "-H", "Accept: application/vnd.github+json",
+               f"https://api.github.com{path}"],
+              capture_output=True, text=True).stdout or "{}")
+
+          profile = api(f"/users/{user}")
+          repos = []
+          page = 1
+          while page <= 3:
+              batch = api(f"/users/{user}/repos?per_page=100&page={page}")
+              if not isinstance(batch, list) or not batch:
+                  break
+              repos += batch
+              page += 1
+          stars = sum(r.get("stargazers_count", 0) for r in repos)
+          forks = sum(r.get("forks_count", 0) for r in repos)
+
+          # commits in the last year across owned non-fork repos (best effort)
+          total_commits = 0
+          for r in repos:
+              if r.get("fork"):
+                  continue
+              br = api(f"/repos/{user}/{r['name']}/commits?per_page=1")
+              link = None
+              # use search API instead: count of pushes is not exposed; use contributions events
+          contribs = api(f"/search/issues?q=author:{user}+is:pr+is:merged&per_page=1")
+          merged_prs = contribs.get("total_count", 0)
+
+          followers = profile.get("followers", 0)
+          public_repos = profile.get("public_repos", len(repos))
+          joined = (profile.get("created_at") or "")[:10]
+
+          svg = f'''<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub statistics">
+            <style>
+              .header {{ font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2F80ED }}
+              .stat {{ font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333 }}
+              .label {{ font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #858585 }}
+            </style>
+            <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#FFFEFE" stroke="#E4E2E2"/>
+            <text x="25" y="35" class="header">Yunare Maia's GitHub Stats</text>
+            <text x="25" y="70" class="stat">{public_repos}</text><text x="90" y="70" class="label">Public repositories</text>
+            <text x="250" y="70" class="stat">{followers}</text><text x="320" y="70" class="label">Followers</text>
+            <text x="25" y="105" class="stat">{stars}</text><text x="90" y="105" class="label">Stars earned</text>
+            <text x="250" y="105" class="stat">{merged_prs}</text><text x="320" y="105" class="label">Merged PRs</text>
+            <text x="25" y="140" class="stat">{forks}</text><text x="90" y="140" class="label">Forks of my repos</text>
+            <text x="250" y="140" class="stat">since {joined}</text><text x="360" y="140" class="label">on GitHub</text>
+            <text x="25" y="175" class="label">Generated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} · self-hosted · always fresh</text>
+          </svg>'''
+
+          with open("stats.svg", "w") as f:
+              f.write(svg)
+          print("stats.svg written")
+          PY
+
+      - name: Commit refreshed card
+        run: |
+          git config user.name "Yunare Maia"
+          git config user.email "yunare@gmail.com"
+          git add stats.svg
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -q -s -m "docs(profile): refresh self-hosted stats card"
+            git push
+          fi
