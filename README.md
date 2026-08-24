@@ -21,11 +21,12 @@ data curation at [sourcey](https://github.com/sourcey).
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
-| 2026-08-24 | apache/maka | `fix(runtime): classify usage-limit failures behind auth statuses as billing` |
-| 2026-08-24 | apache/maka | `fix(ui, cli): humanize provider retry delay` |
-| 2026-08-23 | apache/maka | `refactor(core): drop retired execute permission mode from capability audit` |
-| 2026-08-22 | MisakaNet | test/tooling improvements (8 merged PRs) |
-| 2026-08-22 | semantica-agi/semantica · decionis/agent-safe-pipeline | pipeline & agent-safety fixes |
+| 2026-08-24 | apache/maka | fix(ui, cli): humanize provider retry delay (3401) *(+2 more)* |
+| 2026-08-17 | decionis/agent-safe-pipeline | docs: cryptographic agility and TLS verification posture (closes #51) *(+2 more)* |
+| 2026-08-17 | cactus-compute/needle | feat: add type hints to public API (closes #73) |
+| 2026-08-16 | fellowgeek/mcp-memory | fix: contain memory keys inside the store (path traversal) |
+| 2026-08-14 | addyosmani/agent-skills | docs(antigravity): correct plugin install path |
+| 2026-08-14 | semantica-agi/semantica | ci: pin Python dependencies in requirements-ci.txt for reproducible CI *(+2 more)* |
 <!-- yunare-dynamic:end -->
 
 ## Stack
