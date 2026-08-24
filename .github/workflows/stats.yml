@@ -1,4 +1,4 @@
-name: Generate profile stats card
+name: Generate profile stat cards
 
 on:
   schedule:
@@ -14,12 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats SVG (self-hosted, no third-party Vercel)
+      - name: Generate stats SVG (self-hosted)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 - <<'PY'
-          import base64, json, os, subprocess
+          import json, os, subprocess
           from datetime import datetime, timezone
 
           token = os.environ["GH_TOKEN"]
@@ -42,14 +42,6 @@ jobs:
           stars = sum(r.get("stargazers_count", 0) for r in repos)
           forks = sum(r.get("forks_count", 0) for r in repos)
 
-          # commits in the last year across owned non-fork repos (best effort)
-          total_commits = 0
-          for r in repos:
-              if r.get("fork"):
-                  continue
-              br = api(f"/repos/{user}/{r['name']}/commits?per_page=1")
-              link = None
-              # use search API instead: count of pushes is not exposed; use contributions events
           contribs = api(f"/search/issues?q=author:{user}+is:pr+is:merged&per_page=1")
           merged_prs = contribs.get("total_count", 0)
 
@@ -86,14 +78,44 @@ jobs:
           print("stats.svg written")
           PY
 
-      - name: Commit refreshed card
+      - name: Fetch contribution streak and bake in the dark palette
+        run: |
+          curl -sfL --max-time 60 \
+            "https://streak-stats.demolab.com?user=yunaremaia&hide_border=true&locale=en" \
+            -o streak-src.svg
+
+          python3 - <<'PY'
+          # The upstream SVG hard-codes light colors in single-quoted inline
+          # attributes. Palette inspected from a live fetch: card bg #FFFEFE,
+          # numbers/text #151515, labels/dates #464646, flame #FB8C00.
+          # Swap them for GitHub-dark equivalents so the committed file reads
+          # correctly on dark profiles; camo never proxies it because the file
+          # lives in this repo and the README references it relatively.
+          svg = open("streak-src.svg").read()
+
+          DARK = {
+              "#FFFEFE": "#0D1117",  # card background
+              "#151515": "#E6EDF3",  # big numbers / primary text
+              "#464646": "#8B949E",  # labels / dates
+              "#FB8C00": "#F0883E",  # flame orange -> github orange
+          }
+          for light, dark in DARK.items():
+              svg = svg.replace(light, dark)
+
+          open("streak.svg", "w").write(svg)
+          print("streak.svg written with GitHub-dark palette baked in")
+          PY
+
+          rm -f streak-src.svg
+
+      - name: Commit refreshed cards
         run: |
           git config user.name "Yunare Maia"
           git config user.email "yunare@gmail.com"
-          git add stats.svg
+          git add stats.svg streak.svg
           if git diff --cached --quiet; then
             echo "no changes"
           else
-            git commit -q -s -m "docs(profile): refresh self-hosted stats card"
+            git commit -q -s -m "docs(profile): refresh self-hosted stat cards"
             git push
           fi
