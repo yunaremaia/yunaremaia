@@ -37,7 +37,11 @@ schema-driven data pipelines
 ## Open source activity
 
 ![GitHub stats](./stats.svg)
-![Streak](https://streak-stats.demolab.com?user=yunaremaia&hide_border=true&locale=en)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=yunaremaia&hide_border=true&locale=en&background=0D1117&stroke=30363D&ring=4C8BFF&fire=FF7B72&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=4C8BFF&sideLabels=8B949E&dates=8B949E" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=yunaremaia&hide_border=true&locale=en" />
+  <img src="https://streak-stats.demolab.com?user=yunaremaia&hide_border=true&locale=en" alt="Contribution streak" />
+</picture>
 
 ## Reach me
 
