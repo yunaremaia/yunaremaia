@@ -1,0 +1,16 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub statistics">
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2F80ED }
+    .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333 }
+    .label { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #858585 }
+  </style>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#FFFEFE" stroke="#E4E2E2"/>
+  <text x="25" y="35" class="header">Yunare Maia's GitHub Stats</text>
+  <text x="25" y="70" class="stat">4</text><text x="90" y="70" class="label">Public repositories</text>
+  <text x="250" y="70" class="stat">46</text><text x="320" y="70" class="label">Followers</text>
+  <text x="25" y="105" class="stat">0</text><text x="90" y="105" class="label">Stars earned</text>
+  <text x="250" y="105" class="stat">21</text><text x="320" y="105" class="label">Merged PRs</text>
+  <text x="25" y="140" class="stat">0</text><text x="90" y="140" class="label">Forks of my repos</text>
+  <text x="250" y="140" class="stat">since 2013-11-20</text><text x="360" y="140" class="label">on GitHub</text>
+  <text x="25" y="175" class="label">Generated 2026-08-24 12:34 UTC · self-hosted · always fresh</text>
+</svg>
