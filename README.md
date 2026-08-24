@@ -36,7 +36,7 @@ schema-driven data pipelines
 
 ## Open source activity
 
-![GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=yunaremaia&show_icons=true&hide_border=true&count_private=true)
+![GitHub stats](./stats.svg)
 ![Streak](https://streak-stats.demolab.com?user=yunaremaia&hide_border=true&locale=en)
 
 ## Reach me
