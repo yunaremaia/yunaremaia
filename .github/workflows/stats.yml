@@ -62,8 +62,15 @@ jobs:
               .header {{ font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2F80ED }}
               .stat {{ font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333 }}
               .label {{ font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #858585 }}
+              .card {{ fill: #FFFEFE; stroke: #E4E2E2 }}
+              @media (prefers-color-scheme: dark) {{
+                .header {{ fill: #4C8BFF }}
+                .stat {{ fill: #E6EDF3 }}
+                .label {{ fill: #8B949E }}
+                .card {{ fill: #0D1117; stroke: #30363D }}
+              }}
             </style>
-            <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#FFFEFE" stroke="#E4E2E2"/>
+            <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" class="card"/>
             <text x="25" y="35" class="header">Yunare Maia's GitHub Stats</text>
             <text x="25" y="70" class="stat">{public_repos}</text><text x="90" y="70" class="label">Public repositories</text>
             <text x="250" y="70" class="stat">{followers}</text><text x="320" y="70" class="label">Followers</text>
