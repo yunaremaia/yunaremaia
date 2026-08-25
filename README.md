@@ -1,20 +1,35 @@
 # Yunare Maia 🇧🇷
 
-OSS developer from Mossoró, Rio Grande do Norte — Brazil. I build and maintain
-developer tooling, contribute to agent runtimes and AI infrastructure, and turn
-small reproducible fixes into steady open-source throughput.
+Open-source developer from Mossoró, Rio Grande do Norte - Brazil. I contribute
+to agent runtimes and AI infrastructure: provider error classification, retry
+UX, tool schemas, test-suite migrations and the CI hygiene that keeps big
+repos mergeable. Steady, reproducible, reviewed - one focused PR at a time.
 
-**Currently contributing to:** [apache/maka](https://github.com/apache/maka) (agent runtime),
-[modular/modular](https://github.com/modular/modular) (Mojo test suites), and startup-credits
-data curation at [sourcey](https://github.com/sourcey).
+<div align="center">
+
+![GitHub stats](./stats.svg)
+![Contribution streak](./streak.svg)
+
+</div>
+
+## Now
+
+- **[apache/maka](https://github.com/apache/maka)** (agent runtime, ASF) - five
+  PRs merged this week: permission-mode refactor, usage-limit billing paths,
+  humanized retry delays, DeepSeek V4 Flash metadata and a desktop flake fix.
+- **In flight:** [open pull requests](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
+  across agent runtimes and open-data curation - including sandbox Grep
+  argument handling and vision-model capability metadata.
+- **Recently merged:** [live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+  | highlights below.
 
 ## What I work on
 
-- 🤖 **Agent runtimes & LLM tooling** — provider error classification, retry UX,
-  MCP tool schemas, capability systems (TypeScript)
-- 🔧 **Developer infrastructure** — CI hygiene, release verifiers, test-suite
-  migrations (Rust, Mojo)
-- 📊 **Open data** — vendor/startup program datasets with schema validation
+- 🤖 **Agent runtimes & LLM tooling** - provider billing/error taxonomies,
+  retry UX, MCP tool schemas, capability systems (TypeScript)
+- 🔬 **Test infrastructure & CI hygiene** - flake elimination, conformance
+  vectors, reproducible pipelines (Rust, Python, Mojo)
+- 📊 **Open data** - schema-validated vendor/startup program datasets
 
 ## Recent merged work
 
@@ -31,20 +46,22 @@ data curation at [sourcey](https://github.com/sourcey).
 
 ## Stack
 
-`TypeScript` `Python` `Rust` `Bash` · Node · git-first workflows · CI/CD ·
-schema-driven data pipelines
+`TypeScript` `Python` `Rust` `Mojo` `Bash` · Node · git-first workflows ·
+schema-driven pipelines · distributed test runners
 
-## Open source activity
+## Support
 
-![GitHub stats](./stats.svg)
-![Contribution streak](./streak.svg)
+If my open-source work saves you time, you can support it here:
+
+- **Solana / cbBTC:** `Eeztv1nCYUt1fwGWpzKC948gaWfjejYCAuLtUMgzDWbW`
+- Or collaborate: pick an [open issue](https://github.com/search?q=author%3Ayunaremaia+is%3Aissue+is%3Aopen&type=issues) I maintain, or ping me below.
 
 ## Reach me
 
-- GitHub issues/PRs are the fastest channel
+- GitHub issues and PRs are the fastest channel
 - Email: [yunare@gmail.com](mailto:yunare@gmail.com)
 
 ---
 
-*Profile refreshed daily by an automation I maintain — data pulled live from the
-GitHub API at each run.*
+*Profile refreshed daily by an automation I maintain - tables and stat cards
+pulled live from the GitHub API on each run.*
