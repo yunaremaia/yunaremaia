@@ -28,6 +28,28 @@ repos mergeable. Steady, reproducible, reviewed - one focused PR at a time.
 - **Recently merged:** [live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
   | highlights below.
 
+## Featured contributions
+
+- 🏛️ **[apache/maka](https://github.com/apache/maka)** (ASF agent runtime) - five
+  merged PRs in one week: [permission-mode refactor](https://github.com/apache/maka/pull/3603),
+  [usage-limit billing paths](https://github.com/apache/maka/pull/3660),
+  [humanized retry delays](https://github.com/apache/maka/pull/3611),
+  [DeepSeek V4 Flash metadata](https://github.com/apache/maka/pull/3732), and a
+  [desktop flake fix](https://github.com/apache/maka/pull/3737).
+- ⚡ **[modular/modular](https://github.com/modular/modular)** - stdlib test-suite
+  modernization in Mojo: [test_string_span_bounds_abort migration](https://github.com/modular/modular/pull/6957).
+- 🔐 **[decionis/agent-safe-pipeline](https://github.com/decionis/agent-safe-pipeline)** -
+  cryptographic-agility docs, TLS verification posture, and Unicode edge-case
+  conformance vectors ([#56](https://github.com/decionis/agent-safe-pipeline/pull/56),
+  [#55](https://github.com/decionis/agent-safe-pipeline/pull/55),
+  [#23](https://github.com/decionis/agent-safe-pipeline/pull/23)).
+- 📊 **[semantica-agi/semantica](https://github.com/semantica-agi/semantica)** -
+  vector-store persistence fixes, reproducible CI dependency pinning, and a
+  private-IP opt-in for trusted internal APIs
+  ([#914](https://github.com/semantica-agi/semantica/pull/914),
+  [#945](https://github.com/semantica-agi/semantica/pull/945),
+  [#959](https://github.com/semantica-agi/semantica/pull/959)).
+
 ## What I work on
 
 - 🤖 **Agent runtimes & LLM tooling** - provider billing/error taxonomies,
