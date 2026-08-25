@@ -21,7 +21,7 @@ data curation at [sourcey](https://github.com/sourcey).
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
-| 2026-08-24 | apache/maka | fix(ui, cli): humanize provider retry delay (3401) *(+2 more)* |
+| 2026-08-25 | apache/maka | fix(core): include 'low' effort for deepseek-v4-flash *(+4 more)* |
 | 2026-08-17 | decionis/agent-safe-pipeline | docs: cryptographic agility and TLS verification posture (closes #51) *(+2 more)* |
 | 2026-08-17 | cactus-compute/needle | feat: add type hints to public API (closes #73) |
 | 2026-08-16 | fellowgeek/mcp-memory | fix: contain memory keys inside the store (path traversal) |
