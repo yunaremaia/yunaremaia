@@ -83,6 +83,12 @@ If my open-source work saves you time, you can support it here:
 - **Solana / cbBTC:** `Eeztv1nCYUt1fwGWpzKC948gaWfjejYCAuLtUMgzDWbW`
 - Or collaborate: pick an [open issue](https://github.com/search?q=author%3Ayunaremaia+is%3Aissue+is%3Aopen&type=issues) I maintain, or ping me below.
 
+## Ops
+
+- [root-backup](https://github.com/yunaremaia/root-backup) - versioned backup of
+  my workstation state: automation scripts, watchdog crons, and the profile
+  pipeline that keeps this page fresh. Runs hourly with a >50MB safety gate.
+
 ## Reach me
 
 - GitHub issues and PRs are the fastest channel
