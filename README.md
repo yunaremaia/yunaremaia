@@ -5,6 +5,11 @@ to agent runtimes and AI infrastructure: provider error classification, retry
 UX, tool schemas, test-suite migrations and the CI hygiene that keeps big
 repos mergeable. Steady, reproducible, reviewed - one focused PR at a time.
 
+[![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
+[![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
+[![Merged PRs (30d)](https://img.shields.io/badge/merged_prs_30d-22-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
+
 <div align="center">
 
 ![GitHub stats](./stats.svg)
@@ -14,9 +19,9 @@ repos mergeable. Steady, reproducible, reviewed - one focused PR at a time.
 
 ## Now
 
-- **[apache/maka](https://github.com/apache/maka)** (agent runtime, ASF) - five
-  PRs merged this week: permission-mode refactor, usage-limit billing paths,
-  humanized retry delays, DeepSeek V4 Flash metadata and a desktop flake fix.
+- **[apache/maka](https://github.com/apache/maka)** (agent runtime, ASF) -
+  permission-mode refactor, usage-limit billing paths, humanized retry delays,
+  model capability metadata and desktop flake fixes.
 - **In flight:** [open pull requests](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
   across agent runtimes and open-data curation - including sandbox Grep
   argument handling and vision-model capability metadata.
