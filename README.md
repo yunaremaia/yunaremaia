@@ -19,14 +19,13 @@ repos mergeable. Steady, reproducible, reviewed - one focused PR at a time.
 
 ## Now
 
-- **[apache/maka](https://github.com/apache/maka)** (agent runtime, ASF) -
-  permission-mode refactor, usage-limit billing paths, humanized retry delays,
-  model capability metadata and desktop flake fixes.
+- **Focus:** agent runtimes and LLM tooling - [apache/maka](https://github.com/apache/maka)
+  (ASF) and [modular/modular](https://github.com/modular/modular).
 - **In flight:** [open pull requests](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
   across agent runtimes and open-data curation - including sandbox Grep
   argument handling and vision-model capability metadata.
-- **Recently merged:** [live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-  | highlights below.
+- **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+  or see the highlights below.
 
 ## Featured contributions
 
