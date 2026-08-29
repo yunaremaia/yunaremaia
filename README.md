@@ -62,8 +62,8 @@ repos mergeable. Steady, reproducible, reviewed - one focused PR at a time.
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
+| 2026-08-28 | [apache/maka](https://github.com/apache/maka) | [fix(core): add DeepSeek V4 Flash Vision to model metadata](https://github.com/apache/maka/pull/3605) *(+5 more)* |
 | 2026-08-27 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | [refactor(ner): remove dead _extract_with_spacy method and unused self.nlp](https://github.com/semantica-agi/semantica/pull/1220) *(+3 more)* |
-| 2026-08-25 | [apache/maka](https://github.com/apache/maka) | [fix(core): include 'low' effort for deepseek-v4-flash](https://github.com/apache/maka/pull/3732) *(+4 more)* |
 | 2026-08-17 | [decionis/agent-safe-pipeline](https://github.com/decionis/agent-safe-pipeline) | [docs: cryptographic agility and TLS verification posture (closes #51)](https://github.com/decionis/agent-safe-pipeline/pull/56) *(+2 more)* |
 | 2026-08-17 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | [feat: add type hints to public API (closes #73)](https://github.com/cactus-compute/needle/pull/74) |
 | 2026-08-16 | [fellowgeek/mcp-memory](https://github.com/fellowgeek/mcp-memory) | [fix: contain memory keys inside the store (path traversal)](https://github.com/fellowgeek/mcp-memory/pull/3) |
