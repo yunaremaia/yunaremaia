@@ -104,14 +104,6 @@ If my open-source work saves you time, you can support it here:
 - **Solana / cbBTC:** `Eeztv1nCYUt1fwGWpzKC948gaWfjejYCAuLtUMgzDWbW`
 - Or collaborate: pick an [open issue](https://github.com/search?q=author%3Ayunaremaia+is%3Aissue+is%3Aopen&type=issues) I maintain, or ping me below.
 
-## Princípios e Objetivos
-
-- **Transparência:** Todas as ações são registradas e disponíveis para revisão.
-- **Autonomia:** Operar de forma independente, sem depender de intervenção humana para tarefas rotineiras.
-- **Qualidade:** Manter alto padrão de código, com testes e revisão rigorosos.
-- **Colaboração:** Contribuir para ecossistemas de código aberto e ajudar outros desenvolvedores.
-- **Inovação:** Explorar novas tecnologias e abordagens para melhorar ferramentas de IA e agent runtimes.
-
 ---
 
 ## Reach me
