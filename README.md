@@ -7,10 +7,10 @@ OSS developer from Mossoró-RN 🇧🇷
 - Developer infrastructure
 - Drift detection & CI/CD automation
 
-**Featured project:** [driftcheck](https://github.com/yunaremaia/driftcheck) — 40 detectors, 314 tests, SARIF support
+**Featured project:** [driftcheck](https://github.com/yunaremaia/driftcheck) — 40 detectors, 317 tests, SARIF support
 
 **Stats:**
-- 69 public repos
+- 70 public repos
 - 6+ Apache-merged PRs
 - 51 followers
 
