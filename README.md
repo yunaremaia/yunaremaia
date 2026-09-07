@@ -1,17 +1,125 @@
-### Hi, I'm Yunare Maia 👋
+# Yunare Maia 🇧🇷
 
-OSS developer from Mossoró-RN 🇧🇷
+Open-source developer from Mossoró, Rio Grande do Norte - Brazil. I build
+**driftcheck** — a CLI that catches version drift between docs and toolchain
+files before your contributors hit a build failure. I also contribute to agent
+runtimes and AI infrastructure: provider error classification, retry UX, tool
+schemas, test-suite migrations and the CI hygiene that keeps big repos
+mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
-**What I do:**
-- Agent runtimes & LLM tooling
-- Developer infrastructure
-- Drift detection & CI/CD automation
+[![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.33-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
+[![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
+[![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
+[![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
+[![VoiceStudio](https://img.shields.io/badge/contributor-VoiceStudio-1E90FF?logo=tauri&logoColor=white)](https://github.com/debpalash/VoiceStudio)
+[![Merged PRs (30d)](https://img.shields.io/badge/merged_prs_30d-53-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
-**Featured project:** [driftcheck](https://github.com/yunaremaia/driftcheck) — 40 detectors, 317 tests, SARIF support
+<div align="center">
 
-**Stats:**
-- 70 public repos
-- 6+ Apache-merged PRs
-- 51 followers
+![GitHub stats](./stats.svg)
+![Contribution streak](./streak.svg)
 
-**Tech:** Python, Rust, Go, TypeScript, Bash, CI/CD, GitHub Actions, Kubernetes
+</div>
+
+## Now
+
+- **Open PRs:** [open pull requests](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests) across
+  agent runtimes, open-data tooling, and upstream reproducibility — including
+  Rust/Go version sync, NER test config, and stdlib test-suite migrations.
+  Currently in flight:
+  - `chainloop-dev/chainloop#3406` — fix(annotations): allow hyphens in annotation names (awaiting review)
+  - `medusajs/medusa#16715` — translate country/currency names using `Intl.DisplayNames` (awaiting review)
+  - `doobidoo/mcp-memory-service#1174` — fix(scripts): import via editable install, not `src.` prefix (awaiting review)
+  - `cgrtml/neural-trees#46` — migrate packaging to pyproject.toml and wire ruff into CI (awaiting review)
+  - `reticlehq/reticle#855` — add `// @reticle-ignore` comment to skip source stamping per-file (awaiting review)
+- **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+  or see the highlights below.
+
+## Featured contributions
+
+- 🔍 **[yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck)** — my own project.
+  Detects version drift between docs and toolchain files (README vs Dockerfile,
+  build.gradle, pom.xml, versions.tf, .circleci/config.yml, .gitlab-ci.yml,
+  GitHub Actions versions, Kubernetes manifests, and more). 40 detectors, 317 tests.
+- 🏛️ **[apache/maka](https://github.com/apache/maka)** (ASF agent runtime) — six
+  merged PRs including [permission-mode refactor](https://github.com/apache/maka/pull/3603),
+  [usage-limit billing paths](https://github.com/apache/maka/pull/3660),
+  [humanized retry delays](https://github.com/apache/maka/pull/3611),
+  [DeepSeek V4 Flash metadata](https://github.com/apache/maka/pull/3732), and a
+  [desktop flake fix](https://github.com/apache/maka/pull/3737).
+- ⚡ **[modular/modular](https://github.com/modular/modular)** — stdlib test-suite
+  modernization in Mojo: [test_string_span_bounds_abort migration](https://github.com/modular/modular/pull/6957).
+- 🔐 **[decionis/agent-safe-pipeline](https://github.com/decionis/agent-safe-pipeline)** —
+  cryptographic-agility docs, TLS verification posture, and Unicode edge-case
+  conformance vectors ([#56](https://github.com/decionis/agent-safe-pipeline/pull/56),
+  [#55](https://github.com/decionis/agent-safe-pipeline/pull/55),
+  [#23](https://github.com/decionis/agent-safe-pipeline/pull/23)).
+- 📊 **[semantica-agi/semantica](https://github.com/semantica-agi/semantica)** —
+  vector-store persistence fixes, reproducible CI dependency pinning, and a
+  private-IP opt-in for trusted internal APIs
+  ([#914](https://github.com/semantica-agi/semantica/pull/914),
+  [#945](https://github.com/semantica-agi/semantica/pull/945),
+  [#959](https://github.com/semantica-agi/semantica/pull/959)).
+
+## What I work on
+
+- 🔍 **Drift detection** — version drift between docs and toolchain files
+  (Dockerfile, build.gradle, pom.xml, versions.tf, CircleCI, GitLab CI,
+  GitHub Actions, and more)
+- 🤖 **Agent runtimes & LLM tooling** — provider billing/error taxonomies,
+  retry UX, MCP tool schemas, capability systems (TypeScript, Python, Rust)
+- 🔬 **Test infrastructure & CI hygiene** — flake elimination, conformance
+  vectors, reproducible pipelines (Rust, Python, Mojo, C++)
+- 🔤 **Encoding & Unicode correctness** — UTF-8 sanitization, Windows code-page
+  edge cases, `std::error_code` formatter robustness (C++)
+- 📊 **Open data** — schema-validated vendor/startup program datasets
+
+## Recent merged work
+
+<!-- yunare-dynamic:start -->
+| When | Where | What |
+|------|-------|------|
+| 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14](https://github.com/yunaremaia/driftcheck/pull/15) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Ruby version drift detection (v0.1.22)](https://github.com/yunaremaia/driftcheck/pull/14) |
+| 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
+| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2204) |
+| 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat: add GitHub Actions version drift auto-fix (v0.1.20)](https://github.com/yunaremaia/driftcheck/pull/13) |
+| 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add CI OS drift detection (v0.1.19)](https://github.com/yunaremaia/driftcheck/pull/12) |
+| 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Dependabot drift detection (v0.1.18)](https://github.com/yunaremaia/driftcheck/pull/11) |
+| 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Docker Compose drift detection (v0.1.17)](https://github.com/yunaremaia/driftcheck/pull/10) |
+| 2026-09-04 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Kubernetes drift detection (v0.1.15)](https://github.com/yunaremaia/driftcheck/pull/8) |
+| 2026-09-04 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add GitHub Actions version drift detection (v0.1.14)](https://github.com/yunaremaia/driftcheck/pull/7) |
+| 2026-09-04 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add GitLab CI drift detection (v0.1.13)](https://github.com/yunaremaia/driftcheck/pull/6) |
+| 2026-09-04 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add CircleCI drift detection (v0.1.12)](https://github.com/yunaremaia/driftcheck/pull/5) |
+| 2026-08-30 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | [fix(dataflow): drop degenerate points so vertical edges keep a real final segment](https://github.com/tt-a1i/archify/pull/203) |
+| 2026-08-28 | [apache/maka](https://github.com/apache/maka) | [fix(core): add DeepSeek V4 Flash Vision to model metadata](https://github.com/apache/maka/pull/3605) *(+5 more)* |
+| 2026-08-27 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | [refactor(ner): remove dead _extract_with_spacy method and unused self.nlp](https://github.com/semantica-agi/semantica/pull/1220) *(+3 more)* |
+<!-- yunare-dynamic:end -->
+
+## Stack
+
+`TypeScript` `Python` `Rust` `Mojo` `C++` `Bash` · Node · git-first workflows ·
+schema-driven pipelines · distributed test runners · drift detection
+
+## Support
+
+If my open-source work saves you time, you can support it here:
+
+- **Solana / cbBTC:** `Eeztv1nCYUt1fwGWpzKC948gaWfjejYCAuLtUMgzDWbW`
+- Or collaborate: pick an [open issue](https://github.com/search?q=author%3Ayunaremaia+is%3Aissue+is%3Aopen&type=issues) I maintain, or ping me below.
+
+---
+
+## Reach me
+
+- GitHub issues and PRs are the fastest channel
+- Email: [yunare@gmail.com](mailto:yunare@gmail.com)
+
+---
+
+*Profile refreshed daily by an automation I maintain — tables and stat cards
+pulled live from the GitHub API on each run.*
