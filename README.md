@@ -1,6 +1,6 @@
 # Yunare Maia 🇧🇷
 
-Open-source developer from Mossoró, Rio Grande do Norte - Brazil. I build
+Open-source developer from Mossoró, Rio Grande do Norte — Brazil. I build
 **driftcheck** — a CLI that catches version drift between docs and toolchain
 files before your contributors hit a build failure. I also contribute to agent
 runtimes and AI infrastructure: provider error classification, retry UX, tool
@@ -8,13 +8,15 @@ schemas, test-suite migrations and the CI hygiene that keeps big repos
 mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 [![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.33-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
+[![Tests](https://img.shields.io/badge/tests-319%20passed-2ea44f?logo=pytest&logoColor=white)](https://github.com/yunaremaia/driftcheck)
+[![Detectors](https://img.shields.io/badge/detectors-41-0969da)](https://github.com/yunaremaia/driftcheck)
 [![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
 [![ripgrep](https://img.shields.io/badge/contributor-sharkdp%2Fripgrep-006FC7?logo=rust&logoColor=white)](https://github.com/sharkdp/ripgrep)
 [![Biopython](https://img.shields.io/badge/contributor-biopython-3776AB?logo=python&logoColor=white)](https://github.com/biopython/biopython)
 [![Merged PRs](https://img.shields.io/badge/merged_prs-56+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Open PRs](https://img.shields.io/badge/open_prs-25-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
+[![Open PRs](https://img.shields.io/badge/open_prs-26-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -23,6 +25,17 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 ![Contribution streak](./streak.svg)
 
 </div>
+
+## Quick Stats
+
+| Metric | Value |
+|--------|-------|
+| Public repos | 76 |
+| Followers | 51 |
+| Merged PRs | 56+ |
+| Open PRs | 26 |
+| Driftcheck detectors | 41 |
+| Driftcheck tests | 319 |
 
 ## Now
 
