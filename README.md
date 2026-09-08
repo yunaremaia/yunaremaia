@@ -18,7 +18,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![ripgrep](https://img.shields.io/badge/contributor-sharkdp%2Fripgrep-006FC7?logo=rust&logoColor=white)](https://github.com/sharkdp/ripgrep)
 [![Biopython](https://img.shields.io/badge/contributor-biopython-3776AB?logo=python&logoColor=white)](https://github.com/biopython/biopython)
 [![Merged PRs](https://img.shields.io/badge/merged_prs-56+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Open PRs](https://img.shields.io/badge/open_prs-26-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
+[![Open PRs](https://img.shields.io/badge/open_prs-27-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -32,10 +32,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 | Metric | Value |
 |--------|-------|
-| Public repos | 76 |
+| Public repos | 77 |
 | Followers | 51 |
 | Merged PRs | 56+ |
-| Open PRs | 26 |
+| Open PRs | 27 |
 | Driftcheck detectors | 41 |
 | Driftcheck tests | 351 |
 
@@ -45,6 +45,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   agent runtimes, developer tooling, and upstream reproducibility — including
   CI modernization, i18n consistency, docs coverage, and grammar fixes.
   Currently in flight:
+  - [`fivetran/great_expectations#12166`](https://github.com/fivetran/great_expectations/pull/12166) — fix(sqlite): guard stddev formula against division by zero for n<2
   - [`carcaras/solinpy#47`](https://github.com/carcaras/solinpy/pull/47) — docs: add API reference for Anchor and Utils modules
   - [`DietrichGebert/ponytail#832`](https://github.com/DietrichGebert/ponytail/pull/832) — chore(ci): bump GitHub Actions to Node 24-compatible versions
   - [`django-helpdesk/django-helpdesk#1428`](https://github.com/django-helpdesk/django-helpdesk/pull/1428) — chore(i18n): standardize templates on translate/blocktranslate tags
@@ -141,6 +142,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   [parse guard for non-string timestamps](https://github.com/AgentPostmortem/Agentrace/pull/32).
 - 🧠 **[doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)** —
   [editable install fix](https://github.com/doobidoo/mcp-memory-service/pull/1174).
+- 📊 **[fivetran/great_expectations](https://github.com/fivetran/great_expectations)** —
+  [SQLite stddev guard against division by zero](https://github.com/fivetran/great_expectations/pull/12166).
 
 ## What I work on
 
@@ -167,8 +170,11 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
-| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
-| 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14; add integration tests](https://github.com/yunaremaia/driftcheck/pull/15) |
+| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Ruby version drift detection (v0.1.22)](https://github.com/yunaremaia/driftcheck/pull/14) |
+| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(core): lazy-init ValidatorFactory after capacity validation](https://github.com/Sekelenao/Flinkboot/pull/106) |
+| 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat: add GitHub Actions version drift auto-fix (v0.1.20)](https://github.com/yunaremaia/driftcheck/pull/13) |
 <!-- yunare-dynamic:end -->
 
 ## Stack
