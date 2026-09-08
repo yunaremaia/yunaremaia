@@ -32,8 +32,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 | Metric | Value |
 |--------|-------|
-| Original projects | 3 |
-| Forks (contributing to upstream) | 76 |
+| Original projects | 4 |
+| Forks (contributing to upstream) | 75 |
 | Followers | 51 |
 | Merged PRs | 57+ |
 | Open PRs | 26 |
@@ -66,7 +66,6 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   - [`VeridionLabs/veridion#88`](https://github.com/VeridionLabs/veridion/pull/88) — feat(plugins): add UncheckedReturnPlugin
   - [`medusajs/medusa#16715`](https://github.com/medusajs/medusa/pull/16715) — fix: translate country and currency names using Intl.DisplayNames
   - [`debug-js/debug#1055`](https://github.com/debug-js/debug/pull/1055) — fix: preserve existing namespaces on enable() call
-  - [`yunaremaia/Agentrace#1`](https://github.com/yunaremaia/Agentrace/pull/1) — fix(parse): guard _ts against non-string timestamp values
   - [`kelviq/tare#4`](https://github.com/kelviq/tare/pull/4) — feat: add Cursor log parsing support to tare
   - [`bilawalsidhu/gods-eye-view#126`](https://github.com/bilawalsidhu/gods-eye-view/pull/126) — fix(firms-proxy): force IPv4-first so FIRMS fetch works when IPv6 is unreachable
   - [`bilawalsidhu/gods-eye-view#119`](https://github.com/bilawalsidhu/gods-eye-view/pull/119) — fix(deps): resolve 9 high-severity npm audit findings in dev/QA tooling
@@ -96,8 +95,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 - 📜 **[yunaremaia/aipr](https://github.com/yunaremaia/aipr)** — my own project.
   Reads an open-source repository's AI contribution policy before you (or your
   agent) contribute. Exit codes for CI/agents.
-- 🧰 **[yunaremaia/skills](https://github.com/yunaremaia/skills)** — fork of
-  [mattpocock/skills](https://github.com/mattpocock/skills).
+- 🧰 **[yunaremaia/mattpocock-skills-fork](https://github.com/yunaremaia/mattpocock-skills-fork)** —
+  fork of [mattpocock/skills](https://github.com/mattpocock/skills).
   Skills for Real Engineers. Straight from my .agents directory.
 - 🔄 **[yunaremaia/ContextResume](https://github.com/yunaremaia/ContextResume)** — fork of
   [yigitbozyaka/ContextResume](https://github.com/yigitbozyaka/ContextResume).
