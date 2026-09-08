@@ -48,9 +48,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   - [`django-helpdesk/django-helpdesk#1428`](https://github.com/django-helpdesk/django-helpdesk/pull/1428) — chore(i18n): standardize templates on translate/blocktranslate tags
   - [`reticlehq/reticle#860`](https://github.com/reticlehq/reticle/pull/860) — feat: add // @reticle-ignore comment to skip source stamping per-file
   - [`AgentPostmortem/Agentrace#32`](https://github.com/AgentPostmortem/Agentrace/pull/32) — fix(parse): guard _ts against non-string timestamp values
+  - [`yunaremaia/Agentrace#1`](https://github.com/yunaremaia/Agentrace/pull/1) — fix(parse): guard _ts against non-string timestamp values
   - [`doobidoo/mcp-memory-service#1174`](https://github.com/doobidoo/mcp-memory-service/pull/1174) — fix(scripts): import mcp_memory_service via editable install
   - [`sharkdp/bat#3936`](https://github.com/sharkdp/bat/pull/3936) — docs: update MSRV in README from 1.79 to 1.88
+  - [`MunGell/awesome-for-beginners#2111`](https://github.com/MunGell/awesome-for-beginners/pull/2111) — Add LibreSign to the list
   - [`chainloop-dev/chainloop#3406`](https://github.com/chainloop-dev/chainloop/pull/3406) — fix(annotations): allow hyphens in annotation names
+  - [`up-for-grabs/up-for-grabs.net#6119`](https://github.com/up-for-grabs/up-for-grabs.net/pull/6119) — Add LibreSign to projects
   - [`rapina-rs/rapina#795`](https://github.com/rapina-rs/rapina/pull/795) — docs(cli): add rapina seed command reference
   - [`cratestack/cratestack#929`](https://github.com/cratestack/cratestack/pull/929) — feat(editor): highlight "part", "part of", and "import" as keyword literals
   - [`VeridionLabs/veridion#88`](https://github.com/VeridionLabs/veridion/pull/88) — feat(plugins): add UncheckedReturnPlugin
@@ -62,8 +65,6 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   - [`affaan-m/ECC#2927`](https://github.com/affaan-m/ECC/pull/2927) — fix(commands): give prp-pr a distinct description from pr
   - [`K-Dense-AI/scientific-agent-skills#248`](https://github.com/K-Dense-AI/scientific-agent-skills/pull/248) — fix: normalize skill count in README and citation metadata
   - [`K-Dense-AI/scientific-agent-skills#247`](https://github.com/K-Dense-AI/scientific-agent-skills/pull/247) — fix(rdkit): correct FractionCSP3 / CalcFractionCSP3 casing in docs
-  - [`MunGell/awesome-for-beginners#2111`](https://github.com/MunGell/awesome-for-beginners/pull/2111) — Add LibreSign to the list
-  - [`up-for-grabs/up-for-grabs.net#6119`](https://github.com/up-for-grabs/up-for-grabs.net/pull/6119) — Add LibreSign to projects
   - [`fugue-labs/monty-go#1`](https://github.com/fugue-labs/monty-go/pull/1) — chore: fix go.mod, gitattributes and file permissions
   - [`bilawalsidhu/gods-eye-view#126`](https://github.com/bilawalsidhu/gods-eye-view/pull/126) — fix(firms-proxy): force IPv4-first so FIRMS fetch works when IPv6 is unreachable
   - [`bilawalsidhu/gods-eye-view#119`](https://github.com/bilawalsidhu/gods-eye-view/pull/119) — fix(deps): resolve 9 high-severity npm audit findings in dev/QA tooling
@@ -83,6 +84,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 - 📜 **[yunaremaia/aipr](https://github.com/yunaremaia/aipr)** — my own project.
   Reads an open-source repository's AI contribution policy before you (or your
   agent) contributes. Exit codes for CI/agents.
+- 📊 **[DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge)** —
+  [deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5).
+- 🌳 **[cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)** —
+  [packaging migration to pyproject.toml + ruff CI](https://github.com/cgrtml/neural-trees/pull/46).
+- 📐 **[codeforstartups/dynavec](https://github.com/codeforstartups/dynavec)** —
+  [embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148).
 - 🏛️ **[apache/maka](https://github.com/apache/maka)** (ASF agent runtime) — six
   merged PRs including [permission-mode refactor](https://github.com/apache/maka/pull/3603),
   [usage-limit billing paths](https://github.com/apache/maka/pull/3660),
@@ -91,12 +98,6 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   [desktop flake fix](https://github.com/apache/maka/pull/3737).
 - ⚡ **[modular/modular](https://github.com/modular/modular)** — stdlib test-suite
   modernization in Mojo: [test_string_span_bounds_abort migration](https://github.com/modular/modular/pull/6957).
-- 🌳 **[cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)** —
-  [packaging migration to pyproject.toml + ruff CI](https://github.com/cgrtml/neural-trees/pull/46).
-- 📊 **[DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge)** —
-  [deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5).
-- 📐 **[codeforstartups/dynavec](https://github.com/codeforstartups/dynavec)** —
-  [embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148).
 - ☕ **[Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot)** —
   [@NotNull constraint fix](https://github.com/Sekelenao/Flinkboot/pull/110) and
   [ValidatorFactory lazy-init leak fix](https://github.com/Sekelenao/Flinkboot/pull/106).
