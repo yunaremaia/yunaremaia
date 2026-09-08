@@ -10,6 +10,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.33-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
 [![Tests](https://img.shields.io/badge/tests-319%20passed-2ea44f?logo=pytest&logoColor=white)](https://github.com/yunaremaia/driftcheck)
 [![Detectors](https://img.shields.io/badge/detectors-41-0969da)](https://github.com/yunaremaia/driftcheck)
+[![OpenOrbit](https://img.shields.io/badge/openorbit-v0.6.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/openorbit)
 [![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
@@ -81,9 +82,18 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   GitHub Actions versions, Kubernetes manifests, Helm charts, Swift Package.swift,
   Bun lockfiles, PHP/Composer, Ruby versions, environment files, and more).
   41 detectors, 319 tests, v0.1.33.
+- 🛰️ **[yunaremaia/openorbit](https://github.com/yunaremaia/openorbit)** — fork of
+  [forthfate/openorbit](https://github.com/forthfate/openorbit). Open control plane
+  for recurring AI automations: runners, workflows, evidence, supervision, and
+  approval gates. Local-first, MIT licensed. v0.6.0.
+- 📊 **[yunaremaia/JudgeGauge](https://github.com/yunaremaia/JudgeGauge)** — my own project.
+  Fail-closed calibration gates for LLM-as-judge pipelines. Deterministic Markdown
+  report renderer.
 - 📜 **[yunaremaia/aipr](https://github.com/yunaremaia/aipr)** — my own project.
   Reads an open-source repository's AI contribution policy before you (or your
   agent) contributes. Exit codes for CI/agents.
+- 🧰 **[yunaremaia/skills](https://github.com/yunaremaia/skills)** — my own project.
+  Skills for Real Engineers. Straight from my .agents directory.
 - 📊 **[DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge)** —
   [deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5).
 - 🌳 **[cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)** —
@@ -136,6 +146,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 - 🔍 **Drift detection** — version drift between docs and toolchain files
   (Dockerfile, build.gradle, pom.xml, versions.tf, CircleCI, GitLab CI,
   GitHub Actions, and more)
+- 🛰️ **AI control planes** — recurring evaluation, supervision, and improvement
+  loops for AI systems (OpenOrbit)
 - 🤖 **Agent runtimes & LLM tooling** — provider billing/error taxonomies,
   retry UX, MCP tool schemas, capability systems (TypeScript, Python, Rust)
 - 🔬 **Test infrastructure & CI hygiene** — flake elimination, conformance
