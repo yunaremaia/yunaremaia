@@ -11,7 +11,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![Tests](https://img.shields.io/badge/tests-367%20passed-2ea44f?logo=pytest&logoColor=white)](https://github.com/yunaremaia/driftcheck)
 [![Detectors](https://img.shields.io/badge/detectors-42-0969da)](https://github.com/yunaremaia/driftcheck)
 [![OpenOrbit](https://img.shields.io/badge/openorbit-v0.6.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/openorbit)
-[![aipr](https://img.shields.io/badge/aipr-v0.1.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/aipr)
+[![aipr](https://img.shields.io/badge/aipr-v0.2.2-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/aipr)
 [![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
@@ -88,32 +88,41 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   [forthfate/openorbit](https://github.com/forthfate/openorbit). Open control plane
   for recurring AI automations: runners, workflows, evidence, supervision, and
   approval gates. Local-first, MIT licensed. v0.6.0.
-- 📊 **[yunaremaia/JudgeGauge](https://github.com/yunaremaia/JudgeGauge)** — my own project.
+- 📊 **[yunaremaia/JudgeGauge](https://github.com/yunaremaia/JudgeGauge)** — fork of
+  [DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge).
   Fail-closed calibration gates for LLM-as-judge pipelines. Deterministic Markdown
   report renderer.
 - 📜 **[yunaremaia/aipr](https://github.com/yunaremaia/aipr)** — my own project.
   Reads an open-source repository's AI contribution policy before you (or your
   agent) contribute. Exit codes for CI/agents.
-- 🧰 **[yunaremaia/skills](https://github.com/yunaremaia/skills)** — my own project.
+- 🧰 **[yunaremaia/skills](https://github.com/yunaremaia/skills)** — fork of
+  [mattpocock/skills](https://github.com/mattpocock/skills).
   Skills for Real Engineers. Straight from my .agents directory.
-- 🔄 **[yunaremaia/ContextResume](https://github.com/yunaremaia/ContextResume)** — my own project.
+- 🔄 **[yunaremaia/ContextResume](https://github.com/yunaremaia/ContextResume)** — fork of
+  [yigitbozyaka/ContextResume](https://github.com/yigitbozyaka/ContextResume).
   Freeze and restore your developer context when switching branches: git state,
   last failing command, and your intent.
-- 🔗 **[yunaremaia/AgentLink](https://github.com/yunaremaia/AgentLink)** — my own project.
+- 🔗 **[yunaremaia/AgentLink](https://github.com/yunaremaia/AgentLink)** — fork of
+  [paper-daemon/AgentLink](https://github.com/paper-daemon/AgentLink).
   Persistent, permissioned and recoverable execution infrastructure for long-running
   AI workers, with checkpoints, bounded authority and evidence-backed operations.
-- 🎬 **[yunaremaia/Concat](https://github.com/yunaremaia/Concat)** — my own project.
+- 🎬 **[yunaremaia/Concat](https://github.com/yunaremaia/Concat)** — fork of
+  [jub0t/Concat](https://github.com/jub0t/Concat).
   Free & Open-Source CapCut replacement.
-- 🤖 **[yunaremaia/agent-me](https://github.com/yunaremaia/agent-me)** — my own project.
+- 🤖 **[yunaremaia/agent-me](https://github.com/yunaremaia/agent-me)** — fork of
+  [jzjzzzzzzz/agent-me](https://github.com/jzjzzzzzzz/agent-me).
   Distill your knowledge, memories, and decisions into an open-source, inspectable
   AI Agent Twin.
-- ♟️ **[yunaremaia/patzer](https://github.com/yunaremaia/patzer)** — my own project.
+- ♟️ **[yunaremaia/patzer](https://github.com/yunaremaia/patzer)** — fork of
+  [SikamikanikoBG/patzer](https://github.com/SikamikanikoBG/patzer).
   Self-hosted Chess.com alternative: Game Review for your Chess.com archives, play
   vs Stockfish bots, local AI coach via Ollama, multilingual.
-- 🐴 **[yunaremaia/ponytail](https://github.com/yunaremaia/ponytail)** — my own project.
+- 🐴 **[yunaremaia/ponytail](https://github.com/yunaremaia/ponytail)** — fork of
+  [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail).
   Makes your AI agent think like the laziest senior dev in the room. The best code
   is the code you never wrote.
-- 🔌 **[yunaremaia/gitlab-component-helper](https://github.com/yunaremaia/gitlab-component-helper)** — my own project.
+- 🔌 **[yunaremaia/gitlab-component-helper](https://github.com/yunaremaia/gitlab-component-helper)** — fork of
+  [eFAILution/gitlab-component-helper](https://github.com/eFAILution/gitlab-component-helper).
   VSCode extension for Gitlab component projects.
 - 📊 **[DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge)** —
   [deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5).
@@ -189,12 +198,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
 | 2026-09-08 | [AgentPostmortem/Agentrace](https://github.com/AgentPostmortem/Agentrace) | [fix(parse): guard _ts against non-string timestamp values](https://github.com/AgentPostmortem/Agentrace/pull/32) |
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
+| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
+| 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14](https://github.com/yunaremaia/driftcheck/pull/15) |
 | 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
-| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(core): lazy-init ValidatorFactory after capacity validation](https://github.com/Sekelenao/Flinkboot/pull/106) |
-| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
 <!-- yunare-dynamic:end -->
 
 ## Stack
