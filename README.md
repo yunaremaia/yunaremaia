@@ -30,9 +30,11 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   Currently in flight:
   - `chainloop-dev/chainloop#3406` — fix(annotations): allow hyphens in annotation names (awaiting review)
   - `medusajs/medusa#16715` — translate country/currency names using `Intl.DisplayNames` (awaiting review)
-  - `doobidoo/mcp-memory-service#1174` — fix(scripts): import via editable install, not `src.` prefix (awaiting review)
+  - `sharkdp/bat#3936` — docs: update MSRV in README from 1.79 to 1.88 (awaiting review)
   - `cgrtml/neural-trees#46` — migrate packaging to pyproject.toml and wire ruff into CI (awaiting review)
   - `reticlehq/reticle#855` — add `// @reticle-ignore` comment to skip source stamping per-file (awaiting review)
+  - `cratestack/cratestack#929` — feat(editor): highlight "part", "part of", "import" as keyword literals in .cstack grammar (awaiting review)
+  - `rapina-rs/rapina#795` — docs(cli): add rapina seed command reference (awaiting review)
 - **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
   or see the highlights below.
 
@@ -41,7 +43,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 - 🔍 **[yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck)** — my own project.
   Detects version drift between docs and toolchain files (README vs Dockerfile,
   build.gradle, pom.xml, versions.tf, .circleci/config.yml, .gitlab-ci.yml,
-  GitHub Actions versions, Kubernetes manifests, and more). 40 detectors, 317 tests.
+  GitHub Actions versions, Kubernetes manifests, and more). 40 detectors, 314 tests.
 - 🏛️ **[apache/maka](https://github.com/apache/maka)** (ASF agent runtime) — six
   merged PRs including [permission-mode refactor](https://github.com/apache/maka/pull/3603),
   [usage-limit billing paths](https://github.com/apache/maka/pull/3660),
@@ -86,7 +88,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14](https://github.com/yunaremaia/driftcheck/pull/15) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Ruby version drift detection (v0.1.22)](https://github.com/yunaremaia/driftcheck/pull/14) |
 | 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
-| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2204) |
+| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
+| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
+| 2026-09-06 | [yunaremaia/skills](https://github.com/yunaremaia/skills) | [docs: fix one-skill install command and name prerequisites for delegating skills](https://github.com/yunaremaia/skills/pull/2) |
+| 2026-09-06 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [chore(ci): migrate GitHub Actions off deprecated Node 20 runtime](https://github.com/THU-MAIC/OpenMAIC/pull/1343) |
 | 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat: add GitHub Actions version drift auto-fix (v0.1.20)](https://github.com/yunaremaia/driftcheck/pull/13) |
 | 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add CI OS drift detection (v0.1.19)](https://github.com/yunaremaia/driftcheck/pull/12) |
 | 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Dependabot drift detection (v0.1.18)](https://github.com/yunaremaia/driftcheck/pull/11) |
