@@ -85,35 +85,10 @@ jobs:
           print("stats.svg written")
           PY
 
-      - name: Fetch contribution streak and bake in the dark palette
-        run: |
-          curl -sfL --max-time 60 \
-            "https://streak-stats.demolab.com?user=yunaremaia&hide_border=true&locale=en" \
-            -o streak-src.svg
-
-          python3 - <<'PY'
-          # The upstream SVG hard-codes light colors in single-quoted inline
-          # attributes. Palette inspected from a live fetch: card bg #FFFEFE,
-          # numbers/text #151515, labels/dates #464646, flame #FB8C00.
-          # Swap them for GitHub-dark equivalents so the committed file reads
-          # correctly on dark profiles; camo never proxies it because the file
-          # lives in this repo and the README references it relatively.
-          svg = open("streak-src.svg").read()
-
-          DARK = {
-              "#FFFEFE": "#0D1117",  # card background
-              "#151515": "#E6EDF3",  # big numbers / primary text
-              "#464646": "#8B949E",  # labels / dates
-              "#FB8C00": "#F0883E",  # flame orange -> github orange
-          }
-          for light, dark in DARK.items():
-              svg = svg.replace(light, dark)
-
-          open("streak.svg", "w").write(svg)
-          print("streak.svg written with GitHub-dark palette baked in")
-          PY
-
-          rm -f streak-src.svg
+      - name: Generate streak card (self-hosted from GitHub API)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 generate_streak.py
 
       - name: Refresh merged-PR badge count in README
         env:
