@@ -14,7 +14,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![ripgrep](https://img.shields.io/badge/contributor-sharkdp%2Fripgrep-006FC7?logo=rust&logoColor=white)](https://github.com/sharkdp/ripgrep)
 [![Biopython](https://img.shields.io/badge/contributor-biopython-3776AB?logo=python&logoColor=white)](https://github.com/biopython/biopython)
 [![Merged PRs](https://img.shields.io/badge/merged_prs-56+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Open PRs](https://img.shields.io/badge/open_prs-20-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
+[![Open PRs](https://img.shields.io/badge/open_prs-25-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -30,6 +30,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   agent runtimes, developer tooling, and upstream reproducibility — including
   CI modernization, i18n consistency, docs coverage, and grammar fixes.
   Currently in flight:
+  - [`carcaras/solinpy#47`](https://github.com/carcaras/solinpy/pull/47) — docs: add API reference for Anchor and Utils modules
   - [`DietrichGebert/ponytail#832`](https://github.com/DietrichGebert/ponytail/pull/832) — chore(ci): bump GitHub Actions to Node 24-compatible versions
   - [`django-helpdesk/django-helpdesk#1428`](https://github.com/django-helpdesk/django-helpdesk/pull/1428) — chore(i18n): standardize templates on translate/blocktranslate tags
   - [`reticlehq/reticle#860`](https://github.com/reticlehq/reticle/pull/860) — feat: add // @reticle-ignore comment to skip source stamping per-file
@@ -47,8 +48,13 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   - [`affaan-m/ECC#2928`](https://github.com/affaan-m/ECC/pull/2928) — fix(docs): make naming conventions language-agnostic
   - [`affaan-m/ECC#2927`](https://github.com/affaan-m/ECC/pull/2927) — fix(commands): give prp-pr a distinct description from pr
   - [`K-Dense-AI/scientific-agent-skills#248`](https://github.com/K-Dense-AI/scientific-agent-skills/pull/248) — fix: normalize skill count in README and citation metadata
+  - [`K-Dense-AI/scientific-agent-skills#247`](https://github.com/K-Dense-AI/scientific-agent-skills/pull/247) — fix(rdkit): correct FractionCSP3 / CalcFractionCSP3 casing in docs
   - [`MunGell/awesome-for-beginners#2111`](https://github.com/MunGell/awesome-for-beginners/pull/2111) — Add LibreSign to the list
   - [`up-for-grabs/up-for-grabs.net#6119`](https://github.com/up-for-grabs/up-for-grabs.net/pull/6119) — Add LibreSign to projects
+  - [`fugue-labs/monty-go#1`](https://github.com/fugue-labs/monty-go/pull/1) — chore: fix go.mod, gitattributes and file permissions
+  - [`bilawalsidhu/gods-eye-view#126`](https://github.com/bilawalsidhu/gods-eye-view/pull/126) — fix(firms-proxy): force IPv4-first so FIRMS fetch works when IPv6 is unreachable
+  - [`bilawalsidhu/gods-eye-view#119`](https://github.com/bilawalsidhu/gods-eye-view/pull/119) — fix(deps): resolve 9 high-severity npm audit findings in dev/QA tooling
+  - [`kelviq/tare#4`](https://github.com/kelviq/tare/pull/4) — feat: add Cursor log parsing support to tare
 - **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
   or see the highlights below.
 
@@ -74,10 +80,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   modernization in Mojo: [test_string_span_bounds_abort migration](https://github.com/modular/modular/pull/6957).
 - 🌳 **[cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)** —
   [packaging migration to pyproject.toml + ruff CI](https://github.com/cgrtml/neural-trees/pull/46).
-- 📐 **[codeforstartups/dynavec](https://github.com/codeforstartups/dynavec)** —
-  [embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148).
 - 📊 **[DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge)** —
   [deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5).
+- 📐 **[codeforstartups/dynavec](https://github.com/codeforstartups/dynavec)** —
+  [embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148).
 - ☕ **[Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot)** —
   [@NotNull constraint fix](https://github.com/Sekelenao/Flinkboot/pull/110) and
   [ValidatorFactory lazy-init leak fix](https://github.com/Sekelenao/Flinkboot/pull/106).
