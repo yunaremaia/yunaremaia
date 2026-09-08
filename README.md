@@ -11,8 +11,9 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
-[![VoiceStudio](https://img.shields.io/badge/contributor-VoiceStudio-1E90FF?logo=tauri&logoColor=white)](https://github.com/debpalash/VoiceStudio)
-[![Merged PRs](https://img.shields.io/badge/merged_prs-55+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![ripgrep](https://img.shields.io/badge/contributor-sharkdp%2Fripgrep-006FC7?logo=rust&logoColor=white)](https://github.com/sharkdp/ripgrep)
+[![Biopython](https://img.shields.io/badge/contributor-biopython-3776AB?logo=python&logoColor=white)](https://github.com/biopython/biopython)
+[![Merged PRs](https://img.shields.io/badge/merged_prs-56+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Open PRs](https://img.shields.io/badge/open_prs-20-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
@@ -29,12 +30,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   agent runtimes, developer tooling, and upstream reproducibility — including
   CI modernization, i18n consistency, docs coverage, and grammar fixes.
   Currently in flight:
-  - [`DaBestCode/JudgeGauge#5`](https://github.com/DaBestCode/JudgeGauge/pull/5) — feat: add deterministic Markdown report renderer
   - [`DietrichGebert/ponytail#832`](https://github.com/DietrichGebert/ponytail/pull/832) — chore(ci): bump GitHub Actions to Node 24-compatible versions
   - [`django-helpdesk/django-helpdesk#1428`](https://github.com/django-helpdesk/django-helpdesk/pull/1428) — chore(i18n): standardize templates on translate/blocktranslate tags
   - [`reticlehq/reticle#860`](https://github.com/reticlehq/reticle/pull/860) — feat: add // @reticle-ignore comment to skip source stamping per-file
   - [`AgentPostmortem/Agentrace#32`](https://github.com/AgentPostmortem/Agentrace/pull/32) — fix(parse): guard _ts against non-string timestamp values
-  - [`yunaremaia/Agentrace#1`](https://github.com/yunaremaia/Agentrace/pull/1) — fix(parse): guard _ts against non-string timestamp values
   - [`doobidoo/mcp-memory-service#1174`](https://github.com/doobidoo/mcp-memory-service/pull/1174) — fix(scripts): import mcp_memory_service via editable install
   - [`sharkdp/bat#3936`](https://github.com/sharkdp/bat/pull/3936) — docs: update MSRV in README from 1.79 to 1.88
   - [`chainloop-dev/chainloop#3406`](https://github.com/chainloop-dev/chainloop/pull/3406) — fix(annotations): allow hyphens in annotation names
@@ -61,7 +60,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   Elixir mix.exs, CMakeLists.txt, .circleci/config.yml, .gitlab-ci.yml,
   GitHub Actions versions, Kubernetes manifests, Helm charts, Swift Package.swift,
   Bun lockfiles, PHP/Composer, Ruby versions, environment files, and more).
-  41 detectors, 317 tests, v0.1.33.
+  41 detectors, 319 tests, v0.1.33.
 - 📜 **[yunaremaia/aipr](https://github.com/yunaremaia/aipr)** — my own project.
   Reads an open-source repository's AI contribution policy before you (or your
   agent) contributes. Exit codes for CI/agents.
@@ -103,6 +102,14 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   ([#914](https://github.com/semantica-agi/semantica/pull/914),
   [#945](https://github.com/semantica-agi/semantica/pull/945),
   [#959](https://github.com/semantica-agi/semantica/pull/959)).
+- 🔎 **[sharkdp/bat](https://github.com/sharkdp/bat)** —
+  [MSRV documentation update](https://github.com/sharkdp/bat/pull/3936).
+- 🧬 **[biopython/biopython](https://github.com/biopython/biopython)** —
+  contributions to the official Biopython repository.
+- 🤖 **[AgentPostmortem/Agentrace](https://github.com/AgentPostmortem/Agentrace)** —
+  [parse guard for non-string timestamps](https://github.com/AgentPostmortem/Agentrace/pull/32).
+- 🧠 **[doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)** —
+  [editable install fix](https://github.com/doobidoo/mcp-memory-service/pull/1174).
 
 ## What I work on
 
@@ -125,11 +132,11 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | 2026-09-08 | [DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge) | [feat: add deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5) |
 | 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14; add integration tests](https://github.com/yunaremaia/driftcheck/pull/15) |
-| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Ruby version drift detection (v0.1.22)](https://github.com/yunaremaia/driftcheck/pull/14) |
+| 2026-09-07 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
+| 2026-09-07 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
+| 2026-09-07 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14; add integration tests](https://github.com/yunaremaia/driftcheck/pull/15) |
+| 2026-09-07 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
+| 2026-09-07 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Ruby version drift detection (v0.1.22)](https://github.com/yunaremaia/driftcheck/pull/14) |
 | 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(core): lazy-init ValidatorFactory after capacity validation](https://github.com/Sekelenao/Flinkboot/pull/106) |
 | 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
 | 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
