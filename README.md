@@ -53,7 +53,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 - 🔍 **[yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck)** — my own project.
   Detects version drift between docs and toolchain files (README vs Dockerfile,
   build.gradle, pom.xml, versions.tf, .circleci/config.yml, .gitlab-ci.yml,
-  GitHub Actions versions, Kubernetes manifests, and more). 21 detectors, 119 tests.
+  GitHub Actions versions, Kubernetes manifests, and more). 39 detectors, 317 tests.
 - 🏛️ **[apache/maka](https://github.com/apache/maka)** (ASF agent runtime) — six
   merged PRs including [permission-mode refactor](https://github.com/apache/maka/pull/3603),
   [usage-limit billing paths](https://github.com/apache/maka/pull/3660),
