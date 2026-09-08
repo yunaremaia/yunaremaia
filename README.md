@@ -43,7 +43,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   - [`coopfinance/coopfin-contracts#34`](https://github.com/coopfinance/coopfin-contracts/pull/34) — docs(contracts): add rustdoc comments to all 5 Soroban contracts
   - [`firecrawl/pdf-inspector#484`](https://github.com/firecrawl/pdf-inspector/pull/484) — fix: expand bullet glyph recognition in markdown classifier
   - [`affaan-m/ECC#2928`](https://github.com/affaan-m/ECC/pull/2928) — fix(docs): make naming conventions language-agnostic
+  - [`affaan-m/ECC#2927`](https://github.com/affaan-m/ECC/pull/2927) — fix(commands): give prp-pr a distinct description from pr
   - [`K-Dense-AI/scientific-agent-skills#248`](https://github.com/K-Dense-AI/scientific-agent-skills/pull/248) — fix: normalize skill count in README and citation metadata
+  - [`MunGell/awesome-for-beginners#2111`](https://github.com/MunGell/awesome-for-beginners/pull/2111) — Add LibreSign to the list
+  - [`up-for-grabs/up-for-grabs.net#6119`](https://github.com/up-for-grabs/up-for-grabs.net/pull/6119) — Add LibreSign to projects
 - **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
   or see the highlights below.
 
@@ -53,7 +56,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   Detects version drift between docs and toolchain files (README vs Dockerfile,
   build.gradle, Gradle Version Catalog, pom.xml, versions.tf, Pipfile/Conda envs,
   Elixir mix.exs, CMakeLists.txt, .circleci/config.yml, .gitlab-ci.yml,
-  GitHub Actions versions, Kubernetes manifests, Helm charts, and more).
+  GitHub Actions versions, Kubernetes manifests, Helm charts, Swift Package.swift,
+  Bun lockfiles, PHP/Composer, Ruby versions, environment files, and more).
   41 detectors, 317 tests, v0.1.33.
 - 🏛️ **[apache/maka](https://github.com/apache/maka)** (ASF agent runtime) — six
   merged PRs including [permission-mode refactor](https://github.com/apache/maka/pull/3603),
