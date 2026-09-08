@@ -12,7 +12,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
 [![VoiceStudio](https://img.shields.io/badge/contributor-VoiceStudio-1E90FF?logo=tauri&logoColor=white)](https://github.com/debpalash/VoiceStudio)
-[![Merged PRs (30d)](https://img.shields.io/badge/merged_prs_30d-54-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_prs-55+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Open PRs](https://img.shields.io/badge/open_prs-20-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -76,6 +77,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   [packaging migration to pyproject.toml + ruff CI](https://github.com/cgrtml/neural-trees/pull/46).
 - 📐 **[codeforstartups/dynavec](https://github.com/codeforstartups/dynavec)** —
   [embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148).
+- 📊 **[DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge)** —
+  [deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5).
 - ☕ **[Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot)** —
   [@NotNull constraint fix](https://github.com/Sekelenao/Flinkboot/pull/110) and
   [ValidatorFactory lazy-init leak fix](https://github.com/Sekelenao/Flinkboot/pull/106).
@@ -119,6 +122,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
+| 2026-09-08 | [DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge) | [feat: add deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5) |
 | 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
