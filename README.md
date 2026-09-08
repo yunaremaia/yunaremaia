@@ -32,10 +32,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 | Metric | Value |
 |--------|-------|
-| Public repos | 77 |
+| Public repos | 78 |
 | Followers | 51 |
 | Merged PRs | 56+ |
-| Open PRs | 27 |
+| Open PRs | 28 |
 | Driftcheck detectors | 41 |
 | Driftcheck tests | 351 |
 
@@ -45,6 +45,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   agent runtimes, developer tooling, and upstream reproducibility — including
   CI modernization, i18n consistency, docs coverage, and grammar fixes.
   Currently in flight:
+  - [`jzjzzzzzzz/agent-me#134`](https://github.com/jzjzzzzzzz/agent-me/pull/134) — fix(knowledge): recognize indented ATX headings with optional closing hashes in document titles
   - [`fivetran/great_expectations#12166`](https://github.com/fivetran/great_expectations/pull/12166) — fix(sqlite): guard stddev formula against division by zero for n<2
   - [`carcaras/solinpy#47`](https://github.com/carcaras/solinpy/pull/47) — docs: add API reference for Anchor and Utils modules
   - [`DietrichGebert/ponytail#832`](https://github.com/DietrichGebert/ponytail/pull/832) — chore(ci): bump GitHub Actions to Node 24-compatible versions
