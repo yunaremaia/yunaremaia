@@ -12,7 +12,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
 [![VoiceStudio](https://img.shields.io/badge/contributor-VoiceStudio-1E90FF?logo=tauri&logoColor=white)](https://github.com/debpalash/VoiceStudio)
-[![Merged PRs (30d)](https://img.shields.io/badge/merged_prs_30d-52-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs (30d)](https://img.shields.io/badge/merged_prs_30d-54-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -28,10 +28,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   agent runtimes, developer tooling, and upstream reproducibility — including
   CI modernization, i18n consistency, docs coverage, and grammar fixes.
   Currently in flight:
+  - [`DaBestCode/JudgeGauge#5`](https://github.com/DaBestCode/JudgeGauge/pull/5) — feat: add deterministic Markdown report renderer
   - [`DietrichGebert/ponytail#832`](https://github.com/DietrichGebert/ponytail/pull/832) — chore(ci): bump GitHub Actions to Node 24-compatible versions
   - [`django-helpdesk/django-helpdesk#1428`](https://github.com/django-helpdesk/django-helpdesk/pull/1428) — chore(i18n): standardize templates on translate/blocktranslate tags
   - [`reticlehq/reticle#860`](https://github.com/reticlehq/reticle/pull/860) — feat: add // @reticle-ignore comment to skip source stamping per-file
   - [`AgentPostmortem/Agentrace#32`](https://github.com/AgentPostmortem/Agentrace/pull/32) — fix(parse): guard _ts against non-string timestamp values
+  - [`yunaremaia/Agentrace#1`](https://github.com/yunaremaia/Agentrace/pull/1) — fix(parse): guard _ts against non-string timestamp values
   - [`doobidoo/mcp-memory-service#1174`](https://github.com/doobidoo/mcp-memory-service/pull/1174) — fix(scripts): import mcp_memory_service via editable install
   - [`sharkdp/bat#3936`](https://github.com/sharkdp/bat/pull/3936) — docs: update MSRV in README from 1.79 to 1.88
   - [`chainloop-dev/chainloop#3406`](https://github.com/chainloop-dev/chainloop/pull/3406) — fix(annotations): allow hyphens in annotation names
@@ -59,6 +61,9 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   GitHub Actions versions, Kubernetes manifests, Helm charts, Swift Package.swift,
   Bun lockfiles, PHP/Composer, Ruby versions, environment files, and more).
   41 detectors, 317 tests, v0.1.33.
+- 📜 **[yunaremaia/aipr](https://github.com/yunaremaia/aipr)** — my own project.
+  Reads an open-source repository's AI contribution policy before you (or your
+  agent) contributes. Exit codes for CI/agents.
 - 🏛️ **[apache/maka](https://github.com/apache/maka)** (ASF agent runtime) — six
   merged PRs including [permission-mode refactor](https://github.com/apache/maka/pull/3603),
   [usage-limit billing paths](https://github.com/apache/maka/pull/3660),
@@ -129,9 +134,6 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add CI OS drift detection (v0.1.19)](https://github.com/yunaremaia/driftcheck/pull/12) |
 | 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Dependabot drift detection (v0.1.18)](https://github.com/yunaremaia/driftcheck/pull/11) |
 | 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Docker Compose drift detection (v0.1.17)](https://github.com/yunaremaia/driftcheck/pull/10) |
-| 2026-09-04 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Helm chart drift detection (v0.1.16)](https://github.com/yunaremaia/driftcheck/pull/9) |
-| 2026-09-04 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Kubernetes drift detection (v0.1.15)](https://github.com/yunaremaia/driftcheck/pull/8) |
-| 2026-09-04 | [mavonx/hydra](https://github.com/mavonx/hydra) | [fix: reorder argument validation flow](https://github.com/mavonx/hydra/pull/19) |
 <!-- yunare-dynamic:end -->
 
 ## Stack
