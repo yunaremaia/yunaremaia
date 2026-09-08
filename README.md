@@ -32,8 +32,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 | Metric | Value |
 |--------|-------|
-| Original projects | 4 |
-| Forks (contributing to upstream) | 75 |
+| Original projects | 3 |
+| Forks (contributing to upstream) | 76 |
 | Followers | 51 |
 | Merged PRs | 57+ |
 | Open PRs | 26 |
@@ -47,6 +47,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   CI modernization, i18n consistency, docs coverage, and grammar fixes.
   Currently in flight:
   - [`reticlehq/reticle#860`](https://github.com/reticlehq/reticle/pull/860) — feat: add // @reticle-ignore comment to skip source stamping per-file
+  - [`yunaremaia/Agentrace#1`](https://github.com/yunaremaia/Agentrace/pull/1) — fix(parse): guard _ts against non-string timestamp values
   - [`fivetran/great_expectations#12166`](https://github.com/fivetran/great_expectations/pull/12166) — fix(sqlite): guard stddev formula against division by zero for n<2
   - [`chainloop-dev/chainloop#3406`](https://github.com/chainloop-dev/chainloop/pull/3406) — fix(annotations): allow hyphens in annotation names
   - [`sharkdp/bat#3936`](https://github.com/sharkdp/bat/pull/3936) — docs: update MSRV in README from 1.79 to 1.88
@@ -106,6 +107,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   [paper-daemon/AgentLink](https://github.com/paper-daemon/AgentLink).
   Persistent, permissioned and recoverable execution infrastructure for long-running
   AI workers, with checkpoints, bounded authority and evidence-backed operations.
+- 🔍 **[yunaremaia/Agentrace](https://github.com/yunaremaia/Agentrace)** — fork of
+  [AgentPostmortem/Agentrace](https://github.com/AgentPostmortem/Agentrace).
+  Observability for Claude Code subagents. Reads session transcripts, flags the
+  results you should not trust.
 - 🎬 **[yunaremaia/Concat](https://github.com/yunaremaia/Concat)** — fork of
   [jub0t/Concat](https://github.com/jub0t/Concat).
   Free & Open-Source CapCut replacement.
@@ -198,12 +203,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
 | 2026-09-08 | [AgentPostmortem/Agentrace](https://github.com/AgentPostmortem/Agentrace) | [fix(parse): guard _ts against non-string timestamp values](https://github.com/AgentPostmortem/Agentrace/pull/32) |
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
-| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
-| 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14](https://github.com/yunaremaia/driftcheck/pull/15) |
 | 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
+| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(core): lazy-init ValidatorFactory after capacity validation](https://github.com/Sekelenao/Flinkboot/pull/106) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Ruby version drift detection (v0.1.22)](https://github.com/yunaremaia/driftcheck/pull/14) |
 <!-- yunare-dynamic:end -->
 
 ## Stack
