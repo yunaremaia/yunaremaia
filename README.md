@@ -169,13 +169,9 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | 2026-09-08 | [DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge) | [feat: add deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5) |
 | 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14; add integration tests](https://github.com/yunaremaia/driftcheck/pull/15) |
-| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Ruby version drift detection (v0.1.22)](https://github.com/yunaremaia/driftcheck/pull/14) |
-| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(core): lazy-init ValidatorFactory after capacity validation](https://github.com/Sekelenao/Flinkboot/pull/106) |
-| 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat: add GitHub Actions version drift auto-fix (v0.1.20)](https://github.com/yunaremaia/driftcheck/pull/13) |
+| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
+| 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) *(+9 more)* |
 <!-- yunare-dynamic:end -->
 
 ## Stack
