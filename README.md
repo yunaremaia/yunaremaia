@@ -12,7 +12,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
 [![VoiceStudio](https://img.shields.io/badge/contributor-VoiceStudio-1E90FF?logo=tauri&logoColor=white)](https://github.com/debpalash/VoiceStudio)
-[![Merged PRs (30d)](https://img.shields.io/badge/merged_prs_30d-54-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs (30d)](https://img.shields.io/badge/merged_prs_30d-52-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -28,10 +28,9 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   agent runtimes, developer tooling, and upstream reproducibility — including
   CI modernization, i18n consistency, docs coverage, and grammar fixes.
   Currently in flight:
-  - [`forthfate/openorbit#39`](https://github.com/forthfate/openorbit/pull/39) — test: make Playwright smoke tests use configurable base URL
   - [`DietrichGebert/ponytail#832`](https://github.com/DietrichGebert/ponytail/pull/832) — chore(ci): bump GitHub Actions to Node 24-compatible versions
   - [`django-helpdesk/django-helpdesk#1428`](https://github.com/django-helpdesk/django-helpdesk/pull/1428) — chore(i18n): standardize templates on translate/blocktranslate tags
-  - [`reticlehq/reticle#860`](https://github.com/reticlehq/reticle/pull/860) — feat: add //@reticle-ignore comment to skip source stamping per-file
+  - [`reticlehq/reticle#860`](https://github.com/reticlehq/reticle/pull/860) — feat: add // @reticle-ignore comment to skip source stamping per-file
   - [`AgentPostmortem/Agentrace#32`](https://github.com/AgentPostmortem/Agentrace/pull/32) — fix(parse): guard _ts against non-string timestamp values
   - [`doobidoo/mcp-memory-service#1174`](https://github.com/doobidoo/mcp-memory-service/pull/1174) — fix(scripts): import mcp_memory_service via editable install
   - [`sharkdp/bat#3936`](https://github.com/sharkdp/bat/pull/3936) — docs: update MSRV in README from 1.79 to 1.88
@@ -40,8 +39,11 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   - [`cratestack/cratestack#929`](https://github.com/cratestack/cratestack/pull/929) — feat(editor): highlight "part", "part of", and "import" as keyword literals
   - [`VeridionLabs/veridion#88`](https://github.com/VeridionLabs/veridion/pull/88) — feat(plugins): add UncheckedReturnPlugin
   - [`debug-js/debug#1055`](https://github.com/debug-js/debug/pull/1055) — fix: preserve existing namespaces on enable() call
-  - [`MunGell/awesome-for-beginners#2111`](https://github.com/MunGell/awesome-for-beginners/pull/2111) — Add LibreSign to the list
-  - [`up-for-grabs/up-for-grabs.net#6119`](https://github.com/up-for-grabs/up-for-grabs.net/pull/6119) — Add LibreSign to projects
+  - [`medusajs/medusa#16715`](https://github.com/medusajs/medusa/pull/16715) — fix: translate country and currency names using Intl.DisplayNames
+  - [`coopfinance/coopfin-contracts#34`](https://github.com/coopfinance/coopfin-contracts/pull/34) — docs(contracts): add rustdoc comments to all 5 Soroban contracts
+  - [`firecrawl/pdf-inspector#484`](https://github.com/firecrawl/pdf-inspector/pull/484) — fix: expand bullet glyph recognition in markdown classifier
+  - [`affaan-m/ECC#2928`](https://github.com/affaan-m/ECC/pull/2928) — fix(docs): make naming conventions language-agnostic
+  - [`K-Dense-AI/scientific-agent-skills#248`](https://github.com/K-Dense-AI/scientific-agent-skills/pull/248) — fix: normalize skill count in README and citation metadata
 - **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
   or see the highlights below.
 
@@ -61,6 +63,13 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   [desktop flake fix](https://github.com/apache/maka/pull/3737).
 - ⚡ **[modular/modular](https://github.com/modular/modular)** — stdlib test-suite
   modernization in Mojo: [test_string_span_bounds_abort migration](https://github.com/modular/modular/pull/6957).
+- 🌳 **[cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)** —
+  [packaging migration to pyproject.toml + ruff CI](https://github.com/cgrtml/neural-trees/pull/46).
+- 📐 **[codeforstartups/dynavec](https://github.com/codeforstartups/dynavec)** —
+  [embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148).
+- ☕ **[Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot)** —
+  [@NotNull constraint fix](https://github.com/Sekelenao/Flinkboot/pull/110) and
+  [ValidatorFactory lazy-init leak fix](https://github.com/Sekelenao/Flinkboot/pull/106).
 - 🔐 **[decionis/agent-safe-pipeline](https://github.com/decionis/agent-safe-pipeline)** —
   cryptographic-agility docs, TLS verification posture, and Unicode edge-case
   conformance vectors ([#56](https://github.com/decionis/agent-safe-pipeline/pull/56),
@@ -118,6 +127,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | 2026-09-05 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Docker Compose drift detection (v0.1.17)](https://github.com/yunaremaia/driftcheck/pull/10) |
 | 2026-09-04 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Helm chart drift detection (v0.1.16)](https://github.com/yunaremaia/driftcheck/pull/9) |
 | 2026-09-04 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add Kubernetes drift detection (v0.1.15)](https://github.com/yunaremaia/driftcheck/pull/8) |
+| 2026-09-04 | [mavonx/hydra](https://github.com/mavonx/hydra) | [fix: reorder argument validation flow](https://github.com/mavonx/hydra/pull/19) |
 <!-- yunare-dynamic:end -->
 
 ## Stack
