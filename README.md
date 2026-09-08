@@ -103,6 +103,17 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   AI workers, with checkpoints, bounded authority and evidence-backed operations.
 - 🎬 **[yunaremaia/Concat](https://github.com/yunaremaia/Concat)** — my own project.
   Free & Open-Source CapCut replacement.
+- 🤖 **[yunaremaia/agent-me](https://github.com/yunaremaia/agent-me)** — my own project.
+  Distill your knowledge, memories, and decisions into an open-source, inspectable
+  AI Agent Twin.
+- ♟️ **[yunaremaia/patzer](https://github.com/yunaremaia/patzer)** — my own project.
+  Self-hosted Chess.com alternative: Game Review for your Chess.com archives, play
+  vs Stockfish bots, local AI coach via Ollama, multilingual.
+- 🐴 **[yunaremaia/ponytail](https://github.com/yunaremaia/ponytail)** — my own project.
+  Makes your AI agent think like the laziest senior dev in the room. The best code
+  is the code you never wrote.
+- 🔌 **[yunaremaia/gitlab-component-helper](https://github.com/yunaremaia/gitlab-component-helper)** — my own project.
+  VSCode extension for Gitlab component projects.
 - 📊 **[DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge)** —
   [deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5).
 - 🌳 **[cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)** —
@@ -173,14 +184,14 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
-| 2026-09-08 | [AgentPostmortem/Agentrace](https://github.com/AgentPostmortem/Agentrace) | [fix(parse): guard _ts against non-string timestamp values](https://github.com/AgentPostmortem/Agentrace/pull/32) |
 | 2026-09-08 | [DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge) | [feat: add deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5) |
 | 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
+| 2026-09-08 | [AgentPostmortem/Agentrace](https://github.com/AgentPostmortem/Agentrace) | [fix(parse): guard _ts against non-string timestamp values](https://github.com/AgentPostmortem/Agentrace/pull/32) |
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
-| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
 | 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14](https://github.com/yunaremaia/driftcheck/pull/15) |
+| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
 | 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(core): lazy-init ValidatorFactory after capacity validation](https://github.com/Sekelenao/Flinkboot/pull/106) |
 | 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
 <!-- yunare-dynamic:end -->
