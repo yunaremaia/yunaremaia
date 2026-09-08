@@ -12,7 +12,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
 [![VoiceStudio](https://img.shields.io/badge/contributor-VoiceStudio-1E90FF?logo=tauri&logoColor=white)](https://github.com/debpalash/VoiceStudio)
-[![Merged PRs (30d)](https://img.shields.io/badge/merged_prs_30d-51-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs (30d)](https://img.shields.io/badge/merged_prs_30d-53-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -25,26 +25,25 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 ## Now
 
 - **Open PRs:** [open pull requests](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests) across
-  agent runtimes, open-data tooling, and upstream reproducibility — including
-  Rust/Go version sync, NER test config, and stdlib test-suite migrations.
+  agent runtimes, developer tooling, and upstream reproducibility — including
+  CI modernization, i18n consistency, docs coverage, and grammar fixes.
   Currently in flight:
-  - [`medusajs/medusa#16715`](https://github.com/medusajs/medusa/pull/16715) — fix: translate country and currency names using Intl.DisplayNames — *13 comments* (awaiting review)
-  - [`debug-js/debug#1055`](https://github.com/debug-js/debug/pull/1055) — fix: preserve existing namespaces on enable() call — *5 comments* (awaiting review)
-  - [`chainloop-dev/chainloop#3406`](https://github.com/chainloop-dev/chainloop/pull/3406) — fix(annotations): allow hyphens in annotation names — *5 comments* (awaiting review)
-  - [`rapina-rs/rapina#795`](https://github.com/rapina-rs/rapina/pull/795) — docs(cli): add rapina seed command reference — *5 comments* (awaiting review)
-  - [`kelviq/tare#4`](https://github.com/kelviq/tare/pull/4) — feat: add Cursor log parsing support to tare — *4 comments* (awaiting review)
-  - [`affaan-m/ECC#2928`](https://github.com/affaan-m/ECC/pull/2928) — fix(docs): make naming conventions language-agnostic (fixes #2830) — *4 comments* (awaiting review)
-  - [`cratestack/cratestack#929`](https://github.com/cratestack/cratestack/pull/929) — feat(editor): highlight "part", "part of", and "import" as keyword literals — *4 comments* (awaiting review)
-  - [`bilawalsidhu/gods-eye-view#119`](https://github.com/bilawalsidhu/gods-eye-view/pull/119) — fix(deps): resolve 9 high-severity npm audit findings in dev/QA tooling — *3 comments* (awaiting review)
-  - [`affaan-m/ECC#2927`](https://github.com/affaan-m/ECC/pull/2927) — fix(commands): give prp-pr a distinct description from pr (fixes #2905) — *3 comments* (awaiting review)
-  - [`mcp-memory-service/mcp-memory-service#1174`](https://github.com/mcp-memory-service/mcp-memory-service/pull/1174) — fix(scripts): import mcp_memory_service via editable install — *2 comments* (awaiting review)
-  - [`libresign/libresign#6119`](https://github.com/libresign/libresign/pull/6119) — Add LibreSign to projects — *2 comments* (awaiting review)
-  - [`nayarsystems/markdown-classifier#484`](https://github.com/nayarsystems/markdown-classifier/pull/484) — fix: expand bullet glyph recognition in markdown classifier (fixes #475) — *2 comments* (awaiting review)
-  - [`firms-proxy/firms-proxy#126`](https://github.com/firms-proxy/firms-proxy/pull/126) — fix(firms-proxy): force IPv4-first so FIRMS fetch works when IPv6 is unreachable (#68) — *2 comments* (awaiting review)
-  - [`rust-lang/rust#3936`](https://github.com/rust-lang/rust/pull/3936) — docs: update MSRV in README from 1.79 to 1.88 — *1 comment* (awaiting review)
-  - [`stellar/soroban#34`](https://github.com/stellar/soroban/pull/34) — docs(contracts): add rustdoc comments to all 5 Soroban contracts — *1 comment* (awaiting review)
-  - [`yunaremaia/driftcheck#46`](https://github.com/yunaremaia/driftcheck/pull/46) — feat: migrate packaging to pyproject.toml and wire ruff into CI — *1 comment* (awaiting review)
-  - [`kelviq/tare#32`](https://github.com/kelviq/tare/pull/32) — fix(parse): guard _ts against non-string timestamp values — *1 comment* (awaiting review)
+  - [`medusajs/medusa#16715`](https://github.com/medusajs/medusa/pull/16715) — fix: translate country and currency names using Intl.DisplayNames
+  - [`debug-js/debug#1055`](https://github.com/debug-js/debug/pull/1055) — fix: preserve existing namespaces on enable() call
+  - [`chainloop-dev/chainloop#3406`](https://github.com/chainloop-dev/chainloop/pull/3406) — fix(annotations): allow hyphens in annotation names
+  - [`DietrichGebert/ponytail#832`](https://github.com/DietrichGebert/ponytail/pull/832) — chore(ci): bump GitHub Actions to Node 24-compatible versions
+  - [`django-helpdesk/django-helpdesk#1428`](https://github.com/django-helpdesk/django-helpdesk/pull/1428) — chore(i18n): standardize templates on translate/blocktranslate tags
+  - [`reticlehq/reticle#860`](https://github.com/reticlehq/reticle/pull/860) — feat: add //@reticle-ignore comment to skip source stamping per-file
+  - [`rapina-rs/rapina#795`](https://github.com/rapina-rs/rapina/pull/795) — docs(cli): add rapina seed command reference
+  - [`cratestack/cratestack#929`](https://github.com/cratestack/cratestack/pull/929) — feat(editor): highlight "part", "part of", and "import" as keyword literals
+  - [`VeridionLabs/veridion#88`](https://github.com/VeridionLabs/veridion/pull/88) — feat(plugins): add UncheckedReturnPlugin
+  - [`sharkdp/bat#3936`](https://github.com/sharkdp/bat/pull/3936) — docs: update MSRV in README from 1.79 to 1.88
+  - [`firecrawl/pdf-inspector#484`](https://github.com/firecrawl/pdf-inspector/pull/484) — fix: expand bullet glyph recognition in markdown classifier
+  - [`coopfinance/coopfin-contracts#34`](https://github.com/coopfinance/coopfin-contracts/pull/34) — docs(contracts): add rustdoc comments to all 5 Soroban contracts
+  - [`affaan-m/ECC#2928`](https://github.com/affaan-m/ECC/pull/2928) — fix(docs): make naming conventions language-agnostic
+  - [`cgrtml/neural-trees#46`](https://github.com/cgrtml/neural-trees/pull/46) — feat: migrate packaging to pyproject.toml and wire ruff into CI
+  - [`AgentPostmortem/Agentrace#32`](https://github.com/AgentPostmortem/Agentrace/pull/32) — fix(parse): guard _ts against non-string timestamp values
+  - [`bilawalsidhu/gods-eye-view#119`](https://github.com/bilawalsidhu/gods-eye-view/pull/119) — fix(deps): resolve 9 high-severity npm audit findings in dev/QA tooling
 - **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
   or see the highlights below.
 
@@ -52,8 +51,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 - 🔍 **[yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck)** — my own project.
   Detects version drift between docs and toolchain files (README vs Dockerfile,
-  build.gradle, pom.xml, versions.tf, .circleci/config.yml, .gitlab-ci.yml,
-  GitHub Actions versions, Kubernetes manifests, and more). 40 detectors, 317 tests.
+  build.gradle, Gradle Version Catalog, pom.xml, versions.tf, Pipfile/Conda envs,
+  Elixir mix.exs, CMakeLists.txt, .circleci/config.yml, .gitlab-ci.yml,
+  GitHub Actions versions, Kubernetes manifests, Helm charts, and more).
+  40 detectors, 317 tests, v0.1.33.
 - 🏛️ **[apache/maka](https://github.com/apache/maka)** (ASF agent runtime) — six
   merged PRs including [permission-mode refactor](https://github.com/apache/maka/pull/3603),
   [usage-limit billing paths](https://github.com/apache/maka/pull/3660),
