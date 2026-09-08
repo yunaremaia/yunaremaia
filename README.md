@@ -32,7 +32,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 | Metric | Value |
 |--------|-------|
-| Public repos | 79 |
+| Original projects | 4 |
+| Forks (contributing to upstream) | 75 |
 | Followers | 51 |
 | Merged PRs | 57+ |
 | Open PRs | 26 |
