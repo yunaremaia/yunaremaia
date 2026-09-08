@@ -7,9 +7,9 @@ runtimes and AI infrastructure: provider error classification, retry UX, tool
 schemas, test-suite migrations and the CI hygiene that keeps big repos
 mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
-[![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.33-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
-[![Tests](https://img.shields.io/badge/tests-351%20passed-2ea44f?logo=pytest&logoColor=white)](https://github.com/yunaremaia/driftcheck)
-[![Detectors](https://img.shields.io/badge/detectors-40-0969da)](https://github.com/yunaremaia/driftcheck)
+[![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.34-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
+[![Tests](https://img.shields.io/badge/tests-367%20passed-2ea44f?logo=pytest&logoColor=white)](https://github.com/yunaremaia/driftcheck)
+[![Detectors](https://img.shields.io/badge/detectors-42-0969da)](https://github.com/yunaremaia/driftcheck)
 [![OpenOrbit](https://img.shields.io/badge/openorbit-v0.6.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/openorbit)
 [![aipr](https://img.shields.io/badge/aipr-v0.1.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/aipr)
 [![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
@@ -17,8 +17,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
 [![ripgrep](https://img.shields.io/badge/contributor-sharkdp%2Fripgrep-006FC7?logo=rust&logoColor=white)](https://github.com/sharkdp/ripgrep)
 [![Biopython](https://img.shields.io/badge/contributor-biopython-3776AB?logo=python&logoColor=white)](https://github.com/biopython/biopython)
-[![Merged PRs](https://img.shields.io/badge/merged_prs-56+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Open PRs](https://img.shields.io/badge/open_prs-28-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_prs-57+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Open PRs](https://img.shields.io/badge/open_prs-26-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -32,12 +32,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 | Metric | Value |
 |--------|-------|
-| Public repos | 78 |
+| Public repos | 79 |
 | Followers | 51 |
-| Merged PRs | 56+ |
-| Open PRs | 28 |
-| Driftcheck detectors | 40 |
-| Driftcheck tests | 351 |
+| Merged PRs | 57+ |
+| Open PRs | 26 |
+| Driftcheck detectors | 42 |
+| Driftcheck tests | 367 |
 
 ## Now
 
@@ -45,34 +45,32 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   agent runtimes, developer tooling, and upstream reproducibility — including
   CI modernization, i18n consistency, docs coverage, and grammar fixes.
   Currently in flight:
-  - [`jzjzzzzzzz/agent-me#134`](https://github.com/jzjzzzzzzz/agent-me/pull/134) — fix(knowledge): recognize indented ATX headings with optional closing hashes in document titles
-  - [`fivetran/great_expectations#12166`](https://github.com/fivetran/great_expectations/pull/12166) — fix(sqlite): guard stddev formula against division by zero for n<2
-  - [`carcaras/solinpy#47`](https://github.com/carcaras/solinpy/pull/47) — docs: add API reference for Anchor and Utils modules
-  - [`DietrichGebert/ponytail#832`](https://github.com/DietrichGebert/ponytail/pull/832) — chore(ci): bump GitHub Actions to Node 24-compatible versions
-  - [`django-helpdesk/django-helpdesk#1428`](https://github.com/django-helpdesk/django-helpdesk/pull/1428) — chore(i18n): standardize templates on translate/blocktranslate tags
   - [`reticlehq/reticle#860`](https://github.com/reticlehq/reticle/pull/860) — feat: add // @reticle-ignore comment to skip source stamping per-file
-  - [`AgentPostmortem/Agentrace#32`](https://github.com/AgentPostmortem/Agentrace/pull/32) — fix(parse): guard _ts against non-string timestamp values
-  - [`yunaremaia/Agentrace#1`](https://github.com/yunaremaia/Agentrace/pull/1) — fix(parse): guard _ts against non-string timestamp values
-  - [`doobidoo/mcp-memory-service#1174`](https://github.com/doobidoo/mcp-memory-service/pull/1174) — fix(scripts): import mcp_memory_service via editable install
-  - [`sharkdp/bat#3936`](https://github.com/sharkdp/bat/pull/3936) — docs: update MSRV in README from 1.79 to 1.88
-  - [`MunGell/awesome-for-beginners#2111`](https://github.com/MunGell/awesome-for-beginners/pull/2111) — Add LibreSign to the list
+  - [`fivetran/great_expectations#12166`](https://github.com/fivetran/great_expectations/pull/12166) — fix(sqlite): guard stddev formula against division by zero for n<2
   - [`chainloop-dev/chainloop#3406`](https://github.com/chainloop-dev/chainloop/pull/3406) — fix(annotations): allow hyphens in annotation names
+  - [`sharkdp/bat#3936`](https://github.com/sharkdp/bat/pull/3936) — docs: update MSRV in README from 1.79 to 1.88
+  - [`carcaras/solinpy#47`](https://github.com/carcaras/solinpy/pull/47) — docs: add API reference for Anchor and Utils modules
   - [`up-for-grabs/up-for-grabs.net#6119`](https://github.com/up-for-grabs/up-for-grabs.net/pull/6119) — Add LibreSign to projects
-  - [`rapina-rs/rapina#795`](https://github.com/rapina-rs/rapina/pull/795) — docs(cli): add rapina seed command reference
-  - [`cratestack/cratestack#929`](https://github.com/cratestack/cratestack/pull/929) — feat(editor): highlight "part", "part of", and "import" as keyword literals
-  - [`VeridionLabs/veridion#88`](https://github.com/VeridionLabs/veridion/pull/88) — feat(plugins): add UncheckedReturnPlugin
-  - [`debug-js/debug#1055`](https://github.com/debug-js/debug/pull/1055) — fix: preserve existing namespaces on enable() call
-  - [`medusajs/medusa#16715`](https://github.com/medusajs/medusa/pull/16715) — fix: translate country and currency names using Intl.DisplayNames
-  - [`coopfinance/coopfin-contracts#34`](https://github.com/coopfinance/coopfin-contracts/pull/34) — docs(contracts): add rustdoc comments to all 5 Soroban contracts
-  - [`firecrawl/pdf-inspector#484`](https://github.com/firecrawl/pdf-inspector/pull/484) — fix: expand bullet glyph recognition in markdown classifier
+  - [`MunGell/awesome-for-beginners#2111`](https://github.com/MunGell/awesome-for-beginners/pull/2111) — Add LibreSign to the list
   - [`affaan-m/ECC#2928`](https://github.com/affaan-m/ECC/pull/2928) — fix(docs): make naming conventions language-agnostic
   - [`affaan-m/ECC#2927`](https://github.com/affaan-m/ECC/pull/2927) — fix(commands): give prp-pr a distinct description from pr
+  - [`doobidoo/mcp-memory-service#1174`](https://github.com/doobidoo/mcp-memory-service/pull/1174) — fix(scripts): import mcp_memory_service via editable install
+  - [`django-helpdesk/django-helpdesk#1428`](https://github.com/django-helpdesk/django-helpdesk/pull/1428) — chore(i18n): standardize templates on translate/blocktranslate tags
+  - [`DietrichGebert/ponytail#832`](https://github.com/DietrichGebert/ponytail/pull/832) — chore(ci): bump GitHub Actions to Node 24-compatible versions
+  - [`cratestack/cratestack#929`](https://github.com/cratestack/cratestack/pull/929) — feat(editor): highlight "part", "part of", and "import" as keyword literals
+  - [`coopfinance/coopfin-contracts#34`](https://github.com/coopfinance/coopfin-contracts/pull/34) — docs(contracts): add rustdoc comments to all 5 Soroban contracts
+  - [`firecrawl/pdf-inspector#484`](https://github.com/firecrawl/pdf-inspector/pull/484) — fix: expand bullet glyph recognition in markdown classifier
+  - [`rapina-rs/rapina#795`](https://github.com/rapina-rs/rapina/pull/795) — docs(cli): add rapina seed command reference
+  - [`VeridionLabs/veridion#88`](https://github.com/VeridionLabs/veridion/pull/88) — feat(plugins): add UncheckedReturnPlugin
+  - [`medusajs/medusa#16715`](https://github.com/medusajs/medusa/pull/16715) — fix: translate country and currency names using Intl.DisplayNames
+  - [`debug-js/debug#1055`](https://github.com/debug-js/debug/pull/1055) — fix: preserve existing namespaces on enable() call
+  - [`yunaremaia/Agentrace#1`](https://github.com/yunaremaia/Agentrace/pull/1) — fix(parse): guard _ts against non-string timestamp values
+  - [`kelviq/tare#4`](https://github.com/kelviq/tare/pull/4) — feat: add Cursor log parsing support to tare
+  - [`bilawalsidhu/gods-eye-view#126`](https://github.com/bilawalsidhu/gods-eye-view/pull/126) — fix(firms-proxy): force IPv4-first so FIRMS fetch works when IPv6 is unreachable
+  - [`bilawalsidhu/gods-eye-view#119`](https://github.com/bilawalsidhu/gods-eye-view/pull/119) — fix(deps): resolve 9 high-severity npm audit findings in dev/QA tooling
   - [`K-Dense-AI/scientific-agent-skills#248`](https://github.com/K-Dense-AI/scientific-agent-skills/pull/248) — fix: normalize skill count in README and citation metadata
   - [`K-Dense-AI/scientific-agent-skills#247`](https://github.com/K-Dense-AI/scientific-agent-skills/pull/247) — fix(rdkit): correct FractionCSP3 / CalcFractionCSP3 casing in docs
   - [`fugue-labs/monty-go#1`](https://github.com/fugue-labs/monty-go/pull/1) — chore: fix go.mod, gitattributes and file permissions
-  - [`bilawalsidhu/gods-eye-view#126`](https://github.com/bilawalsidhu/gods-eye-view/pull/126) — fix(firms-proxy): force IPv4-first so FIRMS fetch works when IPv6 is unreachable
-  - [`bilawalsidhu/gods-eye-view#119`](https://github.com/bilawalsidhu/gods-eye-view/pull/119) — fix(deps): resolve 9 high-severity npm audit findings in dev/QA tooling
-  - [`kelviq/tare#4`](https://github.com/kelviq/tare/pull/4) — feat: add Cursor log parsing support to tare
 - **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
   or see the highlights below.
 
@@ -84,7 +82,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   Elixir mix.exs, CMakeLists.txt, .circleci/config.yml, .gitlab-ci.yml,
   GitHub Actions versions, Kubernetes manifests, Helm charts, Swift Package.swift,
   Bun lockfiles, PHP/Composer, Ruby versions, environment files, and more).
-  40 detectors, 351 tests, v0.1.33.
+  42 detectors, 367 tests, v0.1.34.
 - 🛰️ **[yunaremaia/openorbit](https://github.com/yunaremaia/openorbit)** — fork of
   [forthfate/openorbit](https://github.com/forthfate/openorbit). Open control plane
   for recurring AI automations: runners, workflows, evidence, supervision, and
@@ -94,9 +92,17 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   report renderer.
 - 📜 **[yunaremaia/aipr](https://github.com/yunaremaia/aipr)** — my own project.
   Reads an open-source repository's AI contribution policy before you (or your
-  agent) contributes. Exit codes for CI/agents.
+  agent) contribute. Exit codes for CI/agents.
 - 🧰 **[yunaremaia/skills](https://github.com/yunaremaia/skills)** — my own project.
   Skills for Real Engineers. Straight from my .agents directory.
+- 🔄 **[yunaremaia/ContextResume](https://github.com/yunaremaia/ContextResume)** — my own project.
+  Freeze and restore your developer context when switching branches: git state,
+  last failing command, and your intent.
+- 🔗 **[yunaremaia/AgentLink](https://github.com/yunaremaia/AgentLink)** — my own project.
+  Persistent, permissioned and recoverable execution infrastructure for long-running
+  AI workers, with checkpoints, bounded authority and evidence-backed operations.
+- 🎬 **[yunaremaia/Concat](https://github.com/yunaremaia/Concat)** — my own project.
+  Free & Open-Source CapCut replacement.
 - 📊 **[DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge)** —
   [deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5).
 - 🌳 **[cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)** —
@@ -160,18 +166,23 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 - 🔤 **Encoding & Unicode correctness** — UTF-8 sanitization, Windows code-page
   edge cases, `std::error_code` formatter robustness (C++)
 - 📊 **Open data** — schema-validated vendor/startup program datasets
+- 🔄 **Developer context management** — freeze/restore workflows for branch switching
 
 ## Recent merged work
 
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
+| 2026-09-08 | [AgentPostmortem/Agentrace](https://github.com/AgentPostmortem/Agentrace) | [fix(parse): guard _ts against non-string timestamp values](https://github.com/AgentPostmortem/Agentrace/pull/32) |
 | 2026-09-08 | [DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge) | [feat: add deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5) |
 | 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
+| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(properties): enforce @NotNull on LocalWebUiProperties.enabled](https://github.com/Sekelenao/Flinkboot/pull/110) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: expand test matrix to ubuntu/macos/windows, Python 3.10-3.14](https://github.com/yunaremaia/driftcheck/pull/15) |
+| 2026-09-06 | [Sekelenao/Flinkboot](https://github.com/Sekelenao/Flinkboot) | [fix(core): lazy-init ValidatorFactory after capacity validation](https://github.com/Sekelenao/Flinkboot/pull/106) |
 | 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
-| 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) *(+9 more)* |
 <!-- yunare-dynamic:end -->
 
 ## Stack
