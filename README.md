@@ -53,7 +53,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 - 🔍 **[yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck)** — my own project.
   Detects version drift between docs and toolchain files (README vs Dockerfile,
   build.gradle, pom.xml, versions.tf, .circleci/config.yml, .gitlab-ci.yml,
-  GitHub Actions versions, Kubernetes manifests, and more). 39 detectors, 317 tests.
+  GitHub Actions versions, Kubernetes manifests, and more). 40 detectors, 317 tests.
 - 🏛️ **[apache/maka](https://github.com/apache/maka)** (ASF agent runtime) — six
   merged PRs including [permission-mode refactor](https://github.com/apache/maka/pull/3603),
   [usage-limit billing paths](https://github.com/apache/maka/pull/3660),
@@ -67,6 +67,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   conformance vectors ([#56](https://github.com/decionis/agent-safe-pipeline/pull/56),
   [#55](https://github.com/decionis/agent-safe-pipeline/pull/55),
   [#23](https://github.com/decionis/agent-safe-pipeline/pull/23)).
+- 📦 **[oras-project/oras](https://github.com/oras-project/oras)** (OCI registry
+  tooling) — [licenserc go.mod path fix](https://github.com/oras-project/oras/pull/2155) —
+  plus an IPv6 CIDR validation fix in
+  [rancher/dashboard](https://github.com/rancher/dashboard).
 - 📊 **[semantica-agi/semantica](https://github.com/semantica-agi/semantica)** —
   vector-store persistence fixes, reproducible CI dependency pinning, and a
   private-IP opt-in for trusted internal APIs
