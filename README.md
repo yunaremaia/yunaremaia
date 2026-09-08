@@ -8,9 +8,10 @@ schemas, test-suite migrations and the CI hygiene that keeps big repos
 mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 [![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.33-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
-[![Tests](https://img.shields.io/badge/tests-319%20passed-2ea44f?logo=pytest&logoColor=white)](https://github.com/yunaremaia/driftcheck)
+[![Tests](https://img.shields.io/badge/tests-351%20passed-2ea44f?logo=pytest&logoColor=white)](https://github.com/yunaremaia/driftcheck)
 [![Detectors](https://img.shields.io/badge/detectors-41-0969da)](https://github.com/yunaremaia/driftcheck)
 [![OpenOrbit](https://img.shields.io/badge/openorbit-v0.6.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/openorbit)
+[![aipr](https://img.shields.io/badge/aipr-v0.1.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/aipr)
 [![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![fmtlib/fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-006FC7?logo=cplusplus&logoColor=white)](https://github.com/fmtlib/fmt)
@@ -36,7 +37,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | Merged PRs | 56+ |
 | Open PRs | 26 |
 | Driftcheck detectors | 41 |
-| Driftcheck tests | 319 |
+| Driftcheck tests | 351 |
 
 ## Now
 
@@ -81,7 +82,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   Elixir mix.exs, CMakeLists.txt, .circleci/config.yml, .gitlab-ci.yml,
   GitHub Actions versions, Kubernetes manifests, Helm charts, Swift Package.swift,
   Bun lockfiles, PHP/Composer, Ruby versions, environment files, and more).
-  41 detectors, 319 tests, v0.1.33.
+  41 detectors, 351 tests, v0.1.33.
 - 🛰️ **[yunaremaia/openorbit](https://github.com/yunaremaia/openorbit)** — fork of
   [forthfate/openorbit](https://github.com/forthfate/openorbit). Open control plane
   for recurring AI automations: runners, workflows, evidence, supervision, and
@@ -164,9 +165,10 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | 2026-09-08 | [DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge) | [feat: add deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5) |
 | 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) |
+| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [refactor: modular architecture + PHP/Composer and Bun detectors (v0.1.23)](https://github.com/yunaremaia/driftcheck/pull/16) |
 | 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
 | 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
-| 2026-09-06 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat(detector): add lockfile drift detection (v0.1.24)](https://github.com/yunaremaia/driftcheck/pull/17) *(+9 more)* |
 <!-- yunare-dynamic:end -->
 
 ## Stack
