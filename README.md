@@ -9,7 +9,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 [![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.33-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
 [![Tests](https://img.shields.io/badge/tests-351%20passed-2ea44f?logo=pytest&logoColor=white)](https://github.com/yunaremaia/driftcheck)
-[![Detectors](https://img.shields.io/badge/detectors-41-0969da)](https://github.com/yunaremaia/driftcheck)
+[![Detectors](https://img.shields.io/badge/detectors-40-0969da)](https://github.com/yunaremaia/driftcheck)
 [![OpenOrbit](https://img.shields.io/badge/openorbit-v0.6.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/openorbit)
 [![aipr](https://img.shields.io/badge/aipr-v0.1.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/aipr)
 [![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
@@ -18,7 +18,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![ripgrep](https://img.shields.io/badge/contributor-sharkdp%2Fripgrep-006FC7?logo=rust&logoColor=white)](https://github.com/sharkdp/ripgrep)
 [![Biopython](https://img.shields.io/badge/contributor-biopython-3776AB?logo=python&logoColor=white)](https://github.com/biopython/biopython)
 [![Merged PRs](https://img.shields.io/badge/merged_prs-56+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Open PRs](https://img.shields.io/badge/open_prs-27-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
+[![Open PRs](https://img.shields.io/badge/open_prs-28-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -36,7 +36,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 | Followers | 51 |
 | Merged PRs | 56+ |
 | Open PRs | 28 |
-| Driftcheck detectors | 41 |
+| Driftcheck detectors | 40 |
 | Driftcheck tests | 351 |
 
 ## Now
@@ -84,7 +84,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   Elixir mix.exs, CMakeLists.txt, .circleci/config.yml, .gitlab-ci.yml,
   GitHub Actions versions, Kubernetes manifests, Helm charts, Swift Package.swift,
   Bun lockfiles, PHP/Composer, Ruby versions, environment files, and more).
-  41 detectors, 351 tests, v0.1.33.
+  40 detectors, 351 tests, v0.1.33.
 - 🛰️ **[yunaremaia/openorbit](https://github.com/yunaremaia/openorbit)** — fork of
   [forthfate/openorbit](https://github.com/forthfate/openorbit). Open control plane
   for recurring AI automations: runners, workflows, evidence, supervision, and
