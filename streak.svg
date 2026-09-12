@@ -8,12 +8,12 @@
   </style>
   <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" class="card"/>
   <text x="25" y="35" class="header">Yunare Maia's Contribution Streak</text>
-  <text x="25" y="80" class="stat">747</text>
+  <text x="25" y="80" class="stat">835</text>
   <text x="25" y="100" class="label">Total Contributions</text>
-  <text x="180" y="80" class="stat">22</text>
+  <text x="180" y="80" class="stat">23</text>
   <text x="180" y="100" class="label">Current Streak</text>
-  <text x="180" y="118" class="sub">Aug 21 - Sep 11</text>
-  <text x="340" y="80" class="stat">22</text>
+  <text x="180" y="118" class="sub">Aug 21 - Sep 12</text>
+  <text x="340" y="80" class="stat">23</text>
   <text x="340" y="100" class="label">Longest Streak</text>
-  <text x="25" y="175" class="sub">Generated 2026-09-11 16:22 UTC · self-hosted · always fresh</text>
+  <text x="25" y="175" class="sub">Generated 2026-09-12 15:27 UTC · self-hosted · always fresh</text>
 </svg>
