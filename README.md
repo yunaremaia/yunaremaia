@@ -198,12 +198,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
+| 2026-09-11 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [docs: add MkDocs documentation site (closes #18)](https://github.com/yunaremaia/driftcheck/pull/19) *(+8 more)* |
+| 2026-09-11 | [yunaremaia/Agentrace](https://github.com/yunaremaia/Agentrace) | [fix(parse): guard _ts against non-string timestamp values](https://github.com/yunaremaia/Agentrace/pull/1) |
 | 2026-09-08 | [AgentPostmortem/Agentrace](https://github.com/AgentPostmortem/Agentrace) | [fix(parse): guard _ts against non-string timestamp values](https://github.com/AgentPostmortem/Agentrace/pull/32) |
 | 2026-09-08 | [DaBestCode/JudgeGauge](https://github.com/DaBestCode/JudgeGauge) | [feat: add deterministic Markdown report renderer](https://github.com/DaBestCode/JudgeGauge/pull/5) |
 | 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
 | 2026-09-07 | [codeforstartups/dynavec](https://github.com/codeforstartups/dynavec) | [docs: add embedding dimension selection guide](https://github.com/codeforstartups/dynavec/pull/148) |
-| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/2155) |
-| 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
 <!-- yunare-dynamic:end -->
 
 ## Stack
