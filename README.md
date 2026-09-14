@@ -6,20 +6,20 @@ Open-source developer from Mossoró, Rio Grande do Norte — Brazil. I build too
 
 | Project | Description | Stack | Tests |
 |---------|-------------|-------|-------|
-| **[driftcheck](https://github.com/yunaremaia/driftcheck)** | Version drift detection between docs and toolchains | Python, 61 detectors | 1001+ |
-| **[taintrace](https://github.com/yunaremaia/taintrace)** | Typosquat detector for AI agent dependencies | Python, rapidfuzz | 32 |
-| **[agentcost](https://github.com/yunaremaia/agentcost)** | Token usage tracker for multi-agent AI sessions | Python, SQLite | 31 |
-| **[depscan](https://github.com/yunaremaia/depscan)** | Multi-ecosystem dependency scanner | Python, 5 ecosystems | 11 |
-| **[ghstats](https://github.com/yunaremaia/ghstats)** | GitHub stats dashboard for terminal | Python, Rich | — |
-| **[gfi](https://github.com/yunaremaia/gfi)** | Good first issue finder for contributors | Python, GitHub CLI | 10 |
-| **[memwatch](https://github.com/yunaremaia/memwatch)** | AI agent memory health monitor | Python, JSON/SQLite | — |
-| **[ci-test-gate](https://github.com/yunaremaia/ci-test-gate)** | LLM-powered test selection for CI | Python, 92% coverage | 111 |
-| **[diff-contract](https://github.com/yunaremaia/diff-contract)** | Deterministic guardrails for AI-generated diffs | Python | 21 |
-| **[aipr](https://github.com/yunaremaia/aipr)** | AI policy scanner for repositories | Python | 20 |
+| **[driftcheck](https://github.com/yunaremaia/driftcheck)** | Version drift detection between docs and toolchains | Python · 58 detectors | 1057 |
+| **[taintrace](https://github.com/yunaremaia/taintrace)** | Typosquat detector for AI agent dependencies | Python · rapidfuzz | 116 |
+| **[agentcost](https://github.com/yunaremaia/agentcost)** | Token usage tracker for multi-agent AI sessions | Python · SQLite | 64 |
+| **[depscan](https://github.com/yunaremaia/depscan)** | Multi-ecosystem dependency scanner | Python · 5 ecosystems | 13 |
+| **[ghstats](https://github.com/yunaremaia/ghstats)** | GitHub stats dashboard for terminal | Python · Rich | — |
+| **[gfi](https://github.com/yunaremaia/gfi)** | Good first issue finder for contributors | Python · GitHub CLI | 12 |
+| **[memwatch](https://github.com/yunaremaia/memwatch)** | AI agent memory health monitor | Python · JSON/SQLite | — |
+| **[ci-test-gate](https://github.com/yunaremaia/ci-test-gate)** | LLM-powered test selection for CI | Python · 92% coverage | 157 |
+| **[diff-contract](https://github.com/yunaremaia/diff-contract)** | Deterministic guardrails for AI-generated diffs | Python | 59 |
+| **[aipr](https://github.com/yunaremaia/aipr)** | AI policy scanner for repositories | Python | 37 |
 
 ## Badges
 
-[![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.44-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
+[![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.45-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
 [![taintrace](https://img.shields.io/badge/taintrace-v0.2.1-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/taintrace)
 [![agentcost](https://img.shields.io/badge/agentcost-v0.3.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/agentcost)
 [![depscan](https://img.shields.io/badge/depscan-v0.1.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/depscan)
@@ -27,10 +27,11 @@ Open-source developer from Mossoró, Rio Grande do Norte — Brazil. I build too
 [![gfi](https://img.shields.io/badge/gfi-v0.1.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/gfi)
 [![memwatch](https://img.shields.io/badge/memwatch-v0.1.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/memwatch)
 [![ci-test-gate](https://img.shields.io/badge/ci--test--gate-v0.1.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/ci-test-gate)
-[![diff-contract](https://img.shields.io/badge/diff--contract-v0.1.0-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/diff-contract)
+[![diff-contract](https://img.shields.io/badge/diff--contract-v0.1.1-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/diff-contract)
 [![aipr](https://img.shields.io/badge/aipr-v0.2.2-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/aipr)
-[![Merged PRs](https://img.shields.io/badge/merged_prs-57+-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Open PRs](https://img.shields.io/badge/open_prs-10-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_prs-65-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Open PRs](https://img.shields.io/badge/open_prs-0-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests)
+[![Total Tests](https://img.shields.io/badge/total_tests-1515-2ea44f?logo=pytest)](https://github.com/yunaremaia)
 
 ## Quick Stats
 
@@ -39,9 +40,11 @@ Open-source developer from Mossoró, Rio Grande do Norte — Brazil. I build too
 | Original projects | 10 |
 | Forks (contributing to upstream) | 75+ |
 | Followers | 51 |
-| Merged PRs | 57+ |
-| Open PRs | 10 |
-| Total tests across projects | 1200+ |
+| Following | 6 |
+| Public repos | 112 |
+| Merged PRs | 65 |
+| Open PRs | 0 |
+| Total tests across projects | 1515 |
 
 ## Focus Areas
 
@@ -53,10 +56,10 @@ Open-source developer from Mossoró, Rio Grande do Norte — Brazil. I build too
 
 ## Featured Contributions
 
-- 🔍 **[driftcheck](https://github.com/yunaremaia/driftcheck)** — 61 detectors, 1001+ tests, v0.1.44
-- 🛡️ **[taintrace](https://github.com/yunaremaia/taintrace)** — typosquat detection for AI agent dependencies
-- 💰 **[agentcost](https://github.com/yunaremaia/agentcost)** — token usage tracking for multi-agent sessions
-- 📦 **[depscan](https://github.com/yunaremaia/depscan)** — Cargo, npm, PyPI, Go, PHP scanning
+- **driftcheck** — 58 detectors, 1057 tests, v0.1.45
+- **[taintrace](https://github.com/yunaremaia/taintrace)** — typosquat detection for AI agent dependencies
+- **[agentcost](https://github.com/yunaremaia/agentcost)** — token usage tracking for multi-agent sessions
+- **[depscan](https://github.com/yunaremaia/depscan)** — Cargo, npm, PyPI, Go, PHP scanning
 - 🏛️ **[apache/maka](https://github.com/apache/maka)** — 6+ merged PRs (agent runtime)
 - ⚡ **[modular/modular](https://github.com/modular/modular)** — Mojo stdlib test modernization
 - 🔎 **[sharkdp/bat](https://github.com/sharkdp/bat)** — MSRV documentation updates
@@ -78,4 +81,4 @@ Open-source developer from Mossoró, Rio Grande do Norte — Brazil. I build too
 
 ---
 
-*Profile refreshed daily by automation — stats pulled live from GitHub API.*
+*Profile refreshed daily — stats pulled live from GitHub API.*
