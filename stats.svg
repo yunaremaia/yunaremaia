@@ -13,11 +13,11 @@
   </style>
   <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" class="card"/>
   <text x="25" y="35" class="header">Yunare Maia's GitHub Stats</text>
-  <text x="25" y="70" class="stat">37</text><text x="90" y="70" class="label">Original projects</text>
-  <text x="250" y="70" class="stat">95</text><text x="320" y="70" class="label">Forks (contributing)</text>
-  <text x="25" y="105" class="stat">125</text><text x="90" y="105" class="label">Merged PRs (all time)</text>
-  <text x="250" y="105" class="stat">107</text><text x="320" y="105" class="label">Merged last 30 days</text>
-  <text x="25" y="140" class="stat">6</text><text x="90" y="140" class="label">Open pull requests</text>
+  <text x="25" y="70" class="stat">39</text><text x="90" y="70" class="label">Original projects</text>
+  <text x="250" y="70" class="stat">94</text><text x="320" y="70" class="label">Forks (contributing)</text>
+  <text x="25" y="105" class="stat">128</text><text x="90" y="105" class="label">Merged PRs (all time)</text>
+  <text x="250" y="105" class="stat">110</text><text x="320" y="105" class="label">Merged last 30 days</text>
+  <text x="25" y="140" class="stat">5</text><text x="90" y="140" class="label">Open pull requests</text>
   <text x="250" y="140" class="stat">29</text><text x="320" y="140" class="label">Stars earned</text>
-  <text x="25" y="175" class="label">Generated 2026-09-20 12:35 UTC · self-hosted · always fresh</text>
+  <text x="25" y="175" class="label">Generated 2026-09-20 15:58 UTC · self-hosted · always fresh</text>
 </svg>
