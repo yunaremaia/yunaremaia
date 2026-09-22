@@ -16,8 +16,8 @@
   <text x="25" y="70" class="stat">41</text><text x="90" y="70" class="label">Original projects</text>
   <text x="250" y="70" class="stat">94</text><text x="320" y="70" class="label">Forks (contributing)</text>
   <text x="25" y="105" class="stat">140</text><text x="90" y="105" class="label">Merged PRs (all time)</text>
-  <text x="250" y="105" class="stat">122</text><text x="320" y="105" class="label">Merged last 30 days</text>
+  <text x="250" y="105" class="stat">121</text><text x="320" y="105" class="label">Merged last 30 days</text>
   <text x="25" y="140" class="stat">4</text><text x="90" y="140" class="label">Open pull requests</text>
-  <text x="250" y="140" class="stat">29</text><text x="320" y="140" class="label">Stars earned</text>
-  <text x="25" y="175" class="label">Generated 2026-09-21 18:11 UTC · self-hosted · always fresh</text>
+  <text x="250" y="140" class="stat">30</text><text x="320" y="140" class="label">Stars earned</text>
+  <text x="25" y="175" class="label">Generated 2026-09-22 16:50 UTC · self-hosted · always fresh</text>
 </svg>
