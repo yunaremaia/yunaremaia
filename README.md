@@ -1,6 +1,6 @@
 # Yunare Maia 🇧🇷
 
-**Open-source developer from Mossoró, Rio Grande do Norte, Brazil.** Building developer infrastructure for the AI era: drift detection, dependency security, agent observability, and CLI tooling that keeps humans in control of automated pipelines.
+**Open-source developer from Mossoró, Rio Grande do Norte, Brazil.** Building developer infrastructure for the AI era: drift detection, dependency security, agent safety, and CLI tooling that keeps humans in control of automated pipelines.
 
 ---
 
@@ -44,6 +44,7 @@
 | Merged PRs | 125+ |
 | Total tests | 1750+ |
 | Stars received | 29 |
+| Followers | 57 |
 | Current streak | see card below |
 | Primary language | Python |
 
@@ -94,5 +95,5 @@ Contributions to **apache/maka**, **modular/modular**, **sharkdp/bat**, **biopyt
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-1750%2B-green?logo=pytest)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-125+-blue)
-![Followers](https://img.shields.io/badge/followers-56-0969da)
+![Followers](https://img.shields.io/badge/followers-57-0969da)
 ![Open source first](https://img.shields.io/badge/open--source--first-FF6B6B?logo=opensourceinitiative)
