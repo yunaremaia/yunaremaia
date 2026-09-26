@@ -87,20 +87,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
-| 2026-09-18 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [fix: replace hand-rolled TOML parser with tomllib (fixes #151)](https://github.com/yunaremaia/driftcheck/pull/157) |
-| 2026-09-18 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat: add driftcheck init subcommand with auto-detection](https://github.com/yunaremaia/driftcheck/pull/142) |
-| 2026-09-18 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [security: prevent absolute path leakage in SARIF output (issue #133)](https://github.com/yunaremaia/driftcheck/pull/138) |
-| 2026-09-18 | [yunaremaia/aipr](https://github.com/yunaremaia/aipr) | [perf(detector): cache detect_policy + fix CI indentation (fixes #47)](https://github.com/yunaremaia/aipr/pull/56) |
-| 2026-09-18 | [yunaremaia/agentcost](https://github.com/yunaremaia/agentcost) | [feat: add SQLite persistence layer for historical cost tracking (fixes #65)](https://github.com/yunaremaia/agentcost/pull/65) |
-| 2026-09-18 | [yunaremaia/vibeguard](https://github.com/yunaremaia/vibeguard) | [docs: API reference for scanner, formatters, CLI (resubmit of #19)](https://github.com/yunaremaia/vibeguard/pull/27) |
-| 2026-09-18 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [feat: add GitHub CLI extension mode (gh gfi) (fixes #31)](https://github.com/yunaremaia/gfi/pull/31) |
-| 2026-09-16 | [agentguard-ai/tealtiger](https://github.com/agentguard-ai/tealtiger) | [feat(mcp): add detect_secrets tool and redact_secrets utility](https://github.com/agentguard-ai/tealtiger/pull/1) |
-| 2026-09-14 | [kelviq/tare](https://github.com/kelviq/tare) | [feat: add Cursor log parsing support to tare](https://github.com/kelviq/tare/pull/11) |
-| 2026-09-14 | [ray-project/kuberay](https://github.com/ray-project/kuberay) | [fix(compression): remove unused DecompressStream to clear gosec G110](https://github.com/ray-project/kuberay/pull/5286) |
-| 2026-09-08 | [cgrtml/neural-trees](https://github.com/cgrtml/neural-trees) | [feat: migrate packaging to pyproject.toml and wire ruff into CI](https://github.com/cgrtml/neural-trees/pull/46) |
-| 2026-09-06 | [rancher/dashboard](https://github.com/rancher/dashboard) | [fix: support IPv6 CIDR in isValidCIDR validator](https://github.com/rancher/dashboard/pull/19043) |
-| 2026-09-06 | [oras-project/oras](https://github.com/oras-project/oras) | [fix(ci): resolve licenserc go.mod path relative to config directory](https://github.com/oras-project/oras/pull/1) |
-| 2026-09-06 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [chore(ci): migrate GitHub Actions off deprecated Node 20 runtime](https://github.com/THU-MAIC/OpenMAIC/pull/1343) |
+| 2026-09-26 | [yunaremaia/agent-guard](https://github.com/yunaremaia/agent-guard) | [security: add path traversal protection to _normalize_path](https://github.com/yunaremaia/agent-guard/pull/153) *(+2 more)* |
+| 2026-09-26 | [yunaremaia/aipr](https://github.com/yunaremaia/aipr) | [fix(ci): update GitHub Actions to known-stable versions](https://github.com/yunaremaia/aipr/pull/128) *(+2 more)* |
+| 2026-09-26 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [fix(tests): correct _search_repo call signature](https://github.com/yunaremaia/gfi/pull/57) *(+1 more)* |
+| 2026-09-26 | [yunaremaia/memwatch](https://github.com/yunaremaia/memwatch) | [security: add FTS5 query injection and table name validation](https://github.com/yunaremaia/memwatch/pull/70) |
+| 2026-09-26 | [yunaremaia/prompt-drift](https://github.com/yunaremaia/prompt-drift) | [fix: replace invalid PyPI classifier 'Topic :: Artificial Intelligence'](https://github.com/yunaremaia/prompt-drift/pull/7) |
+| 2026-09-26 | [yunaremaia/depscan](https://github.com/yunaremaia/depscan) | [ci: enhance workflow with matrix and coverage](https://github.com/yunaremaia/depscan/pull/188) *(+1 more)* |
 <!-- yunare-dynamic:end -->
 
 ## Stack
