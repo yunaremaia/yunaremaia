@@ -12,7 +12,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![anchore/syft](https://img.shields.io/badge/contributor-anchore%2Fsyft-239BBA?logo=linux&logoColor=white)](https://github.com/anchore/syft)
 [![LMCache](https://img.shields.io/badge/contributor-LMCache%2FLMCache-FF6F00?logo=redis&logoColor=white)](https://github.com/LMCache/LMCache)
-[![Merged PRs](https://img.shields.io/badge/merged_prs-80-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_prs-160-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -81,6 +81,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   vulnerability reporting
 - 🔤 **Encoding & Unicode correctness** — UTF-8 sanitization, Windows code-page
   edge cases, `std::error_code` formatter robustness (C++)
+- 🤖 **AI agent safety** — policy-as-code permissions (agent-guard), security
+  scanning for AI-generated code (vibeguard), MCP server audits (mcp-guard),
+  memory health monitoring (memwatch), CLI output filtering (leanpipe)
+- 🔄 **Agent state & observability** — checkpoint/recovery (agent-checkpoint),
+  session memory (context-bridge), token tracking (agentcost), worktree
+  isolation (agent-workspace), tool-call rollback (agent-undo)
 
 ## Recent merged work
 
@@ -124,20 +130,32 @@ If my open-source work saves you time, you can support it here:
 | [aipr](https://github.com/yunaremaia/aipr) | AI contribution policy scanner for repositories — CI exit codes for humans and agents; detects AI policy gates pre-flight | Python | 37 |
 | [vibeguard](https://github.com/yunaremaia/vibeguard) | Security scanner for AI-generated code — shell injection, ReDoS, symlink traversal detection | Python | — |
 | [mcp-guard](https://github.com/yunaremaia/mcp-guard) | Security scanner for MCP servers — audit capabilities, detect risks, generate SARIF reports | Python | — |
+| [agent-undo](https://github.com/yunaremaia/agent-undo) | Record and rollback AI agent operations — file writes, shell commands, git ops, API calls. Time-machine for AI agent actions | Python | — |
+| [agent-checkpoint](https://github.com/yunaremaia/agent-checkpoint) | Crash recovery preserving exact AI agent state — decisions, reasoning log, accumulated context — with deterministic resume | Python | — |
+| [agent-workspace](https://github.com/yunaremaia/agent-workspace) | Git worktree manager for parallel AI agents | Python | — |
+| [context-bridge](https://github.com/yunaremaia/context-bridge) | Universal session memory for AI agents — capture, index, recall across any AI coding agent | Python | — |
 | [leanpipe](https://github.com/yunaremaia/leanpipe) | CLI output filter for AI agents — strip noise, keep signal, save tokens | Python | — |
 | [memwatch](https://github.com/yunaremaia/memwatch) | Agent Memory Health Monitor — scan AI agent memory stores for rot, contradictions, and duplicates | Python | — |
 | [ghstats](https://github.com/yunaremaia/ghstats) | GitHub Stats Dashboard — visualize contributions, PRs, and activity from the terminal | Python | — |
 | [gfi](https://github.com/yunaremaia/gfi) | Good First Issue finder — search and filter GitHub issues for contributors | Python | — |
+| [a2a-drift](https://github.com/yunaremaia/a2a-drift) | Detect A2A (Agent2Agent) protocol compliance drift — agent cards, endpoints, spec versions, JSON-RPC conformance | Python | — |
+| [agent-behavior-drift](https://github.com/yunaremaia/agent-behavior-drift) | Detect behavioral drift in AI agent sessions — tool-call patterns, output quality, decision anomalies | Python | — |
+| [ci-sandbox](https://github.com/yunaremaia/ci-sandbox) | Local CI pipeline simulator — see what runs and what skips without executing anything | Python | — |
+| [cli-shim](https://github.com/yunaremaia/cli-shim) | Universal Agent-Native CLI Adapter — makes legacy CLIs agent-friendly | Python | — |
+| [mcp-reconcile](https://github.com/yunaremaia/mcp-reconcile) | Cross-tool MCP configuration drift detection and reconciliation | Python | — |
+| [oss-contribution-finder](https://github.com/yunaremaia/oss-contribution-finder) | Find open-source contribution opportunities via GitHub API | Python | — |
 
 ---
 
 ## Focus Areas
 
-- **Drift Detection** — version drift between documentation and actual toolchain files across 14+ ecosystems (Maven, Terraform, CircleCI, GitLab CI, GitHub Actions, Kubernetes, Helm, Docker Compose, Dependabot, .NET/C#, Taskfile, Gradle, pip, npm, Node 20→24 Actions migration)
-- **Dependency Security** — typosquat detection (taintrace), multi-ecosystem vulnerability scanning (depscan), supply-chain risk analysis
+- **Drift Detection** — version drift between documentation and actual toolchain files across 14+ ecosystems (Maven, Terraform, CircleCI, GitLab CI, GitHub Actions, Kubernetes, Helm, Docker Compose, Dependabot, .NET/C#, Taskfile, Gradle, pip, npm, Node 20→24 Actions migration, A2A protocol)
+- **Dependency Security** — typosquat detection (taintrace), multi-ecosystem vulnerability scanning (depscan), supply-chain risk analysis, license drift detection
 - **AI Agent Safety** — policy-as-code permissions with runtime enforcement (agent-guard), security scanning for AI-generated code (vibeguard), MCP server audits (mcp-guard), memory health monitoring (memwatch), CLI output filtering (leanpipe)
-- **CI/CD Intelligence** — LLM-powered test selection (ci-test-gate), deterministic diff guardrails (diff-contract), AI policy gates for CI (aipr)
-- **Agent Observability** — token usage tracking (agentcost), universal CLI adapters (cli-shim), session memory bridging (context-bridge)
+- **CI/CD Intelligence** — LLM-powered test selection (ci-test-gate), deterministic diff guardrails (diff-contract), AI policy gates for CI (aipr), local CI simulation (ci-sandbox), CI gate drift watch (ci-gate-watch)
+- **Agent Observability & State** — token usage tracking (agentcost), universal CLI adapters (cli-shim), session memory bridging (context-bridge), crash recovery with state preservation (agent-checkpoint), worktree isolation (agent-workspace), tool-call rollback (agent-undo), behavioral drift detection (agent-behavior-drift), capability attestation (agent-capability-attestation)
+- **Protocol & Standards Compliance** — A2A protocol drift detection (a2a-drift), MCP configuration reconciliation (mcp-reconcile), MCP response guard (mcp-response-guard), protobuf/gRPC drift (proto-drift)
+- **Developer Experience** — good first issue finder (gfi), GitHub stats dashboard (ghstats), OSS contribution finder (oss-contribution-finder), prompt drift detection (prompt-drift), env drift detection (env-drift)
 
 ---
 
@@ -147,7 +165,7 @@ If my open-source work saves you time, you can support it here:
 |--------|-------|
 | Public repos | 136 |
 | Original projects | 28+ |
-| Merged PRs | 125+ |
+| Merged PRs | 160+ |
 | Total tests | 1750+ |
 | Stars received | 29 |
 | Followers | 57 |
@@ -166,7 +184,7 @@ If my open-source work saves you time, you can support it here:
 
 ## Upstream Contributions
 
-Contributions to **apache/maka**, **modular/modular**, **sharkdp/bat**, **biopython/biopython**, **SeaQL/sea-orm**, **upscayl/upscayl**, and several others. Focus on actionable fixes: version drift, docs sync, test improvements, and CI hardening.
+Contributions to **apache/maka**, **modular/modular**, **sharkdp/bat**, **biopython/biopython**, **SeaQL/sea-orm**, **upscayl/upscayl**, **anchore/syft**, **LMCache/LMCache**, **karmada-io/karmada**, **ray-project/kuberay**, and several others. Focus on actionable fixes: version drift, docs sync, test improvements, and CI hardening.
 
 ---
 
@@ -200,6 +218,6 @@ Contributions to **apache/maka**, **modular/modular**, **sharkdp/bat**, **biopyt
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-1750%2B-green?logo=pytest)
-![Merged PRs](https://img.shields.io/badge/merged_PRs-125+-blue)
+![Merged PRs](https://img.shields.io/badge/merged_PRs-160+-blue)
 ![Followers](https://img.shields.io/badge/followers-57-0969da)
 ![Open source first](https://img.shields.io/badge/open--source--first-FF6B6B?logo=opensourceinitiative)
