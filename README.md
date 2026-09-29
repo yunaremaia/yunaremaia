@@ -144,6 +144,23 @@ If my open-source work saves you time, you can support it here:
 | [cli-shim](https://github.com/yunaremaia/cli-shim) | Universal Agent-Native CLI Adapter — makes legacy CLIs agent-friendly | Python | — |
 | [mcp-reconcile](https://github.com/yunaremaia/mcp-reconcile) | Cross-tool MCP configuration drift detection and reconciliation | Python | — |
 | [oss-contribution-finder](https://github.com/yunaremaia/oss-contribution-finder) | Find open-source contribution opportunities via GitHub API | Python | — |
+| [agent-capability-attestation](https://github.com/yunaremaia/agent-capability-attestation) | Capability attestation for AI agents — verify declared capabilities against observed behavior | Python | — |
+| [env-drift](https://github.com/yunaremaia/env-drift) | Environment variable drift detection — `.env` vs actual runtime config | Python | — |
+| [prompt-drift](https://github.com/yunaremaia/prompt-drift) | Prompt template drift detection — detect changes in prompt chains across versions | Python | — |
+| [proto-drift](https://github.com/yunaremaia/proto-drift) | Protobuf/gRPC schema drift detection — breaking changes in .proto files | Python | — |
+| [license-drift](https://github.com/yunaremaia/license-drift) | License header drift detection — missing or stale SPDX headers in source files | Python | — |
+| [dotfiles-drift](https://github.com/yunaremaia/dotfiles-drift) | Dotfiles configuration drift detection — sync dotfiles across machines | Python | — |
+| [ci-gate-watch](https://github.com/yunaremaia/ci-gate-watch) | CI gate drift watch — detect when required CI checks change or disappear | Python | — |
+| [mcp-response-guard](https://github.com/yunaremaia/mcp-response-guard) | MCP response guard — validate MCP server responses against declared schemas | Python | — |
+| [agent-memory](https://github.com/yunaremaia/agent-memory) | Structured memory for AI agents — persistent key-value with TTL and namespaces | Python | — |
+| [agent-call-graph](https://github.com/yunaremaia/agent-call-graph) | Call graph visualization for AI agent tool invocations | Python | — |
+| [ai-reputation-guard](https://github.com/yunaremaia/ai-reputation-guard) | Reputation scoring for AI-generated contributions — detect low-effort patterns | Python | — |
+| [tool-call-retry](https://github.com/yunaremaia/tool-call-retry) | Retry logic with backoff for AI agent tool calls | Python | — |
+| [migrate-safe](https://github.com/yunaremaia/migrate-safe) | Safe migration runner for AI agent state across versions | Python | — |
+| [org-policy-drift](https://github.com/yunaremaia/org-policy-drift) | Organization policy drift detection — enforce consistency across repos | Python | — |
+| [acc-mcp](https://github.com/yunaremaia/acc-mcp) | MCP server for accessibility testing | Python | — |
+| [sandbox-ffi-layers](https://github.com/yunaremaia/sandbox-ffi-layers) | FFI sandboxing layers for secure AI agent execution | Rust | — |
+| [git-api](https://github.com/yunaremaia/git-api) | Git API wrapper for AI agents | Python | — |
 
 ---
 
@@ -164,7 +181,7 @@ If my open-source work saves you time, you can support it here:
 | Metric | Value |
 |--------|-------|
 | Public repos | 136 |
-| Original projects | 28+ |
+| Original projects | 37 |
 | Merged PRs | 160+ |
 | Total tests | 1750+ |
 | Stars received | 29 |
