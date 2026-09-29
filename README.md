@@ -12,7 +12,9 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![anchore/syft](https://img.shields.io/badge/contributor-anchore%2Fsyft-239BBA?logo=linux&logoColor=white)](https://github.com/anchore/syft)
 [![LMCache](https://img.shields.io/badge/contributor-LMCache%2FLMCache-FF6F00?logo=redis&logoColor=white)](https://github.com/LMCache/LMCache)
-[![Merged PRs](https://img.shields.io/badge/merged_prs-160-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-8A2BE2?logo=c%2B%2B&logoColor=white)](https://github.com/fmtlib/fmt)
+[![VoiceStudio](https://img.shields.io/badge/contributor-VoiceStudio%2FVoiceStudio-00D4AA?logo=soundcloud&logoColor=white)](https://github.com/VoiceStudio/VoiceStudio)
+[![Merged PRs](https://img.shields.io/badge/merged_prs-169-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -180,9 +182,9 @@ If my open-source work saves you time, you can support it here:
 
 | Metric | Value |
 |--------|-------|
-| Public repos | 136 |
-| Original projects | 37 |
-| Merged PRs | 160+ |
+| Public repos | 137 |
+|| Original projects | 43 |
+|| Merged PRs | 169 |
 | Total tests | 1750+ |
 | Stars received | 29 |
 | Followers | 57 |
