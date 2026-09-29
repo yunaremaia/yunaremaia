@@ -93,11 +93,11 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
+| 2026-09-29 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat: detect Python target drift inside pyproject.toml tool tables](https://github.com/yunaremaia/driftcheck/pull/442) *(+9 more)* |
 | 2026-09-27 | [yunaremaia/ci-test-gate](https://github.com/yunaremaia/ci-test-gate) | [ci: update github-script to v8 for Node 24 runner compatibility](https://github.com/yunaremaia/ci-test-gate/pull/92) |
-| 2026-09-27 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [docs: add SECURITY.md with security policy and reporting guidance](https://github.com/yunaremaia/driftcheck/pull/362) *(+3 more)* |
 | 2026-09-27 | [yunaremaia/agent-undo](https://github.com/yunaremaia/agent-undo) | [feat: add rollback simulation/dry-run mode with diff preview and command list (#](https://github.com/yunaremaia/agent-undo/pull/49) |
-| 2026-09-27 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [feat: add persistent seen-issue tracking with URL-based dedup and deterministic ](https://github.com/yunaremaia/gfi/pull/59) *(+2 more)* |
-| 2026-09-26 | [yunaremaia/agent-guard](https://github.com/yunaremaia/agent-guard) | [security: add path traversal protection to _normalize_path](https://github.com/yunaremaia/agent-guard/pull/153) *(+1 more)* |
+| 2026-09-27 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [feat: add persistent seen-issue tracking with URL-based dedup and deterministic ](https://github.com/yunaremaia/gfi/pull/59) *(+1 more)* |
+| 2026-09-26 | [yunaremaia/agent-guard](https://github.com/yunaremaia/agent-guard) | [security: add path traversal protection to _normalize_path](https://github.com/yunaremaia/agent-guard/pull/153) |
 | 2026-09-26 | [yunaremaia/aipr](https://github.com/yunaremaia/aipr) | [fix(ci): update GitHub Actions to known-stable versions](https://github.com/yunaremaia/aipr/pull/128) |
 <!-- yunare-dynamic:end -->
 
