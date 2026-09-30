@@ -30,10 +30,8 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   developer tooling, security scanners, and upstream reproducibility — including
   driftcheck lint hardening, Go lint pass, and GitHub Actions CI hygiene.
   Currently in flight:
-  - `yunaremaia/driftcheck#160` — add ruff and mypy linting to CI workflow (fixes #148)
-  - `anchore/syft#5302` — skip docker:// references in github-actions PURL generation
-  - `LMCache/LMCache#5211` — remove stale G004 ignores for clean connector adapters
-  - `karmada-io/karmada#7898` — remove retired Go Report Card badge from README
+  - `yunaremaia/driftcheck#364` — add unified Python version drift detector
+  - `yunaremaia/ci-sandbox#80` — add SECURITY.md with security policy and reporting guidance
   - `ray-project/kuberay#5286` — remove unused DecompressStream to clear gosec G110
 - **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
   or see the highlights below.
@@ -237,6 +235,6 @@ Contributions to **apache/maka**, **modular/modular**, **sharkdp/bat**, **biopyt
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-1750%2B-green?logo=pytest)
-![Merged PRs](https://img.shields.io/badge/merged_PRs-160+-blue)
+![Merged PRs](https://img.shields.io/badge/merged_PRs-169-blue)
 ![Followers](https://img.shields.io/badge/followers-57-0969da)
 ![Open source first](https://img.shields.io/badge/open--source--first-FF6B6B?logo=opensourceinitiative)
