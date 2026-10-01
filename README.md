@@ -90,12 +90,12 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
-| 2026-09-29 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [feat: detect Python target drift inside pyproject.toml tool tables](https://github.com/yunaremaia/driftcheck/pull/442) *(+9 more)* |
-| 2026-09-27 | [yunaremaia/ci-test-gate](https://github.com/yunaremaia/ci-test-gate) | [ci: update github-script to v8 for Node 24 runner compatibility](https://github.com/yunaremaia/ci-test-gate/pull/92) |
-| 2026-09-27 | [yunaremaia/agent-undo](https://github.com/yunaremaia/agent-undo) | [feat: add rollback simulation/dry-run mode with diff preview and command list (#](https://github.com/yunaremaia/agent-undo/pull/49) |
-| 2026-09-27 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [feat: add persistent seen-issue tracking with URL-based dedup and deterministic ](https://github.com/yunaremaia/gfi/pull/59) *(+1 more)* |
-| 2026-09-26 | [yunaremaia/agent-guard](https://github.com/yunaremaia/agent-guard) | [security: add path traversal protection to _normalize_path](https://github.com/yunaremaia/agent-guard/pull/153) |
-| 2026-09-26 | [yunaremaia/aipr](https://github.com/yunaremaia/aipr) | [fix(ci): update GitHub Actions to known-stable versions](https://github.com/yunaremaia/aipr/pull/128) |
+| 2026-10-01 | [yunaremaia/a2a-drift](https://github.com/yunaremaia/a2a-drift) | [fix: match protocolVersion by major.minor instead of substring](https://github.com/yunaremaia/a2a-drift/pull/27) *(+1 more)* |
+| 2026-10-01 | [yunaremaia/depscan](https://github.com/yunaremaia/depscan) | [fix(ci): add missing pytest-cov dep and drop duplicate test class](https://github.com/yunaremaia/depscan/pull/221) *(+1 more)* |
+| 2026-10-01 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [fix(ci): serialize the Pages deployment so merged batches do not race](https://github.com/yunaremaia/driftcheck/pull/452) *(+2 more)* |
+| 2026-10-01 | [yunaremaia/cli-shim](https://github.com/yunaremaia/cli-shim) | [build: migrate packaging metadata to pyproject.toml](https://github.com/yunaremaia/cli-shim/pull/65) |
+| 2026-10-01 | [yunaremaia/oss-contribution-finder](https://github.com/yunaremaia/oss-contribution-finder) | [build: complete project metadata for PyPI publishing](https://github.com/yunaremaia/oss-contribution-finder/pull/59) |
+| 2026-10-01 | [yunaremaia/mcp-guard](https://github.com/yunaremaia/mcp-guard) | [build: complete project metadata for PyPI publishing](https://github.com/yunaremaia/mcp-guard/pull/78) |
 <!-- yunare-dynamic:end -->
 
 ## Stack
