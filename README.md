@@ -7,14 +7,14 @@ runtimes, security scanners, and developer tooling: AI-policy classification,
 vulnerability reporting, CLI ergonomics, and the CI hygiene that keeps big repos
 mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
-[![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.46-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
+[![driftcheck](https://img.shields.io/badge/driftcheck-v0.1.47-2ea44f?logo=python&logoColor=white)](https://github.com/yunaremaia/driftcheck)
 [![Apache Maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
 [![Modular Mojo](https://img.shields.io/badge/contributor-modular%2Fmodular-black?logo=mojo&logoColor=white)](https://github.com/modular/modular)
 [![anchore/syft](https://img.shields.io/badge/contributor-anchore%2Fsyft-239BBA?logo=linux&logoColor=white)](https://github.com/anchore/syft)
 [![LMCache](https://img.shields.io/badge/contributor-LMCache%2FLMCache-FF6F00?logo=redis&logoColor=white)](https://github.com/LMCache/LMCache)
 [![fmt](https://img.shields.io/badge/contributor-fmtlib%2Ffmt-8A2BE2?logo=c%2B%2B&logoColor=white)](https://github.com/fmtlib/fmt)
 [![VoiceStudio](https://img.shields.io/badge/contributor-VoiceStudio%2FVoiceStudio-00D4AA?logo=soundcloud&logoColor=white)](https://github.com/VoiceStudio/VoiceStudio)
-[![Merged PRs](https://img.shields.io/badge/merged_prs-169-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_prs-200-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-0969da)](mailto:yunare@gmail.com)
 
 <div align="center">
@@ -27,13 +27,9 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 ## Now
 
 - **Open PRs:** [open pull requests](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests) across
-  developer tooling, security scanners, and upstream reproducibility — including
-  driftcheck A2A protocol drift detector, Python version drift detector, and GitHub Actions CI hygiene.
-  Currently in flight:
-  - `yunaremaia/driftcheck#444` — integrate A2A protocol drift detector into scan_repo
-  - `yunaremaia/driftcheck#364` — add unified Python version drift detector
-  - `yunaremaia/ci-sandbox#80` — add SECURITY.md with security policy and reporting guidance
+  developer tooling, security scanners, and upstream reproducibility. Currently in flight:
   - `ray-project/kuberay#5286` — remove unused DecompressStream to clear gosec G110
+  - `yunaremaia/context-bridge#109` — add Python 3.13 to the test matrix
 - **Recently merged:** [browse the live search](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
   or see the highlights below.
 
@@ -43,7 +39,7 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
   Detects version drift between docs and toolchain files (README vs Dockerfile,
   build.gradle, pom.xml, versions.tf, .circleci/config.yml, .gitlab-ci.yml,
   GitHub Actions versions, Kubernetes manifests, Helm charts, Taskfiles, and more).
-  64 detector modules, 1198+ tests, 25+ drift types.
+  86 detector modules, 1516 tests, 25+ drift types.
 - 🛡️ **[yunaremaia/aipr](https://github.com/yunaremaia/aipr)** — AI-policy pre-screening
   for contributors: classifies CONTRIBUTING/AI_POLICY/AGENTS docs and flags repos that
   require human-in-the-loop disclosure before you invest hours building a PR.
@@ -121,7 +117,7 @@ If my open-source work saves you time, you can support it here:
 
 | Project | What it does | Stack | Tests |
 |---------|-------------|-------|-------|
-| [driftcheck](https://github.com/yunaremaia/driftcheck) | 82 detectors for version drift between docs and toolchain files — Dockerfile, go.mod, rust-toolchain, package.json, Taskfile, Gradle, .NET/C#, Node 20→24 Actions, A2A protocol, and more. `--fix` mode + SARIF output | Python · pytest | 1453 |
+| [driftcheck](https://github.com/yunaremaia/driftcheck) | 86 detectors for version drift between docs and toolchain files — Dockerfile, go.mod, rust-toolchain, package.json, Taskfile, Gradle, .NET/C#, Node 20→24 Actions, A2A protocol, and more. `--fix` mode + SARIF output | Python · pytest | 1453 |
 | [taintrace](https://github.com/yunaremaia/taintrace) | Typosquat detector for package managers — catches malicious lookalike names before they reach your lockfile | Python · rapidfuzz | 116 |
 | [agent-guard](https://github.com/yunaremaia/agent-guard) | Policy-as-code for AI agent permissions — define bounded permissions in YAML, enforce at runtime with shell injection, ReDoS, and symlink path-traversal prevention | Python · YAML | — |
 | [agentcost](https://github.com/yunaremaia/agentcost) | Token usage tracker for multi-agent AI sessions — per-agent, per-run cost breakdowns with SQLite persistence | Python · SQLite | 64 |
