@@ -28,8 +28,9 @@ mergeable. Steady, reproducible, reviewed — one focused PR at a time.
 
 - **Open PRs:** [open pull requests](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests) across
   developer tooling, security scanners, and upstream reproducibility — including
-  driftcheck lint hardening, Go lint pass, and GitHub Actions CI hygiene.
+  driftcheck A2A protocol drift detector, Python version drift detector, and GitHub Actions CI hygiene.
   Currently in flight:
+  - `yunaremaia/driftcheck#444` — integrate A2A protocol drift detector into scan_repo
   - `yunaremaia/driftcheck#364` — add unified Python version drift detector
   - `yunaremaia/ci-sandbox#80` — add SECURITY.md with security policy and reporting guidance
   - `ray-project/kuberay#5286` — remove unused DecompressStream to clear gosec G110
@@ -120,7 +121,7 @@ If my open-source work saves you time, you can support it here:
 
 | Project | What it does | Stack | Tests |
 |---------|-------------|-------|-------|
-| [driftcheck](https://github.com/yunaremaia/driftcheck) | 61 detectors for version drift between docs and toolchain files — Dockerfile, go.mod, rust-toolchain, package.json, Taskfile, Gradle, .NET/C#, Node 20→24 Actions, and more. `--fix` mode + SARIF output | Python · pytest | 1308 |
+| [driftcheck](https://github.com/yunaremaia/driftcheck) | 82 detectors for version drift between docs and toolchain files — Dockerfile, go.mod, rust-toolchain, package.json, Taskfile, Gradle, .NET/C#, Node 20→24 Actions, A2A protocol, and more. `--fix` mode + SARIF output | Python · pytest | 1453 |
 | [taintrace](https://github.com/yunaremaia/taintrace) | Typosquat detector for package managers — catches malicious lookalike names before they reach your lockfile | Python · rapidfuzz | 116 |
 | [agent-guard](https://github.com/yunaremaia/agent-guard) | Policy-as-code for AI agent permissions — define bounded permissions in YAML, enforce at runtime with shell injection, ReDoS, and symlink path-traversal prevention | Python · YAML | — |
 | [agentcost](https://github.com/yunaremaia/agentcost) | Token usage tracker for multi-agent AI sessions — per-agent, per-run cost breakdowns with SQLite persistence | Python · SQLite | 64 |
@@ -180,9 +181,9 @@ If my open-source work saves you time, you can support it here:
 
 | Metric | Value |
 |--------|-------|
-| Public repos | 137 |
-|| Original projects | 43 |
-|| Merged PRs | 169 |
+| Public repos | 138 |
+| Original projects | 43 |
+| Merged PRs | 169 |
 | Total tests | 1750+ |
 | Stars received | 29 |
 | Followers | 57 |
