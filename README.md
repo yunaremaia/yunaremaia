@@ -172,11 +172,12 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 | Merged PRs | 228 |
 | — in my own projects | 183 |
 | — upstream, across 25 repos | 45 |
-| Own projects | 36 |
-| Public repos | 100 |
+| Own projects | 43 |
+| Public repos | 142 |
+| — of which forks of other people's work | 99 |
 | Tests across featured tools | 2200+ |
 | Packages on PyPI | 6 |
-| Stars | 20 |
+| Stars | 24 |
 | Followers | 58 |
 | Primary language | Python |
 
