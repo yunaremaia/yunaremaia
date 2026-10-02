@@ -6,13 +6,14 @@ version drift between documentation and the files that actually build the projec
 [taintrace](https://github.com/yunaremaia/taintrace) catches typosquatted package names,
 and a family of small guardrails keeps generated changes inside the lines you drew.
 
-**[268 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-— 223 in my own projects, 45 upstream across 25 repositories.** Five tools are
-[on PyPI](#install); the rest install from git, so a name collision on the index
-can never hand you someone else's package.
+**[272 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+— 226 in my own projects, 46 upstream across 26 repositories.** Six tools are
+[on PyPI](#install). `driftcheck` and `aipr` carry a `-py` suffix because the
+PyPI names `driftcheck` and `aipr` are permanently taken by unrelated projects;
+the import name and the command are unchanged in both cases.
 
-[![Merged PRs](https://img.shields.io/badge/merged_PRs-268-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Upstream](https://img.shields.io/badge/upstream_repos-25-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_PRs-272-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Upstream](https://img.shields.io/badge/upstream_repos-26-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-FF6B6B)](mailto:yunare@gmail.com)
 [![apache/maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
@@ -36,7 +37,7 @@ can never hand you someone else's package.
 | block out-of-scope changes to protected paths | `pip install diff-contract` → [diff-contract](https://github.com/yunaremaia/diff-contract) |
 | run only the CI tests a change actually affects | `pip install ci-test-gate` → [ci-test-gate](https://github.com/yunaremaia/ci-test-gate) |
 | check a repo's AI policy before contributing | `pip install aipr-py` → [aipr](https://github.com/yunaremaia/aipr) |
-| track token cost across agent runs | `pip install git+https://github.com/yunaremaia/agentcost.git` → [agentcost](https://github.com/yunaremaia/agentcost) |
+| track token cost across agent runs | `pip install agentcost` → [agentcost](https://github.com/yunaremaia/agentcost) |
 | enforce bounded agent permissions | `pip install git+https://github.com/yunaremaia/agent-guard.git` → [agent-guard](https://github.com/yunaremaia/agent-guard) |
 | scan dependencies across ecosystems | `pip install git+https://github.com/yunaremaia/depscan.git` → [depscan](https://github.com/yunaremaia/depscan) |
 
@@ -63,7 +64,7 @@ documentation side; `--sarif` emits SARIF 2.1.0 for GitHub code scanning.
 Detects typosquat lookalikes across Cargo, Go, npm and PyPI before they reach a
 lockfile.
 
-### Upstream contributions · 45 merged PRs across 25 repos
+### Upstream contributions · 46 merged PRs across 26 repos
 
 Defects with an actual reproduction, not drive-by changes:
 
@@ -162,13 +163,13 @@ pip install taintrace        # typosquat detection
 pip install diff-contract    # diff guardrails
 pip install ci-test-gate     # semantic CI test selection
 pip install aipr-py          # AI contribution policy detection
+pip install agentcost        # LLM token cost tracking
 ```
 
-Anything else installs from source, so `pip` can never resolve a same-named
+Everything else installs from source, so `pip` can never resolve a same-named
 package from a different project:
 
 ```bash
-pip install git+https://github.com/yunaremaia/agentcost.git    # LLM token cost tracking
 pip install git+https://github.com/yunaremaia/agent-guard.git  # agent permission policy
 pip install git+https://github.com/yunaremaia/depscan.git      # multi-ecosystem scanning
 ```
@@ -184,9 +185,9 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 
 | Metric | Value |
 |--------|-------|
-| Merged PRs | 268 |
-| — in my own projects | 223 |
-| — upstream, across 25 repos | 45 |
+| Merged PRs | 272 |
+| — in my own projects | 226 |
+| — upstream, across 26 repos | 46 |
 | Own projects | 44 |
 | Public repos | 149 |
 | — of which forks of other people's work | 105 |
