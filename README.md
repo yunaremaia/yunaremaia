@@ -189,10 +189,10 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 | — in my own projects | 226 |
 | — upstream, across 26 repos | 46 |
 | Own projects | 44 |
-| Public repos | 149 |
-| — of which forks of other people's work | 105 |
+| Public repos | 150 |
+| — of which forks of other people's work | 106 |
 | Tests across featured tools | 2400+ |
-| Packages on PyPI | 5 |
+| Packages on PyPI | 6 |
 | Stars | 23 |
 | Followers | 57 |
 | Primary language | Python |
