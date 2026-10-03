@@ -107,12 +107,12 @@ Browse the [full list](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+i
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
-| 2026-10-02 | [yunaremaia/agent-guard](https://github.com/yunaremaia/agent-guard) | [fix(tests): clear the 8 pre-existing ruff findings in test files](https://github.com/yunaremaia/agent-guard/pull/171) *(+2 more)* |
-| 2026-10-02 | [yunaremaia/git-api](https://github.com/yunaremaia/git-api) | [fix: apply {{variables}} to headers, correct the !! off-by-one, and resolve save](https://github.com/yunaremaia/git-api/pull/41) *(+2 more)* |
-| 2026-10-02 | [yunaremaia/env-drift](https://github.com/yunaremaia/env-drift) | [fix: report pending_removal in 3+ envs, config-error on bad ignore file, anchor ](https://github.com/yunaremaia/env-drift/pull/7) |
-| 2026-10-02 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [ci: enforce coverage with fail_under=60](https://github.com/yunaremaia/gfi/pull/70) |
-| 2026-10-02 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: enforce a coverage floor on the test job](https://github.com/yunaremaia/driftcheck/pull/463) *(+2 more)* |
-| 2026-10-02 | [yunaremaia/ghstats](https://github.com/yunaremaia/ghstats) | [fix(packaging): rename distribution to ghstats-py to avoid a PyPI name collision](https://github.com/yunaremaia/ghstats/pull/73) *(+1 more)* |
+| 2026-10-03 | [yunaremaia/agentcost](https://github.com/yunaremaia/agentcost) | [fix(distribution): recognise VCS installs in the distribution-name guard](https://github.com/yunaremaia/agentcost/pull/181) *(+1 more)* |
+| 2026-10-03 | [yunaremaia/agent-session-logger](https://github.com/yunaremaia/agent-session-logger) | [ci: run the test suite on every push and pull request](https://github.com/yunaremaia/agent-session-logger/pull/11) |
+| 2026-10-03 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [fix: make gh gfi installable and stop the PATH-dependent test failing](https://github.com/yunaremaia/gfi/pull/78) *(+3 more)* |
+| 2026-10-03 | [yunaremaia/git-api](https://github.com/yunaremaia/git-api) | [ci: add a genuine ruff lint gate and pin the dev toolchain in setup.py](https://github.com/yunaremaia/git-api/pull/43) *(+3 more)* |
+| 2026-10-03 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: add a ruff pyflakes gate and fix the defects it found](https://github.com/yunaremaia/driftcheck/pull/465) *(+1 more)* |
+| 2026-10-03 | [yunaremaia/taintrace](https://github.com/yunaremaia/taintrace) | [test: enforce a coverage gate and cover the uncovered branches](https://github.com/yunaremaia/taintrace/pull/159) |
 <!-- yunare-dynamic:end -->
 
 ## What I work on
