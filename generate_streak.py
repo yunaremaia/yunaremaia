@@ -8,11 +8,15 @@ no stale cache — always fresh from the API.
 import json
 import os
 import urllib.request
+import urllib.error
 from datetime import datetime, timezone
 
 
 def main():
-    token = os.environ["GH_TOKEN"]
+    token = os.environ.get("GH_TOKEN")
+    if not token:
+        raise SystemExit("GH_TOKEN (github token) is not set; Export a token with read:user scope")
+    
     query = """
     query {
       user(login: "yunaremaia") {
@@ -38,8 +42,19 @@ def main():
             "Content-Type": "application/json",
         },
     )
-    resp = urllib.request.urlopen(req, timeout=30)
+    try:
+        resp = urllib.request.urlopen(req, timeout=30)
+    except urllib.error.HTTPError as e :
+        raise SystemExit(f"GITHUB API returned HTTP {e.code} ({e.reason})")
+    except urllib.error.URLError as e :
+        raise SystemExit(f"Could not reach api.github.com : {e.reason}")
+    
     data = json.loads(resp.read())
+
+    if data.get("errors"):
+        msg = ";".join( e.get("message", str(e)) for e in data["errors"])
+        raise SystemExit(f"Github GraphQl error: {msg}")
+
     cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
     weeks = cal["weeks"]
     all_days = []
