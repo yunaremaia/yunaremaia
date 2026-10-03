@@ -6,13 +6,13 @@ version drift between documentation and the files that actually build the projec
 [taintrace](https://github.com/yunaremaia/taintrace) catches typosquatted package names,
 and a family of small guardrails keeps generated changes inside the lines you drew.
 
-**[279 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-— 233 in my own projects, 46 upstream across 26 repositories.** Five tools are
+**[298 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+— 252 in my own projects, 46 upstream across 26 repositories.** Six tools are
 [on PyPI](#install). `driftcheck` and `aipr` carry a `-py` suffix because the
 PyPI names `driftcheck` and `aipr` are permanently taken by unrelated projects;
 the import name and the command are unchanged in both cases.
 
-[![Merged PRs](https://img.shields.io/badge/merged_PRs-279-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_PRs-298-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Upstream](https://img.shields.io/badge/upstream_repos-26-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-FF6B6B)](mailto:yunare@gmail.com)
@@ -37,7 +37,7 @@ the import name and the command are unchanged in both cases.
 | block out-of-scope changes to protected paths | `pip install diff-contract` → [diff-contract](https://github.com/yunaremaia/diff-contract) |
 | run only the CI tests a change actually affects | `pip install ci-test-gate` → [ci-test-gate](https://github.com/yunaremaia/ci-test-gate) |
 | check a repo's AI policy before contributing | `pip install aipr-py` → [aipr](https://github.com/yunaremaia/aipr) |
-| track token cost across agent runs | `pip install git+https://github.com/yunaremaia/agentcost.git` → [agentcost](https://github.com/yunaremaia/agentcost) |
+| track token cost across agent runs | `pip install agentcost` → [agentcost](https://github.com/yunaremaia/agentcost) |
 | enforce bounded agent permissions | `pip install git+https://github.com/yunaremaia/agent-guard.git` → [agent-guard](https://github.com/yunaremaia/agent-guard) |
 | scan dependencies across ecosystems | `pip install git+https://github.com/yunaremaia/depscan.git` → [depscan](https://github.com/yunaremaia/depscan) |
 
@@ -173,7 +173,7 @@ else's software. Install from Git so `pip` cannot resolve the wrong package:
 ```bash
 pip install git+https://github.com/yunaremaia/agent-guard.git  # agent permission policy
 pip install git+https://github.com/yunaremaia/depscan.git      # multi-ecosystem scanning
-pip install git+https://github.com/yunaremaia/agentcost.git    # LLM token cost tracking
+pip install agentcost    # LLM token cost tracking
 ```
 
 Source, issues and PRs live in the `yunaremaia/*` repos above.
@@ -187,14 +187,14 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 
 | Metric | Value |
 |--------|-------|
-| Merged PRs | 279 |
-| — in my own projects | 233 |
+| Merged PRs | 298 |
+| — in my own projects | 252 |
 | — upstream, across 26 repos | 46 |
 | Own projects | 44 |
-| Public repos | 150 |
-| — of which forks of other people's work | 106 |
+| Public repos | 152 |
+| — of which forks of other people's work | 108 |
 | Tests across featured tools | 2400+ |
-| Packages on PyPI | 5 |
+| Packages on PyPI | 6 |
 | Stars | 23 |
 | Followers | 57 |
 | Primary language | Python |
