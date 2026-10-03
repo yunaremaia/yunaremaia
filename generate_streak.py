@@ -44,17 +44,26 @@ def main():
     )
     try:
         resp = urllib.request.urlopen(req, timeout=30)
+        body = resp.read()
     except urllib.error.HTTPError as e :
         raise SystemExit(f"GITHUB API returned HTTP {e.code} ({e.reason})")
     except urllib.error.URLError as e :
-        raise SystemExit(f"Could not reach api.github.com : {e.reason}")
+        raise SystemExit(f"Could not reach api.github.com: {e.reason}")
+    except TimeoutError:
+        raise SystemExit("Timed out waiting for api.github.com after 30s")
     
-    data = json.loads(resp.read())
+
+    try:
+        data = json.loads(body)
+    except ValueError:
+        raise SystemExit("GitHub API retured a non-JSON response")
 
     if data.get("errors"):
         msg = ";".join( e.get("message", str(e)) for e in data["errors"])
-        raise SystemExit(f"Github GraphQl error: {msg}")
-
+        raise SystemExit(f"GitHub GraphQl error: {msg}")
+    user = (data.get("data") or {}).get("user")
+    if not user:
+        raise SystemExit("GitHub returned no user data for 'yunaremaia'")
     cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
     weeks = cal["weeks"]
     all_days = []
