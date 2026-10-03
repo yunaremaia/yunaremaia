@@ -56,7 +56,7 @@ def main():
     try:
         data = json.loads(body)
     except ValueError:
-        raise SystemExit("GitHub API retured a non-JSON response")
+        raise SystemExit("GitHub API returned a non-JSON response")
 
     if data.get("errors"):
         msg = ";".join( e.get("message", str(e)) for e in data["errors"])
