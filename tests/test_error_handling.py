@@ -152,6 +152,56 @@ class TestGraphQLErrors(ErrorReportingTestCase):
         )
         self.assertIn("NOT_FOUND", msg)
 
+class _Resp:
+    """Fake response whose read() returns bytes or raises."""
+    def __init__(self, body=b"", exc=None):
+        self._body, self._exc = body, exc
+
+    def read(self):
+        if self._exc:
+            raise self._exc
+        return self._body
+
+class TestTimeout(ErrorReportingTestCase):
+    def test_timeout_while_waiting_for_headers(self):
+        def urlopen(req, timeout=None):
+            raise TimeoutError("timed out")
+
+        msg = self.run_main(urlopen)
+        self.assertIn("Timed out", msg)
+        self.assertIn("api.github.com", msg)
+    def test_timeout_while_reading_the_body(self):
+        # urlopen() succeeds, then the socket stalls inside read().
+        msg = self.run_main(
+            lambda req, timeout=None: _Resp(exc=TimeoutError("timed out"))
+        )
+        self.assertIn("Timed out", msg)
+
+class TestNonJsonBody(ErrorReportingTestCase):
+    def test_html_error_page(self):
+        msg = self.run_main(
+            lambda req, timeout=None: _Resp(b"<html>502 Bad Gateway</html>")
+        )
+        self.assertIn("non-JSON", msg)
+
+    def test_empty_body(self):
+        msg = self.run_main(lambda req, timeout=None: _Resp(b""))
+        self.assertIn("non-JSON", msg)
+
+class TestMissingUser(ErrorReportingTestCase):
+    def _run(self, payload):
+        return self.run_main(
+            lambda req, timeout=None: _Resp(json.dumps(payload).encode())
+        )
+
+    def test_user_is_null(self):
+        self.assertIn("no user data", self._run({"data": {"user": None}}))
+
+    def test_data_is_null(self):
+        self.assertIn("no user data", self._run({"data": None}))
+
+    def test_data_key_absent(self):
+        self.assertIn("no user data", self._run({}))
 
 if __name__ == "__main__":
     unittest.main()
