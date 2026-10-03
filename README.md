@@ -107,12 +107,12 @@ Browse the [full list](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+i
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
-| 2026-10-03 | [yunaremaia/agent-undo](https://github.com/yunaremaia/agent-undo) | [test: guard the README against promising a PyPI install that fails](https://github.com/yunaremaia/agent-undo/pull/59) |
-| 2026-10-03 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [ci: pin the ruff gate and declare the Linux requirement in metadata](https://github.com/yunaremaia/gfi/pull/79) *(+2 more)* |
-| 2026-10-03 | [yunaremaia/tool-call-retry](https://github.com/yunaremaia/tool-call-retry) | [docs: add CHANGELOG.md for the first release](https://github.com/yunaremaia/tool-call-retry/pull/21) |
-| 2026-10-03 | [yunaremaia/sandbox-ffi-layers](https://github.com/yunaremaia/sandbox-ffi-layers) | [docs: fill CHANGELOG.md for the first tagged release](https://github.com/yunaremaia/sandbox-ffi-layers/pull/49) |
-| 2026-10-03 | [yunaremaia/ghstats](https://github.com/yunaremaia/ghstats) | [chore: add FUNDING.yml so the Sponsor button renders](https://github.com/yunaremaia/ghstats/pull/76) |
-| 2026-10-03 | [yunaremaia/ci-test-gate](https://github.com/yunaremaia/ci-test-gate) | [chore: add FUNDING.yml so the Sponsor button renders](https://github.com/yunaremaia/ci-test-gate/pull/102) |
+| 2026-10-03 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [fix(sarif): stop silently dropping detectors from SARIF output](https://github.com/yunaremaia/driftcheck/pull/475) *(+1 more)* |
+| 2026-10-02 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | [fix(cli): coerce loosely typed records in conversations_to_sqlite ($25 bounty pr](https://github.com/BasedHardware/omi/pull/20330) |
+| 2026-10-03 | [yunaremaia/taintrace](https://github.com/yunaremaia/taintrace) | [chore(release): 0.2.2 -- improve PyPI discovery metadata](https://github.com/yunaremaia/taintrace/pull/162) *(+1 more)* |
+| 2026-10-03 | [yunaremaia/oss-contribution-finder](https://github.com/yunaremaia/oss-contribution-finder) | [refactor: extract build_parser() from main()](https://github.com/yunaremaia/oss-contribution-finder/pull/63) |
+| 2026-10-03 | [yunaremaia/agent-capability-attestation](https://github.com/yunaremaia/agent-capability-attestation) | [fix: verify_signature raised TypeError instead of verifying (fixes #10)](https://github.com/yunaremaia/agent-capability-attestation/pull/14) |
+| 2026-10-03 | [yunaremaia/prompt-drift](https://github.com/yunaremaia/prompt-drift) | [ci: replace the fail-open test gate and make it impossible to reintroduce](https://github.com/yunaremaia/prompt-drift/pull/16) *(+1 more)* |
 <!-- yunare-dynamic:end -->
 
 ## What I work on
