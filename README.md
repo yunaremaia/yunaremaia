@@ -107,12 +107,12 @@ Browse the [full list](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+i
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
-| 2026-10-03 | [yunaremaia/agentcost](https://github.com/yunaremaia/agentcost) | [fix(distribution): recognise VCS installs in the distribution-name guard](https://github.com/yunaremaia/agentcost/pull/181) *(+1 more)* |
-| 2026-10-03 | [yunaremaia/agent-session-logger](https://github.com/yunaremaia/agent-session-logger) | [ci: run the test suite on every push and pull request](https://github.com/yunaremaia/agent-session-logger/pull/11) |
-| 2026-10-03 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [fix: make gh gfi installable and stop the PATH-dependent test failing](https://github.com/yunaremaia/gfi/pull/78) *(+3 more)* |
-| 2026-10-03 | [yunaremaia/git-api](https://github.com/yunaremaia/git-api) | [ci: add a genuine ruff lint gate and pin the dev toolchain in setup.py](https://github.com/yunaremaia/git-api/pull/43) *(+3 more)* |
-| 2026-10-03 | [yunaremaia/driftcheck](https://github.com/yunaremaia/driftcheck) | [ci: add a ruff pyflakes gate and fix the defects it found](https://github.com/yunaremaia/driftcheck/pull/465) *(+1 more)* |
-| 2026-10-03 | [yunaremaia/taintrace](https://github.com/yunaremaia/taintrace) | [test: enforce a coverage gate and cover the uncovered branches](https://github.com/yunaremaia/taintrace/pull/159) |
+| 2026-10-03 | [yunaremaia/agent-undo](https://github.com/yunaremaia/agent-undo) | [test: guard the README against promising a PyPI install that fails](https://github.com/yunaremaia/agent-undo/pull/59) |
+| 2026-10-03 | [yunaremaia/gfi](https://github.com/yunaremaia/gfi) | [ci: pin the ruff gate and declare the Linux requirement in metadata](https://github.com/yunaremaia/gfi/pull/79) *(+2 more)* |
+| 2026-10-03 | [yunaremaia/tool-call-retry](https://github.com/yunaremaia/tool-call-retry) | [docs: add CHANGELOG.md for the first release](https://github.com/yunaremaia/tool-call-retry/pull/21) |
+| 2026-10-03 | [yunaremaia/sandbox-ffi-layers](https://github.com/yunaremaia/sandbox-ffi-layers) | [docs: fill CHANGELOG.md for the first tagged release](https://github.com/yunaremaia/sandbox-ffi-layers/pull/49) |
+| 2026-10-03 | [yunaremaia/ghstats](https://github.com/yunaremaia/ghstats) | [chore: add FUNDING.yml so the Sponsor button renders](https://github.com/yunaremaia/ghstats/pull/76) |
+| 2026-10-03 | [yunaremaia/ci-test-gate](https://github.com/yunaremaia/ci-test-gate) | [chore: add FUNDING.yml so the Sponsor button renders](https://github.com/yunaremaia/ci-test-gate/pull/102) |
 <!-- yunare-dynamic:end -->
 
 ## What I work on
