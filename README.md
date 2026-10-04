@@ -171,7 +171,9 @@ to an unrelated project, so a `pip install <name>` would silently fetch someone
 else's software. Install from Git so `pip` cannot resolve the wrong package:
 
 ```bash
-pip install git+https://github.com/yunaremaia/agentcost.git  # agentcost
+pip install git+https://github.com/yunaremaia/agent-guard.git  # agent permission policy
+pip install git+https://github.com/yunaremaia/agentcost.git  # LLM token cost tracking
+pip install git+https://github.com/yunaremaia/depscan.git  # multi-ecosystem scanning
 ```
 
 Source, issues and PRs live in the `yunaremaia/*` repos above.
@@ -191,7 +193,7 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 | Own projects | 44 |
 | Public repos | 155 |
 | — of which forks of other people's work | 111 |
-| Tests across featured tools | 2400+ |
+| Tests across featured tools | 2743+ |
 | Packages on PyPI | 5 |
 | Stars | 23 |
 | Followers | 57 |
