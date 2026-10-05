@@ -6,14 +6,14 @@ version drift between documentation and the files that actually build the projec
 [taintrace](https://github.com/yunaremaia/taintrace) catches typosquatted package names,
 and a family of small guardrails keeps generated changes inside the lines you drew.
 
-**[356 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-— 310 in my own projects, 46 upstream across 26 repositories.** Five tools are
+**[398 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+— 350 in my own projects, 48 upstream across 27 repositories.** Five tools are
 [on PyPI](#install). `driftcheck` and `aipr` carry a `-py` suffix because the
 PyPI names `driftcheck` and `aipr` are permanently taken by unrelated projects;
 the import name and the command are unchanged in both cases.
 
-[![Merged PRs](https://img.shields.io/badge/merged_PRs-356-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Upstream](https://img.shields.io/badge/upstream_repos-26-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_PRs-398-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Upstream](https://img.shields.io/badge/upstream_repos-27-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-FF6B6B)](mailto:yunare@gmail.com)
 [![apache/maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
@@ -45,7 +45,7 @@ Every tool is MIT-licensed and runs on Python 3.10+.
 
 ## Featured work
 
-### [driftcheck](https://github.com/yunaremaia/driftcheck) · 2331 tests
+### [driftcheck](https://github.com/yunaremaia/driftcheck) · 2390 tests
 
 Your README promises Node 18, your `package.json` says 24, and a new contributor
 discovers it as a build failure. `driftcheck` catches it in CI instead.
@@ -56,9 +56,9 @@ toolchain files, Go modules, npm/pnpm/yarn lockfiles, proto schemas, SPDX licens
 headers, dotfiles, `.env`, and the A2A agent protocol. `--fix` rewrites the
 documentation side; `--sarif` emits SARIF 2.1.0 for GitHub code scanning.
 
-**2331 tests, green on Python 3.10–3.14 across Linux, macOS and Windows.**
+**2390 tests, green on Python 3.10–3.14 across Linux, macOS and Windows.**
 
-### [taintrace](https://github.com/yunaremaia/taintrace) · 412 tests
+### [taintrace](https://github.com/yunaremaia/taintrace) · 416 tests
 
 `reqeusts` instead of `requests` is one character away from a malicious package.
 Detects typosquat lookalikes across Cargo, Go, npm and PyPI before they reach a
@@ -187,13 +187,13 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 
 | Metric | Value |
 |--------|-------|
-| Merged PRs | 356 |
-| — in my own projects | 310 |
-| — upstream, across 26 repos | 46 |
+| Merged PRs | 398 |
+| — in my own projects | 350 |
+| — upstream, across 27 repos | 48 |
 | Own projects | 44 |
-| Public repos | 155 |
-| — of which forks of other people's work | 111 |
-| Tests across featured tools | 2743+ |
+| Public repos | 160 |
+| — of which forks of other people's work | 116 |
+| Tests across featured tools | 2806+ |
 | Packages on PyPI | 5 |
 | Stars | 23 |
 | Followers | 57 |
