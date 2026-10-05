@@ -99,12 +99,12 @@ Seventeen PRs open. The ones worth a maintainer's attention:
   `os.FileInfo.Mode()` into the tar header, so type bits like `fs.ModeDir` overflow the octal field and
   `archive/tar` silently re-encodes that header as GNU base-256. `apk` got `normalizeFileMode` in
   #1113; `ipk` was left behind.
-- [`BasedHardware/omi#20330`](https://github.com/BasedHardware/omi/pull/20330) — coerce loosely typed
-  records in `conversations_to_sqlite`, where SQLite raised `IntegrityError` on valid input
-- [`ray-project/kuberay#5286`](https://github.com/ray-project/kuberay/pull/5286) — remove an unused
-  `DecompressStream` to clear gosec G110 (37 checks green, awaiting maintainer)
-- [`yunaremaia/driftcheck#464`](https://github.com/yunaremaia/driftcheck/pull/464) — prune vendored trees
-  from the detector discovery walk, which made `--fix` rewrite files inside `third_party/`
+- [`anchore/syft#5373`](https://github.com/anchore/syft/pull/5373) — keep same-name packages apart
+  when resolving Python dependencies, so two distributions sharing a name no longer collide
+- [`pypa/packaging#1437`](https://github.com/pypa/packaging/pull/1437) — merge a partial environment
+  over defaults in `select()`, instead of letting an empty field clear a declared one
+- [`fastapi/typer#1970`](https://github.com/fastapi/typer/pull/1970) — skip hidden commands in
+  `typer utils docs` output
 
 Browse the [full list](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Aopen&type=pullrequests).
 
