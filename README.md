@@ -50,7 +50,7 @@ Every tool is MIT-licensed and runs on Python 3.10+.
 Your README promises Node 18, your `package.json` says 24, and a new contributor
 discovers it as a build failure. `driftcheck` catches it in CI instead.
 
-87 detector modules across Maven, Gradle, Terraform, CircleCI, GitLab CI, GitHub
+86 detector modules across Maven, Gradle, Terraform, CircleCI, GitLab CI, GitHub
 Actions, Kubernetes, Helm, Docker Compose, Dependabot, .NET/C#, Taskfile, Rust
 toolchain files, Go modules, npm/pnpm/yarn lockfiles, proto schemas, SPDX license
 headers, dotfiles, `.env`, and the A2A agent protocol. `--fix` rewrites the
@@ -126,7 +126,7 @@ Browse the [full list](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+i
 **Drift detection** — the recurring theme. When a value is declared in two places,
 something will eventually make them disagree, and the failure surfaces to a user as a
 confusing build error instead of the configuration mismatch it actually is.
-[`driftcheck`](https://github.com/yunaremaia/driftcheck) (87 detectors), plus
+[`driftcheck`](https://github.com/yunaremaia/driftcheck) (86 detectors), plus
 [`a2a-drift`](https://github.com/yunaremaia/a2a-drift) — agent-card and spec-version compliance,
 [`env-drift`](https://github.com/yunaremaia/env-drift) — `.env` files that disagree across environments,
 [`license-drift`](https://github.com/yunaremaia/license-drift) — SPDX headers that do not match the
@@ -164,7 +164,7 @@ MCP gateway).
 
 ```bash
 # Published on PyPI
-pip install driftcheck-py    # version drift across 87 detectors
+pip install driftcheck-py    # version drift across 86 detectors
 pip install taintrace        # typosquat detection
 pip install diff-contract    # diff guardrails
 pip install ci-test-gate     # semantic CI test selection
