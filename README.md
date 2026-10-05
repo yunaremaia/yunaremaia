@@ -64,7 +64,13 @@ documentation side; `--sarif` emits SARIF 2.1.0 for GitHub code scanning.
 Detects typosquat lookalikes across Cargo, Go, npm and PyPI before they reach a
 lockfile.
 
-### Upstream contributions · 46 merged PRs across 26 repos
+### [vibeguard](https://github.com/yunaremaia/vibeguard)
+
+A generated snippet with a hardcoded API key or an unparameterized query ships
+before anyone reads it. `vibeguard` scans generated code for hardcoded secrets,
+SQL injection, dangerous `eval`/`exec` and CORS wildcards before it ships.
+
+### Upstream contributions · 51 merged PRs across 29 repos
 
 Defects with an actual reproduction, not drive-by changes:
 
@@ -87,7 +93,7 @@ Plus merged work in `MisakaNet`, `semantica`, `agent-safe-pipeline`, `Agentrace`
 
 ## Now
 
-Nine PRs open. The ones worth a maintainer's attention:
+Seventeen PRs open. The ones worth a maintainer's attention:
 
 - [`goreleaser/nfpm#1145`](https://github.com/goreleaser/nfpm/pull/1145) — the `ipk` packager writes a raw
   `os.FileInfo.Mode()` into the tar header, so type bits like `fs.ModeDir` overflow the octal field and
