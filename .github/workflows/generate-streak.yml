@@ -1,0 +1,55 @@
+name: Generate streak card
+
+on:
+  schedule:
+    - cron: '10 12 * * *'  # daily at noon UTC, after the daily README refresh
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  generate-streak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run generate_streak.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 generate_streak.py
+
+      - name: Check if streak.svg needs updating
+        id: check
+        run: |
+          if [ -f streak.svg ]; then
+            # Check if the committed version is stale (older than 7 days)
+            committed=$(git show HEAD:streak.svg 2>/dev/null | head -1 || echo "")
+            fresh=$(grep -oP 'Generated \K\d{4}-\d{2}-\d{2}' streak.svg || echo "old")
+            echo "committed=$committed fresh_in_svg=$fresh"
+            if [ "$committed" = "$fresh" ]; then
+              echo "svg_up_to_date=true" >> $GITHUB_OUTPUT
+            else
+              echo "svg_up_to_date=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "svg_up_to_date=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit updated streak.svg if changed
+        if: steps.check.outputs.svg_up_to_date == 'false'
+        run: |
+          git config user.name "Yunare Maia"
+          git config user.email "yunare@gmail.com"
+          git add streak.svg
+          if ! git diff --cached --quiet; then
+            git commit -q -s -m "ci: refresh streak.svg (auto-generated)"
+            git push
+          else
+            echo "no changes to commit"
+          fi
