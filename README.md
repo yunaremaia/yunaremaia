@@ -6,14 +6,14 @@ version drift between documentation and the files that actually build the projec
 [taintrace](https://github.com/yunaremaia/taintrace) catches typosquatted package names,
 and a family of small guardrails keeps generated changes inside the lines you drew.
 
-**[437 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-— 386 in my own projects, 51 upstream across 29 repositories.** Five tools are
+**[434 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+— 375 in my own projects, 59 upstream across 36 repositories.** Five tools are
 [on PyPI](#install). `driftcheck` and `aipr` carry a `-py` suffix because the
 PyPI names `driftcheck` and `aipr` are permanently taken by unrelated projects;
 the import name and the command are unchanged in both cases.
 
-[![Merged PRs](https://img.shields.io/badge/merged_PRs-437-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Upstream](https://img.shields.io/badge/upstream_repos-29-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_PRs-434-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Upstream](https://img.shields.io/badge/upstream_repos-36-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-FF6B6B)](mailto:yunare@gmail.com)
 [![apache/maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
@@ -45,7 +45,7 @@ Every tool is MIT-licensed and runs on Python 3.10+.
 
 ## Featured work
 
-### [driftcheck](https://github.com/yunaremaia/driftcheck) · 2397 tests
+### [driftcheck](https://github.com/yunaremaia/driftcheck) · 2435 tests
 
 Your README promises Node 18, your `package.json` says 24, and a new contributor
 discovers it as a build failure. `driftcheck` catches it in CI instead.
@@ -56,9 +56,9 @@ toolchain files, Go modules, npm/pnpm/yarn lockfiles, proto schemas, SPDX licens
 headers, dotfiles, `.env`, and the A2A agent protocol. `--fix` rewrites the
 documentation side; `--sarif` emits SARIF 2.1.0 for GitHub code scanning.
 
-**2397 tests, green on Python 3.10–3.14 across Linux, macOS and Windows.**
+**2435 tests, green on Python 3.10–3.14 across Linux, macOS and Windows.**
 
-### [taintrace](https://github.com/yunaremaia/taintrace) · 426 tests
+### [taintrace](https://github.com/yunaremaia/taintrace) · 459 tests
 
 `reqeusts` instead of `requests` is one character away from a malicious package.
 Detects typosquat lookalikes across Cargo, Go, npm and PyPI before they reach a
@@ -70,7 +70,7 @@ A generated snippet with a hardcoded API key or an unparameterized query ships
 before anyone reads it. `vibeguard` scans generated code for hardcoded secrets,
 SQL injection, dangerous `eval`/`exec` and CORS wildcards before it ships.
 
-### Upstream contributions · 51 merged PRs across 29 repos
+### Upstream contributions · 59 merged PRs across 36 repos
 
 Defects with an actual reproduction, not drive-by changes:
 
@@ -193,16 +193,16 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 
 | Metric | Value |
 |--------|-------|
-| Merged PRs | 437 |
-| — in my own projects | 386 |
-| — upstream, across 29 repos | 51 |
+| Merged PRs | 434 |
+| — in my own projects | 375 |
+| — upstream, across 36 repos | 59 |
 | Own projects | 44 |
-| Public repos | 163 |
-| — of which forks of other people's work | 119 |
-| Tests across featured tools | 2823+ |
+| Public repos | 172 |
+| — of which forks of other people's work | 128 |
+| Tests across featured tools | 2894+ |
 | Packages on PyPI | 5 |
-| Stars | 23 |
-| Followers | 58 |
+| Stars | 19 |
+| Followers | 60 |
 | Primary language | Python |
 
 ## Contributing
