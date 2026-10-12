@@ -6,13 +6,13 @@ version drift between documentation and the files that actually build the projec
 [taintrace](https://github.com/yunaremaia/taintrace) catches typosquatted package names,
 and a family of small guardrails keeps generated changes inside the lines you drew.
 
-**[434 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-— 375 in my own projects, 59 upstream across 36 repositories.** Five tools are
+**[436 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+— 376 in my own projects, 60 upstream across 36 repositories.** Five tools are
 [on PyPI](#install). `driftcheck` and `aipr` carry a `-py` suffix because the
 PyPI names `driftcheck` and `aipr` are permanently taken by unrelated projects;
 the import name and the command are unchanged in both cases.
 
-[![Merged PRs](https://img.shields.io/badge/merged_PRs-434-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_PRs-436-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Upstream](https://img.shields.io/badge/upstream_repos-36-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-FF6B6B)](mailto:yunare@gmail.com)
@@ -58,7 +58,7 @@ documentation side; `--sarif` emits SARIF 2.1.0 for GitHub code scanning.
 
 **2435 tests, green on Python 3.10–3.14 across Linux, macOS and Windows.**
 
-### [taintrace](https://github.com/yunaremaia/taintrace) · 459 tests
+### [taintrace](https://github.com/yunaremaia/taintrace) · 461 tests
 
 `reqeusts` instead of `requests` is one character away from a malicious package.
 Detects typosquat lookalikes across Cargo, Go, npm and PyPI before they reach a
@@ -70,7 +70,7 @@ A generated snippet with a hardcoded API key or an unparameterized query ships
 before anyone reads it. `vibeguard` scans generated code for hardcoded secrets,
 SQL injection, dangerous `eval`/`exec` and CORS wildcards before it ships.
 
-### Upstream contributions · 59 merged PRs across 36 repos
+### Upstream contributions · 60 merged PRs across 36 repos
 
 Defects with an actual reproduction, not drive-by changes:
 
@@ -93,7 +93,7 @@ Plus merged work in `MisakaNet`, `semantica`, `agent-safe-pipeline`, `Agentrace`
 
 ## Now
 
-Seventeen PRs open. The ones worth a maintainer's attention:
+Fifteen PRs open. The ones worth a maintainer's attention:
 
 - [`goreleaser/nfpm#1145`](https://github.com/goreleaser/nfpm/pull/1145) — the `ipk` packager writes a raw
   `os.FileInfo.Mode()` into the tar header, so type bits like `fs.ModeDir` overflow the octal field and
@@ -193,16 +193,16 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 
 | Metric | Value |
 |--------|-------|
-| Merged PRs | 434 |
-| — in my own projects | 375 |
-| — upstream, across 36 repos | 59 |
+| Merged PRs | 436 |
+| — in my own projects | 376 |
+| — upstream, across 36 repos | 60 |
 | Own projects | 44 |
 | Public repos | 172 |
 | — of which forks of other people's work | 128 |
-| Tests across featured tools | 2894+ |
+| Tests across featured tools | 2896+ |
 | Packages on PyPI | 5 |
-| Stars | 19 |
-| Followers | 60 |
+| Stars | 20 |
+| Followers | 59 |
 | Primary language | Python |
 
 ## Contributing
