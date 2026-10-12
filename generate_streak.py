@@ -7,17 +7,38 @@ no stale cache — always fresh from the API.
 """
 import json
 import os
+import subprocess
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
 
 
+import sys
+
 def main():
+    json_output = "--json-output" in sys.argv
     token = os.environ.get("GH_TOKEN")
     if not token:
         raise SystemExit("GH_TOKEN (github token) is not set; Export a token with read:user scope")
     
-    query = """
+    # Simple file-based cache (1 hour timeout)
+    cache_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".streak_cache")
+    cache_timeout = 3600  # 1 hour in seconds
+    cached = None
+    if os.path.exists(cache_path):
+        try:
+            mtime = os.path.getmtime(cache_path)
+            if time.time() - mtime < cache_timeout:
+                with open(cache_path) as cf:
+                    cached = json.load(cf)
+        except Exception:
+            pass
+    
+    if cached:
+        body = json.dumps(cached).encode()
+    else:
+        query = """
     query {
       user(login: "yunaremaia") {
         contributionsCollection {
@@ -124,9 +145,25 @@ def main():
         f"</svg>"
     )
 
-    with open("streak.svg", "w") as f:
-        f.write(svg)
-    print(f"streak.svg written: {total} contributions, {current}-day streak, longest {longest}")
+    if json_output:
+        # Output structured JSON instead of SVG
+        result = {
+            "total_contributions": total,
+            "current_streak": current,
+            "longest_streak": longest,
+            "streak_start": streak_start,
+            "streak_end": streak_end,
+            "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+            "self_hosted": True,
+            "always_fresh": True,
+        }
+        with open("streak.json", "w") as f:
+            json.dump(result, f, indent=2)
+        print(json.dumps(result, indent=2))
+    else:
+        with open("streak.svg", "w") as f:
+            f.write(svg)
+        print(f"streak.svg written: {total} contributions, {current}-day streak, longest {longest}")
 
 
 if __name__ == "__main__":
