@@ -6,14 +6,14 @@ version drift between documentation and the files that actually build the projec
 [taintrace](https://github.com/yunaremaia/taintrace) catches typosquatted package names,
 and a family of small guardrails keeps generated changes inside the lines you drew.
 
-**[436 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-— 376 in my own projects, 60 upstream across 36 repositories.** Five tools are
+**[438 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+— 376 in my own projects, 62 upstream across 38 repositories.** Five tools are
 [on PyPI](#install). `driftcheck` and `aipr` carry a `-py` suffix because the
 PyPI names `driftcheck` and `aipr` are permanently taken by unrelated projects;
 the import name and the command are unchanged in both cases.
 
-[![Merged PRs](https://img.shields.io/badge/merged_PRs-436-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Upstream](https://img.shields.io/badge/upstream_repos-36-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_PRs-438-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Upstream](https://img.shields.io/badge/upstream_repos-38-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-FF6B6B)](mailto:yunare@gmail.com)
 [![apache/maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
@@ -70,7 +70,7 @@ A generated snippet with a hardcoded API key or an unparameterized query ships
 before anyone reads it. `vibeguard` scans generated code for hardcoded secrets,
 SQL injection, dangerous `eval`/`exec` and CORS wildcards before it ships.
 
-### Upstream contributions · 60 merged PRs across 36 repos
+### Upstream contributions · 62 merged PRs across 38 repos
 
 Defects with an actual reproduction, not drive-by changes:
 
@@ -93,7 +93,7 @@ Plus merged work in `MisakaNet`, `semantica`, `agent-safe-pipeline`, `Agentrace`
 
 ## Now
 
-Fifteen PRs open. The ones worth a maintainer's attention:
+Thirteen PRs open. The ones worth a maintainer's attention:
 
 - [`goreleaser/nfpm#1145`](https://github.com/goreleaser/nfpm/pull/1145) — the `ipk` packager writes a raw
   `os.FileInfo.Mode()` into the tar header, so type bits like `fs.ModeDir` overflow the octal field and
@@ -193,16 +193,16 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 
 | Metric | Value |
 |--------|-------|
-| Merged PRs | 436 |
+| Merged PRs | 438 |
 | — in my own projects | 376 |
-| — upstream, across 36 repos | 60 |
+| — upstream, across 38 repos | 62 |
 | Own projects | 44 |
 | Public repos | 172 |
 | — of which forks of other people's work | 128 |
 | Tests across featured tools | 2896+ |
 | Packages on PyPI | 5 |
-| Stars | 20 |
-| Followers | 59 |
+| Stars | 23 |
+| Followers | 60 |
 | Primary language | Python |
 
 ## Contributing
