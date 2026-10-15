@@ -1,3 +1,12 @@
+
+## Quickstart
+
+Getting started in 5 minutes:
+
+```bash
+# Basic setup
+```
+
 # Yunare Maia 🇧🇷
 
 # Yunare Maia 🇧🇷
