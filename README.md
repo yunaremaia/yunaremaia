@@ -102,6 +102,11 @@ A generated snippet with a hardcoded API key or an unparameterized query ships
 before anyone reads it. `vibeguard` scans generated code for hardcoded secrets,
 SQL injection, dangerous `eval`/`exec` and CORS wildcards before it ships.
 
+### [acc-mcp](https://github.com/yunaremaia/acc-mcp)
+**Agent Capability Contract (ACC) v1 — MCP Binding**
+
+Parse ACC declarations from MCP tool schemas and enforce scope, risk, and approval semantics at the gateway. This is the missing MCP binding for the [agent-capability-contract](https://github.com/agent-capability/agent-capability-contract) specification.
+
 ### Upstream contributions · 61 merged PRs across 37 repos
 
 Defects with an actual reproduction, not drive-by changes:
