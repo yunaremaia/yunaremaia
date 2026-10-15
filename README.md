@@ -145,12 +145,12 @@ Browse the [full list](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+i
 <!-- yunare-dynamic:start -->
 | When | Where | What |
 |------|-------|------|
+| 2026-10-07 | [morluto/rea](https://github.com/morluto/rea) | [fix(release): extend npm propagation window and improve diagnostics](https://github.com/morluto/rea/pull/943) |
 | 2026-10-13 | [Sara-Managed-Projects/space-radar](https://github.com/Sara-Managed-Projects/space-radar) | [Add Capella's measured radius and temperature (issue #832)](https://github.com/Sara-Managed-Projects/space-radar/pull/922) |
 | 2026-10-12 | [goreleaser/nfpm](https://github.com/goreleaser/nfpm) | [fix(ipk): normalize file modes before writing tar headers](https://github.com/goreleaser/nfpm/pull/1145) |
 | 2026-10-11 | [OpsiMate/OpsiMate](https://github.com/OpsiMate/OpsiMate) | [fix: pass logger extraArgs so warn/debug calls don't silently drop data](https://github.com/OpsiMate/OpsiMate/pull/1143) *(+1 more)* |
 | 2026-10-11 | [yunaremaia/agentcost](https://github.com/yunaremaia/agentcost) | [fix: warn on unknown models and stop mangling model names before pricing (fixes ](https://github.com/yunaremaia/agentcost/pull/208) |
 | 2026-10-11 | [yunaremaia/diff-contract](https://github.com/yunaremaia/diff-contract) | [fix: trigger publish workflow on version tags](https://github.com/yunaremaia/diff-contract/pull/109) *(+3 more)* |
-| 2026-10-11 | [yunaremaia/taintrace](https://github.com/yunaremaia/taintrace) | [fix: trigger publish workflow on version tags](https://github.com/yunaremaia/taintrace/pull/176) *(+1 more)* |
 <!-- yunare-dynamic:end -->
 
 ## What I work on
