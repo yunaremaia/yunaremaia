@@ -47,14 +47,14 @@ version drift between documentation and the files that actually build the projec
 [taintrace](https://github.com/yunaremaia/taintrace) catches typosquatted package names,
 and a family of small guardrails keeps generated changes inside the lines you drew.
 
-**[437 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-— 376 in my own projects, 61 upstream across 37 repositories.** Five tools are
+**[439 merged PRs](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+— 377 in my own projects, 62 upstream across 38 repositories.** Five tools are
 [on PyPI](#install). `driftcheck` and `aipr` carry a `-py` suffix because the
 PyPI names `driftcheck` and `aipr` are permanently taken by unrelated projects;
 the import name and the command are unchanged in both cases.
 
-[![Merged PRs](https://img.shields.io/badge/merged_PRs-437-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
-[![Upstream](https://img.shields.io/badge/upstream_repos-37-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Merged PRs](https://img.shields.io/badge/merged_PRs-439-2ea44f)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
+[![Upstream](https://img.shields.io/badge/upstream_repos-38-0969da)](https://github.com/search?q=author%3Ayunaremaia+is%3Apr+is%3Amerged&type=pullrequests)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Open to collaboration](https://img.shields.io/badge/open_to-collaboration-FF6B6B)](mailto:yunare@gmail.com)
 [![apache/maka](https://img.shields.io/badge/contributor-apache%2Fmaka-BD0000?logo=apache&logoColor=white)](https://github.com/apache/maka)
@@ -116,7 +116,7 @@ SQL injection, dangerous `eval`/`exec` and CORS wildcards before it ships.
 
 Parse ACC declarations from MCP tool schemas and enforce scope, risk, and approval semantics at the gateway. This is the missing MCP binding for the [agent-capability-contract](https://github.com/agent-capability/agent-capability-contract) specification.
 
-### Upstream contributions · 61 merged PRs across 37 repos
+### Upstream contributions · 62 merged PRs across 38 repos
 
 Defects with an actual reproduction, not drive-by changes:
 
@@ -139,7 +139,7 @@ Plus merged work in `MisakaNet`, `semantica`, `agent-safe-pipeline`, `Agentrace`
 
 ## Now
 
-Fourteen PRs open. The ones worth a maintainer's attention:
+Eleven PRs open. The ones worth a maintainer's attention:
 
 - [`goreleaser/nfpm#1145`](https://github.com/goreleaser/nfpm/pull/1145) — the `ipk` packager writes a raw
   `os.FileInfo.Mode()` into the tar header, so type bits like `fs.ModeDir` overflow the octal field and
@@ -239,9 +239,9 @@ SQLite · rapidfuzz · CLI-first, scriptable, no daemon
 
 | Metric | Value |
 |--------|-------|
-| Merged PRs | 437 |
-| — in my own projects | 376 |
-| — upstream, across 37 repos | 61 |
+| Merged PRs | 439 |
+| — in my own projects | 377 |
+| — upstream, across 38 repos | 62 |
 | Own projects | 45 |
 | Public repos | 174 |
 | — of which forks of other people's work | 129 |
